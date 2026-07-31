@@ -1,0 +1,20 @@
+FROM node:lts-slim AS src
+
+ENV NODE_TLS_REJECT_UNAUTHORIZED=0
+RUN apt-get update && apt-get install wait-for-it curl gnupg wget -y
+RUN npm i -g pm2 env-cmd ts-node tsx
+
+WORKDIR /app
+COPY ./server/package*.json ./
+RUN npm ci
+RUN npx -y playwright@1.57.0 install --with-deps chromium
+COPY ./server/ .
+
+# this is to enable the CLI
+RUN chmod +x /app/src/cli.ts
+RUN npm i -g
+RUN npm run build:clean
+
+FROM src AS prod
+ENV NODE_OPTIONS=--max-old-space-size=30000
+ENV NODE_ENV=production

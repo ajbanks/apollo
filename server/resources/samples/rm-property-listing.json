@@ -1,0 +1,4952 @@
+{
+    "data": {
+        "api": {
+            "locationCodes": [
+                "OUTCODE^1891",
+                "REGION^17199",
+                "REGION^81021",
+                "REGION^81043",
+                "REGION^81023",
+                "REGION^86987",
+                "REGION^94507",
+                "REGION^61315",
+                "REGION^92811"
+            ],
+            "id": 126569975,
+            "bedrooms": 4,
+            "bathrooms": 0,
+            "numberOfImages": 6,
+            "numberOfFloorplans": 1,
+            "numberOfVirtualTours": 3,
+            "summary": "**Launch Event - Saturday 10th September from 11am – 12pm. Strictly by appointment only** Located in the highly desirable village of Middleton Cheney approximately 4 miles from the well served town of Banbury is this sought after building plot with outline planning permission for a detac...",
+            "displayAddress": "Main Road, Middleton Cheney, Banbury",
+            "countryCode": "GB",
+            "location": {
+                "latitude": 52.070449,
+                "longitude": -1.261437
+            },
+            "propertyImages": {
+                "images": [
+                    {
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_00_0000_max_476x317.jpeg",
+                        "url": "11k/10800/126569975/10800_31757268_IMG_00_0000.jpeg",
+                        "caption": "145 Main Road Stills4.jpg"
+                    },
+                    {
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_01_0000_max_476x317.jpeg",
+                        "url": "11k/10800/126569975/10800_31757268_IMG_01_0000.jpeg",
+                        "caption": "proposed elevations - plot 1 - 2052.12.jpg"
+                    },
+                    {
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_03_0000_max_476x317.jpeg",
+                        "url": "11k/10800/126569975/10800_31757268_IMG_03_0000.jpeg",
+                        "caption": "145 Main Road Stills8.jpg"
+                    },
+                    {
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_04_0000_max_476x317.jpeg",
+                        "url": "11k/10800/126569975/10800_31757268_IMG_04_0000.jpeg",
+                        "caption": "145 Main Road Stills9.jpg"
+                    },
+                    {
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_05_0000_max_476x317.jpeg",
+                        "url": "11k/10800/126569975/10800_31757268_IMG_05_0000.jpeg",
+                        "caption": "145 Main Road Stills3.jpg"
+                    },
+                    {
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_06_0000_max_476x317.jpeg",
+                        "url": "11k/10800/126569975/10800_31757268_IMG_06_0000.jpeg",
+                        "caption": "Location site plan"
+                    }
+                ],
+                "mainImageSrc": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_00_0000_max_476x317.jpeg",
+                "mainMapImageSrc": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_00_0000_max_296x197.jpeg"
+            },
+            "propertySubType": "Plot",
+            "listingUpdate": {
+                "listingUpdateReason": "price_reduced",
+                "listingUpdateDate": "2022-10-17T12:53:04Z"
+            },
+            "price": {
+                "amount": 300000,
+                "frequency": "not specified",
+                "currencyCode": "GBP",
+                "displayPrices": [
+                    {
+                        "displayPrice": "£300,000",
+                        "displayPriceQualifier": "Guide Price"
+                    }
+                ]
+            },
+            "customer": {
+                "branchId": 10800,
+                "brandPlusLogoURI": "/brand/brand_rmchoice_logo_24614_0004.jpeg",
+                "contactTelephone": "01788 223216",
+                "branchDisplayName": "Fine & Country, Rugby",
+                "branchName": "Rugby",
+                "brandTradingName": "Fine & Country",
+                "branchLandingPageUrl": "/estate-agents/agent/Fine-and-Country/Rugby-10800.html",
+                "development": false,
+                "showReducedProperties": true,
+                "commercial": false,
+                "showOnMap": true,
+                "enhancedListing": false,
+                "developmentContent": null,
+                "buildToRent": false,
+                "buildToRentBenefits": [],
+                "brandPlusLogoUrl": "https://media.rightmove.co.uk:443/dir/brand/brand_rmchoice_logo_24614_0004_max_100x50.jpeg"
+            },
+            "transactionType": "buy",
+            "productLabel": {
+                "productLabelText": "",
+                "spotlightLabel": false
+            },
+            "commercial": true,
+            "development": false,
+            "residential": true,
+            "students": false,
+            "auction": false,
+            "feesApply": false,
+            "feesApplyText": null,
+            "displaySize": "",
+            "propertyUrl": "/properties/126569975#/?channel=COM_BUY",
+            "channel": "COMMERCIAL_BUY",
+            "firstVisibleDate": "2022-08-31T14:01:24Z",
+            "keywords": [],
+            "keywordMatchType": "no_keyword",
+            "onlineViewingsAvailable": false,
+            "lozengeModel": {
+                "matchingLozenges": [
+                    {
+                        "type": "SOLD_STC",
+                        "priority": 4
+                    }
+                ]
+            },
+            "hasBrandPlus": false,
+            "displayStatus": "Sold STC",
+            "isRecent": false,
+            "propertyTypeFullDescription": "Plot for sale",
+            "formattedBranchName": "Marketed by Fine & Country, Rugby",
+            "addedOrReduced": "",
+            "enquiredTimestamp": null
+        },
+        "details": {
+            "id": "126569975",
+            "status": {
+                "published": true,
+                "archived": false
+            },
+            "text": {
+                "description": "**Launch Event - Saturday 10th September from 11am – 12pm. Strictly by appointment only**<br /><br />Located in the highly desirable village of Middleton Cheney approximately 4 miles from the well served town of Banbury is this sought after building plot with outline planning permission for a detached dwelling.<br /><br />The current permission allows the successful purchaser to submit their own plans for consideration however these details show an artist’s impression of what could be built together with an example of a floorplan. The total plot measures approximately 985 sq meters (0.24 acres) with the example property measuring approximately 2700 sq ft. (The size of the property is not fixed and therefore plans can be submitted for a larger or smaller property).<br /><br />Further details can be found at   quoting reference WNS/2021/0555/OUT<br /><br />Restrictions apply on who can purchase the building plots, for more information please contact the agent.<br /><br />Full details coming soon. Please click on the video for details of this property, or for more information or to arrange a viewing, contact Elizabeth Teasdale & Nicola Loraine at the Fine & Country Rugby Office.<br /><br />",
+                "propertyPhrase": "Plot",
+                "disclaimer": "<b>Disclaimer</b> - Property reference 31757268. The information displayed about this property comprises a property advertisement. Rightmove.co.uk makes no warranty as to the accuracy or completeness of the advertisement or any linked or associated information, and Rightmove has no control over the content. This property advertisement does not constitute property particulars. The information is provided and maintained by <b>Fine & Country, Rugby</b>.&nbsp;Please contact the selling agent or developer directly to obtain any information which may be available under the terms of The Energy Performance of Buildings (Certificates and Inspections) (England and Wales) Regulations 2007 or the Home Report if in relation to a residential property in Scotland.",
+                "auctionFeesDisclaimer": null,
+                "guidePriceDisclaimer": null,
+                "reservePriceDisclaimer": null,
+                "staticMapDisclaimerText": "Map data ©<a href=\"http://www.openstreetmap.org/copyright\" rel=\"nofollow\" target=\"_blank\" title=\"Open Street Map\">OpenStreetMap</a> contributors.",
+                "newHomesBrochureDisclaimer": "Please note that Rightmove will send the above details to Fine & Country only. By submitting this form, you confirm that you agree to our website <a href=\"/this-site/terms-of-use.html\">terms of use</a>, our <a href=\"/this-site/privacy-policy.html\">privacy policy</a> and understand how we store <a href=\"/this-site/cookies.html\">cookies</a> on your device.",
+                "shareText": "Check out this Plot for sale on Rightmove",
+                "shareDescription": "Plot for sale in Main Road, Middleton Cheney, Banbury, OX17 for £300,000. Marketed by Fine and Country, Rugby",
+                "pageTitle": "Plot for sale in Main Road, Middleton Cheney, Banbury, OX17",
+                "shortDescription": "Plot for sale"
+            },
+            "prices": {
+                "primaryPrice": "£300,000",
+                "secondaryPrice": null,
+                "displayPriceQualifier": "Guide Price",
+                "pricePerSqFt": null,
+                "message": "Business rates & charges may apply",
+                "exchangeRate": null
+            },
+            "address": {
+                "displayAddress": "Main Road, Middleton Cheney, Banbury",
+                "countryCode": "GB",
+                "deliveryPointId": null,
+                "ukCountry": "England",
+                "outcode": "OX17",
+                "incode": "2PP"
+            },
+            "keyFeatures": [
+                "Building Plot with Outline Planning Permission",
+                "Desirable Village Location",
+                "Aprox 0.24 Acre Plot",
+                "Aprox 4 miles from Banbury",
+                "Freehold",
+                "No onward chain"
+            ],
+            "images": [
+                {
+                    "url": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_IMG_00_0000.jpeg",
+                    "caption": "145 Main Road Stills4.jpg",
+                    "resizedImageUrls": {
+                        "size135x100": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_00_0000_max_135x100.jpeg",
+                        "size476x317": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_00_0000_max_476x317.jpeg",
+                        "size656x437": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_00_0000_max_656x437.jpeg"
+                    }
+                },
+                {
+                    "url": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_IMG_01_0000.jpeg",
+                    "caption": "proposed elevations - plot 1 - 2052.12.jpg",
+                    "resizedImageUrls": {
+                        "size135x100": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_01_0000_max_135x100.jpeg",
+                        "size476x317": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_01_0000_max_476x317.jpeg",
+                        "size656x437": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_01_0000_max_656x437.jpeg"
+                    }
+                },
+                {
+                    "url": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_IMG_03_0000.jpeg",
+                    "caption": "145 Main Road Stills8.jpg",
+                    "resizedImageUrls": {
+                        "size135x100": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_03_0000_max_135x100.jpeg",
+                        "size476x317": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_03_0000_max_476x317.jpeg",
+                        "size656x437": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_03_0000_max_656x437.jpeg"
+                    }
+                },
+                {
+                    "url": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_IMG_04_0000.jpeg",
+                    "caption": "145 Main Road Stills9.jpg",
+                    "resizedImageUrls": {
+                        "size135x100": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_04_0000_max_135x100.jpeg",
+                        "size476x317": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_04_0000_max_476x317.jpeg",
+                        "size656x437": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_04_0000_max_656x437.jpeg"
+                    }
+                },
+                {
+                    "url": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_IMG_05_0000.jpeg",
+                    "caption": "145 Main Road Stills3.jpg",
+                    "resizedImageUrls": {
+                        "size135x100": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_05_0000_max_135x100.jpeg",
+                        "size476x317": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_05_0000_max_476x317.jpeg",
+                        "size656x437": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_05_0000_max_656x437.jpeg"
+                    }
+                },
+                {
+                    "url": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_IMG_06_0000.jpeg",
+                    "caption": "Location site plan",
+                    "resizedImageUrls": {
+                        "size135x100": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_06_0000_max_135x100.jpeg",
+                        "size476x317": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_06_0000_max_476x317.jpeg",
+                        "size656x437": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_06_0000_max_656x437.jpeg"
+                    }
+                }
+            ],
+            "floorplans": [
+                {
+                    "url": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_FLP_00_0000.jpeg",
+                    "caption": "Floorplan",
+                    "type": "IMAGE",
+                    "resizedFloorplanUrls": {
+                        "size296x197": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_FLP_00_0000_max_296x197.jpeg"
+                    }
+                }
+            ],
+            "virtualTours": [
+                {
+                    "url": "https://youtu.be/VVJqcnvqSvQ",
+                    "caption": "Property video",
+                    "videoId": "VVJqcnvqSvQ",
+                    "provider": "YOUTUBE"
+                },
+                {
+                    "url": "https://www.fineandcountry.com/uk/contact/arrange-viewing?propertyID=2644693&type=arrange-viewing",
+                    "caption": "Arrange a viewing",
+                    "videoId": null,
+                    "provider": "NONE"
+                },
+                {
+                    "url": "https://www.fineandcountry.com/uk/property-for-sale/banbury-middleton-cheney/ox17-2pp/2644693",
+                    "caption": "fineandcountry.com",
+                    "videoId": null,
+                    "provider": "NONE"
+                }
+            ],
+            "customer": {
+                "branchId": 10800,
+                "branchName": "Rugby",
+                "branchDisplayName": "Fine & Country, Rugby",
+                "companyName": "Newman Estate Agents",
+                "companyTradingName": "Newman Estate Agents",
+                "displayAddress": "5 Regent Street,\r\nRugby,\r\nCV21 2PE",
+                "logoPath": "https://media.rightmove.co.uk/brand/brand_logo_24614_0005.jpeg",
+                "customerDescription": {
+                    "truncatedDescriptionHTML": "<p>At Fine &amp; Country, we offer a refreshing approach to selling exclusive homes, combining individual flair and attention to detail with the expertise of local estate agents to create a strong international network, with powerful marketing capabilities.</p><p>Moving home is one of the most important decisions you will make; your home is both a financial and emotional investment. We understand that it's the little things ' without a price tag ' that make a house a home, and this makes us a valuab</p>",
+                    "isTruncated": true
+                },
+                "bannerAd": null,
+                "mpuAd": null,
+                "customerProfileUrl": "/estate-agents/agent/Fine-and-Country/Rugby-10800.html",
+                "customerBannerAdProfileUrl": "/estate-agents/agent/Fine-and-Country/Rugby-10800.html#ram_about_us",
+                "customerMpuAdProfileUrl": "/estate-agents/agent/Fine-and-Country/Rugby-10800.html#ram_about_us",
+                "customerPropertiesUrl": "/property-for-sale/find/Fine-and-Country/Rugby.html?locationIdentifier=BRANCH%5E10800&includeSSTC=true&_includeSSTC=on",
+                "isNewHomeDeveloper": false,
+                "spotlight": null,
+                "showBrochureLeadModal": false,
+                "developmentInfo": {
+                    "sitePlanUri": null,
+                    "micrositeFeatures": []
+                },
+                "buildToRent": false,
+                "commercial": false,
+                "buildToRentBenefits": []
+            },
+            "industryAffiliations": [
+                {
+                    "name": "National Association of Estate Agents",
+                    "imagePath": "https://media.rightmove.co.uk/dir/customer/industry-affiliation/national-association-of-estate-agents_max_135x100.png"
+                },
+                {
+                    "name": "Property Redress Scheme",
+                    "imagePath": "https://media.rightmove.co.uk/dir/customer/industry-affiliation/property-redress-scheme_max_135x100.png"
+                }
+            ],
+            "rooms": [],
+            "location": {
+                "latitude": 52.070449,
+                "longitude": -1.261437,
+                "circleRadiusOnMap": 0,
+                "zoomLevel": 15,
+                "pinType": "ACCURATE_POINT",
+                "showMap": true
+            },
+            "streetView": {
+                "heading": 0,
+                "pitch": 10,
+                "zoom": 1,
+                "latitude": 52.070448,
+                "longitude": -1.261437
+            },
+            "nearestAirports": [],
+            "nearestStations": [
+                {
+                    "name": "Banbury Station",
+                    "types": [
+                        "NATIONAL_TRAIN"
+                    ],
+                    "distance": 2.933892778294661,
+                    "unit": "miles"
+                },
+                {
+                    "name": "Kings Sutton Station",
+                    "types": [
+                        "NATIONAL_TRAIN"
+                    ],
+                    "distance": 3.5239192082811748,
+                    "unit": "miles"
+                }
+            ],
+            "showSchoolInfo": false,
+            "countryGuide": null,
+            "channel": "COM_BUY",
+            "propertyUrls": {
+                "similarPropertiesUrl": "/commercial-property-for-sale/OX17-2PP.html?radius=0.5&minPrice=270000&maxPrice=350000&minBedrooms=4",
+                "nearbySoldPropertiesUrl": "/house-prices/ox17-2pp.html"
+            },
+            "sizings": [],
+            "brochures": [
+                {
+                    "url": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_DOC_00_0007.pdf",
+                    "caption": "Main Road, Middleton Cheney, Banbury"
+                }
+            ],
+            "epcGraphs": [],
+            "bedrooms": 4,
+            "bathrooms": null,
+            "transactionType": "BUY",
+            "tags": [
+                "SOLD_STC"
+            ],
+            "misInfo": {
+                "branchId": 10800,
+                "offerAdvertStampTypeId": null,
+                "premiumDisplay": false,
+                "premiumDisplayStampId": null,
+                "brandPlus": false,
+                "featuredProperty": false
+            },
+            "dfpAdInfo": {
+                "channel": "COM_BUY",
+                "targeting": [
+                    {
+                        "key": "SO",
+                        "value": [
+                            "FALSE"
+                        ]
+                    },
+                    {
+                        "key": "R",
+                        "value": [
+                            "FALSE"
+                        ]
+                    },
+                    {
+                        "key": "AUCP",
+                        "value": [
+                            "FALSE"
+                        ]
+                    },
+                    {
+                        "key": "CCY",
+                        "value": [
+                            "GBP"
+                        ]
+                    },
+                    {
+                        "key": "UTo_A",
+                        "value": [
+                            "OX"
+                        ]
+                    },
+                    {
+                        "key": "UTo_C",
+                        "value": [
+                            "GB"
+                        ]
+                    },
+                    {
+                        "key": "CT",
+                        "value": [
+                            "commercial-property-for-sale"
+                        ]
+                    },
+                    {
+                        "key": "TT",
+                        "value": [
+                            "buy"
+                        ]
+                    },
+                    {
+                        "key": "BD",
+                        "value": [
+                            "4"
+                        ]
+                    },
+                    {
+                        "key": "PT",
+                        "value": [
+                            "land"
+                        ]
+                    },
+                    {
+                        "key": "PST",
+                        "value": [
+                            "plot"
+                        ]
+                    },
+                    {
+                        "key": "RESALEPRICE",
+                        "value": [
+                            "300000"
+                        ]
+                    },
+                    {
+                        "key": "B",
+                        "value": [
+                            "Band5"
+                        ]
+                    },
+                    {
+                        "key": "B_ID",
+                        "value": [
+                            "10800"
+                        ]
+                    },
+                    {
+                        "key": "C_ID",
+                        "value": [
+                            "Fine & Country"
+                        ]
+                    },
+                    {
+                        "key": "FP",
+                        "value": [
+                            "Y"
+                        ]
+                    },
+                    {
+                        "key": "EPC",
+                        "value": [
+                            "N"
+                        ]
+                    },
+                    {
+                        "key": "P_ID",
+                        "value": [
+                            "126569975"
+                        ]
+                    },
+                    {
+                        "key": "OV",
+                        "value": [
+                            "N"
+                        ]
+                    },
+                    {
+                        "key": "UTo_D",
+                        "value": [
+                            "OX17"
+                        ]
+                    },
+                    {
+                        "key": "UTo_Inc",
+                        "value": [
+                            "2PP"
+                        ]
+                    },
+                    {
+                        "key": "UTo_UKZ",
+                        "value": [
+                            "England"
+                        ]
+                    }
+                ]
+            },
+            "staticMapImgUrls": {
+                "staticMapImgUrlMobile": "https://media.rightmove.co.uk/map/_generate?width=375&height=375&zoomLevel=15&latitude=52.070449&longitude=-1.261437&signature=txIubpkjUpI2KLn5-9PwfOycUbs=",
+                "staticMapImgUrlTablet": "https://media.rightmove.co.uk/map/_generate?width=768&height=347&zoomLevel=15&latitude=52.070449&longitude=-1.261437&signature=Jths0O7D1dEYw9mUgXB9LKECoZ4=",
+                "staticMapImgUrlDesktopSmall": "https://media.rightmove.co.uk/map/_generate?width=580&height=347&zoomLevel=15&latitude=52.070449&longitude=-1.261437&signature=Qf64qXURBMoJvyPx18II7KwzWHU=",
+                "staticMapImgUrlDesktopLarge": "https://media.rightmove.co.uk/map/_generate?width=761&height=347&zoomLevel=15&latitude=52.070449&longitude=-1.261437&signature=PUzImSD2w8YieBfiRvuydY-ZdmI="
+            },
+            "listingHistory": {
+                "listingUpdateReason": ""
+            },
+            "feesApply": null,
+            "broadband": null,
+            "contactInfo": {
+                "contactMethod": "EMAIL",
+                "telephoneNumbers": {
+                    "localNumber": "01788 223216",
+                    "internationalNumber": null,
+                    "disclaimerText": null,
+                    "disclaimerTitle": null,
+                    "disclaimerDescription": null
+                }
+            },
+            "lettings": null,
+            "infoReelItems": [
+                {
+                    "title": "PROPERTY TYPE",
+                    "type": "PROPERTY_TYPE",
+                    "primaryText": "Plot",
+                    "secondaryText": "",
+                    "tooltipText": ""
+                },
+                {
+                    "title": "BEDROOMS",
+                    "type": "BEDROOMS",
+                    "primaryText": "×4",
+                    "secondaryText": "",
+                    "tooltipText": ""
+                }
+            ],
+            "mortgageCalculator": null,
+            "tenure": {
+                "tenureType": "FREEHOLD",
+                "yearsRemainingOnLease": null,
+                "message": null
+            },
+            "soldPropertyType": "UNKNOWN",
+            "auctionProvider": null,
+            "propertySubType": "Plot",
+            "businessForSale": false,
+            "commercial": true,
+            "commercialUseClasses": [],
+            "affordableBuyingScheme": false,
+            "sharedOwnership": {
+                "sharedOwnership": false,
+                "ownershipPercentage": null,
+                "rentPrice": null,
+                "rentFrequency": "not specified"
+            },
+            "livingCosts": {
+                "councilTaxExempt": false,
+                "councilTaxIncluded": false,
+                "annualGroundRent": null,
+                "groundRentReviewPeriodInYears": null,
+                "groundRentPercentageIncrease": null,
+                "annualServiceCharge": null,
+                "councilTaxBand": null,
+                "domesticRates": null
+            },
+            "termsOfUse": "This Application Programming Interface (API) is for the use of Rightmove Group Limited only. No other individual or business may link to, or make use of, this API without the express written permission of Rightmove's Legal Team. Any unauthorised use of this API will constitute a breach of Rightmove's Terms of Use, available at https://www.rightmove.co.uk/this-site/terms-of-use.html, and Rightmove will enforce its rights to the fullest extent permitted by law."
+        }
+    },
+    "events": [
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-09-01T01:46:42.721Z",
+            "seq": 1,
+            "data": {
+                "locationCodes": [
+                    "OUTCODE^1891"
+                ],
+                "id": 126569975,
+                "bedrooms": 4,
+                "bathrooms": 0,
+                "numberOfImages": 6,
+                "numberOfFloorplans": 1,
+                "numberOfVirtualTours": 3,
+                "summary": "**Launch Event - Saturday 10th September from 11am – 12pm. Strictly by appointment only** Located in the highly desirable village of Middleton Cheney approximately 4 miles from the well served town of Banbury is this sought after building plot with outline planning permission for a detac...",
+                "displayAddress": "Main Road, Middleton Cheney, Banbury",
+                "countryCode": "GB",
+                "location": {
+                    "latitude": 52.070449,
+                    "longitude": -1.261437
+                },
+                "propertyImages": {
+                    "images": [
+                        {
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_00_0000_max_476x317.jpeg",
+                            "url": "11k/10800/126569975/10800_31757268_IMG_00_0000.jpeg",
+                            "caption": "145 Main Road Stills4.jpg"
+                        },
+                        {
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_01_0000_max_476x317.jpeg",
+                            "url": "11k/10800/126569975/10800_31757268_IMG_01_0000.jpeg",
+                            "caption": "proposed elevations - plot 1 - 2052.12.jpg"
+                        },
+                        {
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_03_0000_max_476x317.jpeg",
+                            "url": "11k/10800/126569975/10800_31757268_IMG_03_0000.jpeg",
+                            "caption": "145 Main Road Stills8.jpg"
+                        },
+                        {
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_04_0000_max_476x317.jpeg",
+                            "url": "11k/10800/126569975/10800_31757268_IMG_04_0000.jpeg",
+                            "caption": "145 Main Road Stills9.jpg"
+                        },
+                        {
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_05_0000_max_476x317.jpeg",
+                            "url": "11k/10800/126569975/10800_31757268_IMG_05_0000.jpeg",
+                            "caption": "145 Main Road Stills3.jpg"
+                        },
+                        {
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_06_0000_max_476x317.jpeg",
+                            "url": "11k/10800/126569975/10800_31757268_IMG_06_0000.jpeg",
+                            "caption": "Location site plan"
+                        }
+                    ],
+                    "mainImageSrc": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_00_0000_max_476x317.jpeg",
+                    "mainMapImageSrc": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_00_0000_max_296x197.jpeg"
+                },
+                "propertySubType": "Plot",
+                "listingUpdate": {
+                    "listingUpdateReason": "new",
+                    "listingUpdateDate": "2022-08-31T14:07:07Z"
+                },
+                "price": {
+                    "amount": 350000,
+                    "frequency": "not specified",
+                    "currencyCode": "GBP",
+                    "displayPrices": [
+                        {
+                            "displayPrice": "£350,000",
+                            "displayPriceQualifier": "Offers Over"
+                        }
+                    ]
+                },
+                "customer": {
+                    "branchId": 10800,
+                    "brandPlusLogoURI": "/brand/brand_rmchoice_logo_24614_0004.jpeg",
+                    "contactTelephone": "01788 223216",
+                    "branchDisplayName": "Fine & Country, Rugby",
+                    "branchName": "Rugby",
+                    "brandTradingName": "Fine & Country",
+                    "branchLandingPageUrl": "/estate-agents/agent/Fine-and-Country/Rugby-10800.html",
+                    "development": false,
+                    "showReducedProperties": true,
+                    "commercial": false,
+                    "showOnMap": true,
+                    "enhancedListing": false,
+                    "developmentContent": null,
+                    "buildToRent": false,
+                    "buildToRentBenefits": [],
+                    "brandPlusLogoUrl": "https://media.rightmove.co.uk:443/dir/brand/brand_rmchoice_logo_24614_0004_max_100x50.jpeg"
+                },
+                "transactionType": "buy",
+                "productLabel": {
+                    "productLabelText": "",
+                    "spotlightLabel": false
+                },
+                "commercial": true,
+                "development": false,
+                "residential": true,
+                "students": false,
+                "auction": false,
+                "feesApply": false,
+                "feesApplyText": null,
+                "displaySize": "",
+                "propertyUrl": "/properties/126569975#/?channel=COM_BUY",
+                "channel": "COMMERCIAL_BUY",
+                "firstVisibleDate": "2022-08-31T14:01:24Z",
+                "keywords": [],
+                "keywordMatchType": "no_keyword",
+                "onlineViewingsAvailable": false,
+                "lozengeModel": {
+                    "matchingLozenges": []
+                },
+                "hasBrandPlus": true,
+                "displayStatus": "",
+                "isRecent": true,
+                "propertyTypeFullDescription": "Plot for sale",
+                "formattedBranchName": "Marketed by Fine & Country, Rugby",
+                "addedOrReduced": ""
+            },
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-09-01T01:46:45.436Z",
+            "seq": 2,
+            "data": {
+                "id": "126569975",
+                "status": {
+                    "published": true,
+                    "archived": false
+                },
+                "text": {
+                    "description": "**Launch Event - Saturday 10th September from 11am – 12pm. Strictly by appointment only**<br /><br />Located in the highly desirable village of Middleton Cheney approximately 4 miles from the well served town of Banbury is this sought after building plot with outline planning permission for a detached dwelling.<br /><br />The current permission allows the successful purchaser to submit their own plans for consideration however these details show an artist’s impression of what could be built together with an example of a floorplan. The total plot measures approximately 985 sq meters (0.24 acres) with the example property measuring approximately 2700 sq ft. (The size of the property is not fixed and therefore plans can be submitted for a larger or smaller property).<br /><br />Further details can be found at   quoting reference WNS/2021/0555/OUT<br /><br />Restrictions apply on who can purchase the building plots, for more information please contact the agent.<br /><br />Full details coming soon. Please click on the video for details of this property, or for more information or to arrange a viewing, contact Elizabeth Teasdale & Nicola Loraine at the Fine & Country Rugby Office.<br /><br />",
+                    "propertyPhrase": "Plot",
+                    "disclaimer": "<b>Disclaimer</b> - Property reference 31757268. The information displayed about this property comprises a property advertisement. Rightmove.co.uk makes no warranty as to the accuracy or completeness of the advertisement or any linked or associated information, and Rightmove has no control over the content. This property advertisement does not constitute property particulars. The information is provided and maintained by <b>Fine & Country, Rugby</b>.&nbsp;Please contact the selling agent or developer directly to obtain any information which may be available under the terms of The Energy Performance of Buildings (Certificates and Inspections) (England and Wales) Regulations 2007 or the Home Report if in relation to a residential property in Scotland.",
+                    "auctionFeesDisclaimer": null,
+                    "guidePriceDisclaimer": null,
+                    "reservePriceDisclaimer": null,
+                    "staticMapDisclaimerText": "Map data ©<a href=\"http://www.openstreetmap.org/copyright\" rel=\"nofollow\" target=\"_blank\" title=\"Open Street Map\">OpenStreetMap</a> contributors.",
+                    "newHomesBrochureDisclaimer": "Please note that Rightmove will send the above details to Fine & Country only. By submitting this form, you confirm that you agree to our website <a href=\"/this-site/terms-of-use.html\">terms of use</a>, our <a href=\"/this-site/privacy-policy.html\">privacy policy</a> and understand how we store <a href=\"/this-site/cookies.html\">cookies</a> on your device.",
+                    "shareText": "Check out this Plot for sale on Rightmove",
+                    "shareDescription": "Plot for sale in Main Road, Middleton Cheney, Banbury, OX17 for £350,000. Marketed by Fine & Country, Rugby",
+                    "pageTitle": "Plot for sale in Main Road, Middleton Cheney, Banbury, OX17",
+                    "shortDescription": "Plot for sale"
+                },
+                "prices": {
+                    "primaryPrice": "£350,000",
+                    "secondaryPrice": null,
+                    "displayPriceQualifier": "Offers Over",
+                    "pricePerSqFt": null,
+                    "message": "Business rates & charges may apply",
+                    "exchangeRate": null
+                },
+                "address": {
+                    "displayAddress": "Main Road, Middleton Cheney, Banbury",
+                    "countryCode": "GB",
+                    "deliveryPointId": null,
+                    "ukCountry": "England",
+                    "outcode": "OX17",
+                    "incode": "2PP"
+                },
+                "keyFeatures": [
+                    "Building Plot with Outline Planning Permission",
+                    "Desirable Village Location",
+                    "Aprox 0.24 Acre Plot",
+                    "Aprox 4 miles from Banbury",
+                    "Freehold",
+                    "No onward chain"
+                ],
+                "images": [
+                    {
+                        "url": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_IMG_00_0000.jpeg",
+                        "caption": "145 Main Road Stills4.jpg",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_00_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_00_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_00_0000_max_656x437.jpeg"
+                        }
+                    },
+                    {
+                        "url": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_IMG_01_0000.jpeg",
+                        "caption": "proposed elevations - plot 1 - 2052.12.jpg",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_01_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_01_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_01_0000_max_656x437.jpeg"
+                        }
+                    },
+                    {
+                        "url": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_IMG_03_0000.jpeg",
+                        "caption": "145 Main Road Stills8.jpg",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_03_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_03_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_03_0000_max_656x437.jpeg"
+                        }
+                    },
+                    {
+                        "url": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_IMG_04_0000.jpeg",
+                        "caption": "145 Main Road Stills9.jpg",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_04_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_04_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_04_0000_max_656x437.jpeg"
+                        }
+                    },
+                    {
+                        "url": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_IMG_05_0000.jpeg",
+                        "caption": "145 Main Road Stills3.jpg",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_05_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_05_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_05_0000_max_656x437.jpeg"
+                        }
+                    },
+                    {
+                        "url": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_IMG_06_0000.jpeg",
+                        "caption": "Location site plan",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_06_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_06_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_IMG_06_0000_max_656x437.jpeg"
+                        }
+                    }
+                ],
+                "floorplans": [
+                    {
+                        "url": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_FLP_00_0000.jpeg",
+                        "caption": "Floorplan",
+                        "type": "IMAGE",
+                        "resizedFloorplanUrls": {
+                            "size296x197": "https://media.rightmove.co.uk/dir/11k/10800/126569975/10800_31757268_FLP_00_0000_max_296x197.jpeg"
+                        }
+                    }
+                ],
+                "virtualTours": [
+                    {
+                        "url": "https://youtu.be/VVJqcnvqSvQ",
+                        "caption": "Property video",
+                        "videoId": "VVJqcnvqSvQ",
+                        "provider": "YOUTUBE"
+                    },
+                    {
+                        "url": "https://www.fineandcountry.com/uk/contact/arrange-viewing?propertyID=2644693&type=arrange-viewing",
+                        "caption": "Arrange a viewing",
+                        "videoId": null,
+                        "provider": "NONE"
+                    },
+                    {
+                        "url": "https://www.fineandcountry.com/uk/property-for-sale/banbury-middleton-cheney/ox17-2pp/2644693",
+                        "caption": "fineandcountry.com",
+                        "videoId": null,
+                        "provider": "NONE"
+                    }
+                ],
+                "customer": {
+                    "branchId": 10800,
+                    "branchName": "Rugby",
+                    "branchDisplayName": "Fine & Country, Rugby",
+                    "companyName": "Newman Estate Agents",
+                    "companyTradingName": "Newman Estate Agents",
+                    "displayAddress": "5 Regent Street,\r\nRugby,\r\nCV21 2PE",
+                    "logoPath": "https://media.rightmove.co.uk/brand/brand_logo_24614_0005.jpeg",
+                    "customerDescription": {
+                        "truncatedDescriptionHTML": "<p>At Fine &amp; Country, we offer a refreshing approach to selling exclusive homes, combining individual flair and attention to detail with the expertise of local estate agents to create a strong international network, with powerful marketing capabilities.</p><p>Moving home is one of the most important decisions you will make; your home is both a financial and emotional investment. We understand that it's the little things ' without a price tag ' that make a house a home, and this makes us a valuab</p>",
+                        "isTruncated": true
+                    },
+                    "bannerAd": null,
+                    "mpuAd": null,
+                    "customerProfileUrl": "/estate-agents/agent/Fine-and-Country/Rugby-10800.html",
+                    "customerBannerAdProfileUrl": "/estate-agents/agent/Fine-and-Country/Rugby-10800.html#ram_about_us",
+                    "customerMpuAdProfileUrl": "/estate-agents/agent/Fine-and-Country/Rugby-10800.html#ram_about_us",
+                    "customerPropertiesUrl": "/property-for-sale/find/Fine-and-Country/Rugby.html?locationIdentifier=BRANCH%5E10800&includeSSTC=true&_includeSSTC=on",
+                    "isNewHomeDeveloper": false,
+                    "spotlight": null,
+                    "showBrochureLeadModal": false,
+                    "developmentInfo": {
+                        "sitePlanUri": null,
+                        "micrositeFeatures": []
+                    },
+                    "buildToRent": false,
+                    "commercial": false,
+                    "buildToRentBenefits": []
+                },
+                "industryAffiliations": [
+                    {
+                        "name": "National Association of Estate Agents",
+                        "imagePath": "https://media.rightmove.co.uk/dir/customer/industry-affiliation/national-association-of-estate-agents_max_135x100.png"
+                    },
+                    {
+                        "name": "Property Redress Scheme",
+                        "imagePath": "https://media.rightmove.co.uk/dir/customer/industry-affiliation/property-redress-scheme_max_135x100.png"
+                    }
+                ],
+                "rooms": [],
+                "location": {
+                    "latitude": 52.070449,
+                    "longitude": -1.261437,
+                    "circleRadiusOnMap": 0,
+                    "zoomLevel": 15,
+                    "pinType": "ACCURATE_POINT",
+                    "showMap": true
+                },
+                "streetView": {
+                    "heading": 0,
+                    "pitch": 10,
+                    "zoom": 1,
+                    "latitude": 52.070448,
+                    "longitude": -1.261437
+                },
+                "nearestAirports": [],
+                "nearestStations": [
+                    {
+                        "name": "Banbury Station",
+                        "types": [
+                            "NATIONAL_TRAIN"
+                        ],
+                        "distance": 2.933892778294661,
+                        "unit": "miles"
+                    },
+                    {
+                        "name": "Kings Sutton Station",
+                        "types": [
+                            "NATIONAL_TRAIN"
+                        ],
+                        "distance": 3.5239192082811748,
+                        "unit": "miles"
+                    }
+                ],
+                "showSchoolInfo": false,
+                "countryGuide": null,
+                "channel": "COM_BUY",
+                "propertyUrls": {
+                    "similarPropertiesUrl": "/commercial-property-for-sale/OX17-2PP.html?radius=0.5&minPrice=300000&maxPrice=400000&minBedrooms=4",
+                    "nearbySoldPropertiesUrl": "/house-prices/ox17-2pp.html"
+                },
+                "sizings": [],
+                "brochures": [
+                    {
+                        "url": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_DOC_00_0003.pdf",
+                        "caption": "Main Road, Middleton Cheney, Banbury"
+                    }
+                ],
+                "epcGraphs": [],
+                "bedrooms": 4,
+                "bathrooms": null,
+                "transactionType": "BUY",
+                "tags": [],
+                "misInfo": {
+                    "branchId": 10800,
+                    "offerAdvertStampTypeId": null,
+                    "premiumDisplay": false,
+                    "premiumDisplayStampId": null,
+                    "brandPlus": false,
+                    "featuredProperty": false
+                },
+                "dfpAdInfo": {
+                    "channel": "COM_BUY",
+                    "targeting": [
+                        {
+                            "key": "SO",
+                            "value": [
+                                "FALSE"
+                            ]
+                        },
+                        {
+                            "key": "R",
+                            "value": [
+                                "FALSE"
+                            ]
+                        },
+                        {
+                            "key": "AUCP",
+                            "value": [
+                                "FALSE"
+                            ]
+                        },
+                        {
+                            "key": "CCY",
+                            "value": [
+                                "GBP"
+                            ]
+                        },
+                        {
+                            "key": "UTo_A",
+                            "value": [
+                                "OX"
+                            ]
+                        },
+                        {
+                            "key": "UTo_C",
+                            "value": [
+                                "GB"
+                            ]
+                        },
+                        {
+                            "key": "CT",
+                            "value": [
+                                "commercial-property-for-sale"
+                            ]
+                        },
+                        {
+                            "key": "TT",
+                            "value": [
+                                "buy"
+                            ]
+                        },
+                        {
+                            "key": "BD",
+                            "value": [
+                                "4"
+                            ]
+                        },
+                        {
+                            "key": "PT",
+                            "value": [
+                                "land"
+                            ]
+                        },
+                        {
+                            "key": "PST",
+                            "value": [
+                                "plot"
+                            ]
+                        },
+                        {
+                            "key": "RESALEPRICE",
+                            "value": [
+                                "350000"
+                            ]
+                        },
+                        {
+                            "key": "B",
+                            "value": [
+                                "Band6"
+                            ]
+                        },
+                        {
+                            "key": "B_ID",
+                            "value": [
+                                "10800"
+                            ]
+                        },
+                        {
+                            "key": "C_ID",
+                            "value": [
+                                "Fine & Country"
+                            ]
+                        },
+                        {
+                            "key": "FP",
+                            "value": [
+                                "Y"
+                            ]
+                        },
+                        {
+                            "key": "EPC",
+                            "value": [
+                                "N"
+                            ]
+                        },
+                        {
+                            "key": "P_ID",
+                            "value": [
+                                "126569975"
+                            ]
+                        },
+                        {
+                            "key": "OV",
+                            "value": [
+                                "N"
+                            ]
+                        },
+                        {
+                            "key": "UTo_D",
+                            "value": [
+                                "OX17"
+                            ]
+                        },
+                        {
+                            "key": "UTo_Inc",
+                            "value": [
+                                "2PP"
+                            ]
+                        },
+                        {
+                            "key": "UTo_UKZ",
+                            "value": [
+                                "England"
+                            ]
+                        }
+                    ]
+                },
+                "staticMapImgUrls": {
+                    "staticMapImgUrlMobile": "https://media.rightmove.co.uk/map/_generate?width=375&height=375&zoomLevel=15&latitude=52.070449&longitude=-1.261437&signature=txIubpkjUpI2KLn5-9PwfOycUbs=",
+                    "staticMapImgUrlTablet": "https://media.rightmove.co.uk/map/_generate?width=768&height=347&zoomLevel=15&latitude=52.070449&longitude=-1.261437&signature=Jths0O7D1dEYw9mUgXB9LKECoZ4=",
+                    "staticMapImgUrlDesktopSmall": "https://media.rightmove.co.uk/map/_generate?width=580&height=347&zoomLevel=15&latitude=52.070449&longitude=-1.261437&signature=Qf64qXURBMoJvyPx18II7KwzWHU=",
+                    "staticMapImgUrlDesktopLarge": "https://media.rightmove.co.uk/map/_generate?width=761&height=347&zoomLevel=15&latitude=52.070449&longitude=-1.261437&signature=PUzImSD2w8YieBfiRvuydY-ZdmI="
+                },
+                "listingHistory": {
+                    "listingUpdateReason": ""
+                },
+                "feesApply": null,
+                "broadband": null,
+                "contactInfo": {
+                    "contactMethod": "EMAIL",
+                    "telephoneNumbers": {
+                        "localNumber": "01788 223216",
+                        "internationalNumber": null,
+                        "disclaimerText": null,
+                        "disclaimerTitle": null,
+                        "disclaimerDescription": null
+                    }
+                },
+                "lettings": null,
+                "infoReelItems": [
+                    {
+                        "title": "PROPERTY TYPE",
+                        "type": "PROPERTY_TYPE",
+                        "primaryText": "Plot",
+                        "secondaryText": "",
+                        "tooltipText": ""
+                    },
+                    {
+                        "title": "BEDROOMS",
+                        "type": "BEDROOMS",
+                        "primaryText": "×4",
+                        "secondaryText": "",
+                        "tooltipText": ""
+                    }
+                ],
+                "mortgageCalculator": null,
+                "tenure": {
+                    "tenureType": null,
+                    "yearsRemainingOnLease": null,
+                    "message": null
+                },
+                "soldPropertyType": "UNKNOWN",
+                "auctionProvider": null,
+                "propertySubType": "Plot",
+                "businessForSale": false,
+                "commercial": true,
+                "commercialUseClasses": [],
+                "affordableBuyingScheme": false,
+                "sharedOwnership": {
+                    "sharedOwnership": false,
+                    "ownershipPercentage": null,
+                    "rentPrice": null,
+                    "rentFrequency": "not specified"
+                },
+                "livingCosts": {
+                    "councilTaxExempt": false,
+                    "councilTaxIncluded": false,
+                    "annualGroundRent": null,
+                    "groundRentReviewPeriodInYears": null,
+                    "groundRentPercentageIncrease": null,
+                    "annualServiceCharge": null,
+                    "councilTaxBand": null,
+                    "domesticRates": null
+                }
+            },
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-09-01T14:01:16.363Z",
+            "seq": 3,
+            "data": [
+                {
+                    "op": "add",
+                    "path": [
+                        "locationCodes",
+                        1
+                    ],
+                    "val": "REGION^17199"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-09-02T20:53:24.093Z",
+            "seq": 4,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "isRecent"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-09-03T06:51:43.332Z",
+            "seq": 5,
+            "data": [
+                {
+                    "op": "add",
+                    "path": [
+                        "locationCodes",
+                        2
+                    ],
+                    "val": "REGION^81021"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-09-03T06:52:34.351Z",
+            "seq": 6,
+            "data": [
+                {
+                    "op": "add",
+                    "path": [
+                        "locationCodes",
+                        3
+                    ],
+                    "val": "REGION^81043"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-09-03T07:02:20.362Z",
+            "seq": 7,
+            "data": [
+                {
+                    "op": "add",
+                    "path": [
+                        "locationCodes",
+                        4
+                    ],
+                    "val": "REGION^81023"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-09-03T10:30:15.930Z",
+            "seq": 8,
+            "data": [
+                {
+                    "op": "add",
+                    "path": [
+                        "locationCodes",
+                        5
+                    ],
+                    "val": "REGION^86987"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-09-28T14:00:57.536Z",
+            "seq": 9,
+            "data": [
+                {
+                    "op": "add",
+                    "path": [
+                        "enquiredTimestamp"
+                    ],
+                    "val": null
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-10-19T19:37:47.964Z",
+            "seq": 10,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "listingUpdate",
+                        "listingUpdateReason"
+                    ],
+                    "val": "price_reduced"
+                },
+                {
+                    "op": "update",
+                    "path": [
+                        "listingUpdate",
+                        "listingUpdateDate"
+                    ],
+                    "val": "2022-10-17T12:53:04Z"
+                },
+                {
+                    "op": "update",
+                    "path": [
+                        "price",
+                        "amount"
+                    ],
+                    "val": 300000
+                },
+                {
+                    "op": "update",
+                    "path": [
+                        "price",
+                        "displayPrices",
+                        0,
+                        "displayPrice"
+                    ],
+                    "val": "£300,000"
+                },
+                {
+                    "op": "update",
+                    "path": [
+                        "price",
+                        "displayPrices",
+                        0,
+                        "displayPriceQualifier"
+                    ],
+                    "val": "Guide Price"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-10-19T19:37:55.573Z",
+            "seq": 11,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "text",
+                        "shareDescription"
+                    ],
+                    "val": "Plot for sale in Main Road, Middleton Cheney, Banbury, OX17 for £300,000. Marketed by Fine & Country, Rugby"
+                },
+                {
+                    "op": "update",
+                    "path": [
+                        "prices",
+                        "primaryPrice"
+                    ],
+                    "val": "£300,000"
+                },
+                {
+                    "op": "update",
+                    "path": [
+                        "prices",
+                        "displayPriceQualifier"
+                    ],
+                    "val": "Guide Price"
+                },
+                {
+                    "op": "update",
+                    "path": [
+                        "propertyUrls",
+                        "similarPropertiesUrl"
+                    ],
+                    "val": "/commercial-property-for-sale/OX17-2PP.html?radius=0.5&minPrice=270000&maxPrice=350000&minBedrooms=4"
+                },
+                {
+                    "op": "update",
+                    "path": [
+                        "brochures",
+                        0,
+                        "url"
+                    ],
+                    "val": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_DOC_00_0004.pdf"
+                },
+                {
+                    "op": "update",
+                    "path": [
+                        "dfpAdInfo",
+                        "targeting",
+                        11,
+                        "value",
+                        0
+                    ],
+                    "val": "300000"
+                },
+                {
+                    "op": "update",
+                    "path": [
+                        "dfpAdInfo",
+                        "targeting",
+                        12,
+                        "value",
+                        0
+                    ],
+                    "val": "Band5"
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-20T11:28:45.004Z",
+            "seq": 12,
+            "data": [
+                {
+                    "op": "add",
+                    "path": [
+                        "locationCodes",
+                        6
+                    ],
+                    "val": "REGION^94507"
+                },
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-20T11:28:47.654Z",
+            "seq": 13,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "text",
+                        "shareDescription"
+                    ],
+                    "val": "Plot for sale in Main Road, Middleton Cheney, Banbury, OX17 for £300,000. Marketed by Fine and Country, Rugby"
+                },
+                {
+                    "op": "add",
+                    "path": [
+                        "termsOfUse"
+                    ],
+                    "val": "This Application Programming Interface (API) is for the use of Rightmove Group Limited only. No other individual or business may link to, or make use of, this API without the express written permission of Rightmove's Legal Team. Any unauthorised use of this API will constitute a breach of Rightmove's Terms of Use, available at https://www.rightmove.co.uk/this-site/terms-of-use.html, and Rightmove will enforce its rights to the fullest extent permitted by law."
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-20T21:03:08.987Z",
+            "seq": 14,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-20T21:03:25.697Z",
+            "seq": 15,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-21T03:06:47.577Z",
+            "seq": 16,
+            "data": [
+                {
+                    "op": "add",
+                    "path": [
+                        "locationCodes",
+                        7
+                    ],
+                    "val": "REGION^61315"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-22T02:25:21.101Z",
+            "seq": 17,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-22T02:25:31.104Z",
+            "seq": 18,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-22T02:25:52.272Z",
+            "seq": 19,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-22T02:26:15.772Z",
+            "seq": 20,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-22T02:38:17.256Z",
+            "seq": 21,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-22T02:39:14.295Z",
+            "seq": 22,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-22T08:18:25.621Z",
+            "seq": 23,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-22T08:18:33.704Z",
+            "seq": 24,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-23T13:27:17.181Z",
+            "seq": 25,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-23T13:29:39.578Z",
+            "seq": 26,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-24T03:05:11.647Z",
+            "seq": 27,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-24T03:05:23.264Z",
+            "seq": 28,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-24T17:58:00.436Z",
+            "seq": 29,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-24T17:58:05.731Z",
+            "seq": 30,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-24T17:58:08.475Z",
+            "seq": 31,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-24T17:58:14.103Z",
+            "seq": 32,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-24T18:01:49.164Z",
+            "seq": 33,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-24T18:02:24.976Z",
+            "seq": 34,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-24T21:49:30.920Z",
+            "seq": 35,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-24T21:49:35.409Z",
+            "seq": 36,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-25T07:11:42.191Z",
+            "seq": 37,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-25T07:12:26.844Z",
+            "seq": 38,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-25T15:11:39.045Z",
+            "seq": 39,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-25T15:11:45.115Z",
+            "seq": 40,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-26T03:25:01.721Z",
+            "seq": 41,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-26T03:25:07.948Z",
+            "seq": 42,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-26T03:25:09.167Z",
+            "seq": 43,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-26T03:25:13.830Z",
+            "seq": 44,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-26T03:28:04.012Z",
+            "seq": 45,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-26T03:28:26.847Z",
+            "seq": 46,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-26T05:38:28.979Z",
+            "seq": 47,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-26T05:38:35.236Z",
+            "seq": 48,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-26T16:35:36.586Z",
+            "seq": 49,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-26T16:35:57.903Z",
+            "seq": 50,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-27T03:36:02.553Z",
+            "seq": 51,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-27T03:36:11.865Z",
+            "seq": 52,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-27T20:55:11.017Z",
+            "seq": 53,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-27T20:55:16.430Z",
+            "seq": 54,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-27T20:55:36.350Z",
+            "seq": 55,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-27T20:55:45.522Z",
+            "seq": 56,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-27T21:01:49.362Z",
+            "seq": 57,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-27T21:02:55.944Z",
+            "seq": 58,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-28T00:52:49.958Z",
+            "seq": 59,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-28T00:53:00.131Z",
+            "seq": 60,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-28T02:52:34.382Z",
+            "seq": 61,
+            "data": [
+                {
+                    "op": "add",
+                    "path": [
+                        "locationCodes",
+                        8
+                    ],
+                    "val": "REGION^92811"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-28T11:05:07.047Z",
+            "seq": 62,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-28T11:05:29.715Z",
+            "seq": 63,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-28T20:56:06.138Z",
+            "seq": 64,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-28T20:56:18.781Z",
+            "seq": 65,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-29T08:40:46.119Z",
+            "seq": 66,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-29T08:40:54.474Z",
+            "seq": 67,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-29T08:40:58.358Z",
+            "seq": 68,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-29T08:41:04.307Z",
+            "seq": 69,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-29T08:45:56.848Z",
+            "seq": 70,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-29T08:46:46.057Z",
+            "seq": 71,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-29T11:39:29.925Z",
+            "seq": 72,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-29T11:39:36.615Z",
+            "seq": 73,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-29T22:34:18.754Z",
+            "seq": 74,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-29T22:34:32.576Z",
+            "seq": 75,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-30T06:42:47.853Z",
+            "seq": 76,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-30T06:42:51.420Z",
+            "seq": 77,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-30T19:05:20.447Z",
+            "seq": 78,
+            "data": [
+                {
+                    "op": "add",
+                    "path": [
+                        "lozengeModel",
+                        "matchingLozenges",
+                        0
+                    ],
+                    "val": {
+                        "type": "SOLD_STC",
+                        "priority": 4
+                    }
+                },
+                {
+                    "op": "update",
+                    "path": [
+                        "displayStatus"
+                    ],
+                    "val": "Sold STC"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-30T19:05:21.523Z",
+            "seq": 79,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "brochures",
+                        0,
+                        "url"
+                    ],
+                    "val": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_DOC_00_0005.pdf"
+                },
+                {
+                    "op": "add",
+                    "path": [
+                        "tags",
+                        0
+                    ],
+                    "val": "SOLD_STC"
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-31T00:14:45.373Z",
+            "seq": 80,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-31T00:14:54.417Z",
+            "seq": 81,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-31T09:46:19.715Z",
+            "seq": 82,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-31T09:46:24.634Z",
+            "seq": 83,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-31T09:52:18.538Z",
+            "seq": 84,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-31T09:53:03.681Z",
+            "seq": 85,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-31T12:22:33.226Z",
+            "seq": 86,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-31T12:22:44.902Z",
+            "seq": 87,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-31T20:36:19.903Z",
+            "seq": 88,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2022-12-31T20:36:39.102Z",
+            "seq": 89,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-01T02:21:38.387Z",
+            "seq": 90,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-01T02:21:43.444Z",
+            "seq": 91,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-01T11:00:53.680Z",
+            "seq": 92,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-01T11:00:58.630Z",
+            "seq": 93,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-01T11:05:59.740Z",
+            "seq": 94,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-01T11:07:12.185Z",
+            "seq": 95,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-01T13:26:57.899Z",
+            "seq": 96,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-01T13:27:07.341Z",
+            "seq": 97,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-01T21:04:44.009Z",
+            "seq": 98,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-01T21:05:43.207Z",
+            "seq": 99,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-02T03:35:06.363Z",
+            "seq": 100,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-02T03:35:12.759Z",
+            "seq": 101,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-02T12:46:48.402Z",
+            "seq": 102,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-02T12:46:53.666Z",
+            "seq": 103,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-02T12:51:41.942Z",
+            "seq": 104,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-02T12:52:19.324Z",
+            "seq": 105,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-02T15:22:30.983Z",
+            "seq": 106,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-02T15:22:44.934Z",
+            "seq": 107,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-03T01:11:15.149Z",
+            "seq": 108,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-03T01:11:33.571Z",
+            "seq": 109,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-03T07:38:22.296Z",
+            "seq": 110,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-03T07:38:24.990Z",
+            "seq": 111,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-03T22:41:16.694Z",
+            "seq": 112,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-03T22:41:17.380Z",
+            "seq": 113,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "brochures",
+                        0,
+                        "url"
+                    ],
+                    "val": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_DOC_00_0006.pdf"
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-03T22:41:20.981Z",
+            "seq": 114,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-03T22:49:22.003Z",
+            "seq": 115,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-03T22:50:32.202Z",
+            "seq": 116,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-04T01:45:28.421Z",
+            "seq": 117,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-04T01:45:40.082Z",
+            "seq": 118,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-04T11:10:03.171Z",
+            "seq": 119,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-04T11:10:23.889Z",
+            "seq": 120,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-04T23:34:21.704Z",
+            "seq": 121,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-04T23:34:24.850Z",
+            "seq": 122,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-05T16:19:33.479Z",
+            "seq": 123,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-05T16:19:43.415Z",
+            "seq": 124,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-05T16:19:44.158Z",
+            "seq": 125,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-05T16:19:50.628Z",
+            "seq": 126,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-05T16:33:24.444Z",
+            "seq": 127,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-05T16:35:07.103Z",
+            "seq": 128,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-05T23:16:20.891Z",
+            "seq": 129,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-05T23:16:33.095Z",
+            "seq": 130,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-06T13:46:36.045Z",
+            "seq": 131,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-06T13:46:56.773Z",
+            "seq": 132,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-07T05:33:08.260Z",
+            "seq": 133,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-07T05:33:11.188Z",
+            "seq": 134,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-07T23:55:10.782Z",
+            "seq": 135,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-07T23:55:17.488Z",
+            "seq": 136,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-08T00:04:05.255Z",
+            "seq": 137,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-08T00:04:47.015Z",
+            "seq": 138,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-08T03:08:38.441Z",
+            "seq": 139,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-08T03:08:48.150Z",
+            "seq": 140,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-08T13:35:33.578Z",
+            "seq": 141,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-08T13:35:49.719Z",
+            "seq": 142,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-08T23:37:48.694Z",
+            "seq": 143,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-08T23:37:57.291Z",
+            "seq": 144,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-09T11:38:12.193Z",
+            "seq": 145,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-09T11:38:16.878Z",
+            "seq": 146,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-09T11:38:20.882Z",
+            "seq": 147,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-09T11:38:25.114Z",
+            "seq": 148,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-09T11:43:06.298Z",
+            "seq": 149,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-09T11:43:29.501Z",
+            "seq": 150,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-09T15:16:05.379Z",
+            "seq": 151,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-09T15:16:10.978Z",
+            "seq": 152,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-10T04:15:23.998Z",
+            "seq": 153,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-10T04:15:52.545Z",
+            "seq": 154,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-10T13:11:44.249Z",
+            "seq": 155,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-10T13:11:59.600Z",
+            "seq": 156,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-11T07:22:15.370Z",
+            "seq": 157,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-11T07:22:18.770Z",
+            "seq": 158,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-11T07:22:21.753Z",
+            "seq": 159,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-11T07:22:27.299Z",
+            "seq": 160,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-11T07:29:35.674Z",
+            "seq": 161,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-11T07:31:29.655Z",
+            "seq": 162,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-11T11:39:14.689Z",
+            "seq": 163,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-11T11:39:35.423Z",
+            "seq": 164,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-12T05:12:31.486Z",
+            "seq": 165,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-12T05:12:33.570Z",
+            "seq": 166,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-12T20:24:15.580Z",
+            "seq": 167,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-12T20:24:48.348Z",
+            "seq": 168,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-12T20:34:14.372Z",
+            "seq": 169,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-12T20:35:35.099Z",
+            "seq": 170,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-13T01:07:38.929Z",
+            "seq": 171,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-13T01:07:43.734Z",
+            "seq": 172,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-13T14:52:08.882Z",
+            "seq": 173,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-13T14:52:37.735Z",
+            "seq": 174,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-14T04:02:40.120Z",
+            "seq": 175,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-14T04:02:42.937Z",
+            "seq": 176,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-14T22:33:51.463Z",
+            "seq": 177,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-14T22:34:30.874Z",
+            "seq": 178,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-14T22:34:44.693Z",
+            "seq": 179,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-14T22:35:16.673Z",
+            "seq": 180,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-14T22:44:15.380Z",
+            "seq": 181,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-14T22:44:37.504Z",
+            "seq": 182,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-15T02:20:13.290Z",
+            "seq": 183,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-15T02:20:33.349Z",
+            "seq": 184,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-15T14:28:49.354Z",
+            "seq": 185,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-15T14:29:18.542Z",
+            "seq": 186,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-16T02:14:56.839Z",
+            "seq": 187,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-16T02:15:04.992Z",
+            "seq": 188,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-16T17:01:59.303Z",
+            "seq": 189,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-16T17:02:16.069Z",
+            "seq": 190,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-16T17:02:31.545Z",
+            "seq": 191,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-16T17:03:24.260Z",
+            "seq": 192,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-16T17:13:13.615Z",
+            "seq": 193,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-16T17:13:55.461Z",
+            "seq": 194,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-16T22:41:00.364Z",
+            "seq": 195,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-16T22:41:10.434Z",
+            "seq": 196,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-17T10:13:00.195Z",
+            "seq": 197,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-17T10:14:29.901Z",
+            "seq": 198,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-17T23:51:53.126Z",
+            "seq": 199,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-17T23:51:57.119Z",
+            "seq": 200,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-18T20:17:19.758Z",
+            "seq": 201,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-18T20:18:34.197Z",
+            "seq": 202,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-18T20:18:47.512Z",
+            "seq": 203,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-18T20:18:52.952Z",
+            "seq": 204,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-18T20:32:00.153Z",
+            "seq": 205,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-18T20:33:56.941Z",
+            "seq": 206,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-19T01:00:26.898Z",
+            "seq": 207,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-19T01:00:30.363Z",
+            "seq": 208,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-19T13:32:08.463Z",
+            "seq": 209,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-19T13:32:37.017Z",
+            "seq": 210,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-20T02:11:48.285Z",
+            "seq": 211,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-20T02:11:52.962Z",
+            "seq": 212,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-21T00:40:30.698Z",
+            "seq": 213,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-21T00:40:35.029Z",
+            "seq": 214,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-21T00:40:37.026Z",
+            "seq": 215,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-21T00:41:26.349Z",
+            "seq": 216,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-21T00:51:06.891Z",
+            "seq": 217,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-21T00:51:32.975Z",
+            "seq": 218,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-21T05:03:06.747Z",
+            "seq": 219,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-21T05:03:14.939Z",
+            "seq": 220,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-22T00:17:21.156Z",
+            "seq": 221,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-22T00:17:45.833Z",
+            "seq": 222,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-22T09:20:13.536Z",
+            "seq": 223,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-22T09:20:16.705Z",
+            "seq": 224,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-23T04:44:33.643Z",
+            "seq": 225,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-23T04:45:27.187Z",
+            "seq": 226,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-23T04:50:54.143Z",
+            "seq": 227,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-23T04:52:26.632Z",
+            "seq": 228,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-23T07:40:52.972Z",
+            "seq": 229,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-23T07:41:06.678Z",
+            "seq": 230,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-23T22:51:32.075Z",
+            "seq": 231,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-23T22:52:21.168Z",
+            "seq": 232,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-24T07:55:47.341Z",
+            "seq": 233,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-24T07:55:50.210Z",
+            "seq": 234,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-25T04:25:54.749Z",
+            "seq": 235,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": true
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-25T04:25:56.161Z",
+            "seq": 236,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "brochures",
+                        0,
+                        "url"
+                    ],
+                    "val": "https://media.rightmove.co.uk/11k/10800/126569975/10800_31757268_DOC_00_0007.pdf"
+                },
+                {
+                    "op": "update",
+                    "path": [
+                        "tenure",
+                        "tenureType"
+                    ],
+                    "val": "FREEHOLD"
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.126569975",
+            "timestamp": "2023-01-25T04:26:11.644Z",
+            "seq": 237,
+            "data": [
+                {
+                    "op": "update",
+                    "path": [
+                        "hasBrandPlus"
+                    ],
+                    "val": false
+                }
+            ],
+            "key": "api"
+        }
+    ],
+    "root": {
+        "topic": "rm_listing.126569975",
+        "timestamp": "2022-09-01T01:46:42.721Z",
+        "seq": 1,
+        "data": {
+            "locationCodes": [
+                "OUTCODE^1891"
+            ],
+            "id": 126569975,
+            "bedrooms": 4,
+            "bathrooms": 0,
+            "numberOfImages": 6,
+            "numberOfFloorplans": 1,
+            "numberOfVirtualTours": 3,
+            "summary": "**Launch Event - Saturday 10th September from 11am – 12pm. Strictly by appointment only** Located in the highly desirable village of Middleton Cheney approximately 4 miles from the well served town of Banbury is this sought after building plot with outline planning permission for a detac...",
+            "displayAddress": "Main Road, Middleton Cheney, Banbury",
+            "countryCode": "GB",
+            "location": {
+                "latitude": 52.070449,
+                "longitude": -1.261437
+            },
+            "propertyImages": {
+                "images": [
+                    {
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_00_0000_max_476x317.jpeg",
+                        "url": "11k/10800/126569975/10800_31757268_IMG_00_0000.jpeg",
+                        "caption": "145 Main Road Stills4.jpg"
+                    },
+                    {
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_01_0000_max_476x317.jpeg",
+                        "url": "11k/10800/126569975/10800_31757268_IMG_01_0000.jpeg",
+                        "caption": "proposed elevations - plot 1 - 2052.12.jpg"
+                    },
+                    {
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_03_0000_max_476x317.jpeg",
+                        "url": "11k/10800/126569975/10800_31757268_IMG_03_0000.jpeg",
+                        "caption": "145 Main Road Stills8.jpg"
+                    },
+                    {
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_04_0000_max_476x317.jpeg",
+                        "url": "11k/10800/126569975/10800_31757268_IMG_04_0000.jpeg",
+                        "caption": "145 Main Road Stills9.jpg"
+                    },
+                    {
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_05_0000_max_476x317.jpeg",
+                        "url": "11k/10800/126569975/10800_31757268_IMG_05_0000.jpeg",
+                        "caption": "145 Main Road Stills3.jpg"
+                    },
+                    {
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_06_0000_max_476x317.jpeg",
+                        "url": "11k/10800/126569975/10800_31757268_IMG_06_0000.jpeg",
+                        "caption": "Location site plan"
+                    }
+                ],
+                "mainImageSrc": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_00_0000_max_476x317.jpeg",
+                "mainMapImageSrc": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/11k/10800/126569975/10800_31757268_IMG_00_0000_max_296x197.jpeg"
+            },
+            "propertySubType": "Plot",
+            "listingUpdate": {
+                "listingUpdateReason": "new",
+                "listingUpdateDate": "2022-08-31T14:07:07Z"
+            },
+            "price": {
+                "amount": 350000,
+                "frequency": "not specified",
+                "currencyCode": "GBP",
+                "displayPrices": [
+                    {
+                        "displayPrice": "£350,000",
+                        "displayPriceQualifier": "Offers Over"
+                    }
+                ]
+            },
+            "customer": {
+                "branchId": 10800,
+                "brandPlusLogoURI": "/brand/brand_rmchoice_logo_24614_0004.jpeg",
+                "contactTelephone": "01788 223216",
+                "branchDisplayName": "Fine & Country, Rugby",
+                "branchName": "Rugby",
+                "brandTradingName": "Fine & Country",
+                "branchLandingPageUrl": "/estate-agents/agent/Fine-and-Country/Rugby-10800.html",
+                "development": false,
+                "showReducedProperties": true,
+                "commercial": false,
+                "showOnMap": true,
+                "enhancedListing": false,
+                "developmentContent": null,
+                "buildToRent": false,
+                "buildToRentBenefits": [],
+                "brandPlusLogoUrl": "https://media.rightmove.co.uk:443/dir/brand/brand_rmchoice_logo_24614_0004_max_100x50.jpeg"
+            },
+            "transactionType": "buy",
+            "productLabel": {
+                "productLabelText": "",
+                "spotlightLabel": false
+            },
+            "commercial": true,
+            "development": false,
+            "residential": true,
+            "students": false,
+            "auction": false,
+            "feesApply": false,
+            "feesApplyText": null,
+            "displaySize": "",
+            "propertyUrl": "/properties/126569975#/?channel=COM_BUY",
+            "channel": "COMMERCIAL_BUY",
+            "firstVisibleDate": "2022-08-31T14:01:24Z",
+            "keywords": [],
+            "keywordMatchType": "no_keyword",
+            "onlineViewingsAvailable": false,
+            "lozengeModel": {
+                "matchingLozenges": []
+            },
+            "hasBrandPlus": true,
+            "displayStatus": "",
+            "isRecent": true,
+            "propertyTypeFullDescription": "Plot for sale",
+            "formattedBranchName": "Marketed by Fine & Country, Rugby",
+            "addedOrReduced": ""
+        },
+        "key": "api"
+    },
+    "tail": {
+        "topic": "rm_listing.126569975",
+        "timestamp": "2023-01-25T04:26:11.644Z",
+        "seq": 237,
+        "data": [
+            {
+                "op": "update",
+                "path": [
+                    "hasBrandPlus"
+                ],
+                "val": false
+            }
+        ],
+        "key": "api"
+    },
+    "lastSeq": 237
+}

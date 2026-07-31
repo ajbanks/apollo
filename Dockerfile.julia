@@ -1,0 +1,6 @@
+FROM julia:1.10.5
+
+WORKDIR /app
+COPY ./intelligence/*.toml ./
+RUN julia --project=. -e 'using Pkg; Pkg.instantiate()'
+COPY ./intelligence .

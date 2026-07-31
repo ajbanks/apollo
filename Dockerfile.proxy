@@ -1,0 +1,3 @@
+FROM peterdavehello/tor-socks-proxy
+
+COPY ./tor/torrc /etc/tor/torrc

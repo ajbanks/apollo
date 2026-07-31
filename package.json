@@ -1,0 +1,13 @@
+{
+    "name": "apollo",
+    "description": "the oracle",
+    "version": "1.0.0",
+    "scripts": {
+        "compose": "docker compose -f compose.yml --profile ${PROFILE:-server} up --watch --build",
+        "compose:down": "docker compose -f compose.yml down --remove-orphans --volumes",
+        "compose:clean": "npm run compose:down && npm run compose -- --force-recreate --renew-anon-volumes",
+        "compose:crawler": "PROFILE=crawler npm run compose"
+    },
+    "author": "",
+    "license": "ISC"
+}

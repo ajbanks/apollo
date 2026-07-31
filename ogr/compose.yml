@@ -1,0 +1,7 @@
+services:
+    ogr:
+        image: ghcr.io/osgeo/gdal:ubuntu-full-3.9.3
+        container_name: apollo-ogr2ogr
+        working_dir: /app
+        volumes:
+            - ./:/app

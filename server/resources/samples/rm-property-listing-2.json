@@ -1,0 +1,1875 @@
+{
+    "data": {
+        "api": {
+            "locationCodes": [
+                "STATION^3509",
+                "STATION^3512",
+                "STATION^9848",
+                "STATION^9854",
+                "OUTCODE^1859",
+                "REGION^70359",
+                "REGION^85236"
+            ],
+            "id": 166629686,
+            "bedrooms": 1,
+            "bathrooms": 1,
+            "numberOfImages": 10,
+            "numberOfFloorplans": 1,
+            "numberOfVirtualTours": 0,
+            "summary": "A charming one bedroom flat set within a modern purpose-built development with lift access, moments from the excellent amenities and transport links of Finchley Road. Offered with a 30% share*, the property offers ample living space with modern fixtures and fittings, stylish décor and wood floor...",
+            "displayAddress": "Lithos Road, London, NW3",
+            "countryCode": "GB",
+            "location": { "latitude": 51.54969, "longitude": -0.183526 },
+            "propertyImages": {
+                "images": [
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_10_0001.jpeg",
+                        "caption": "external.jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_10_0001_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_01_0000.jpeg",
+                        "caption": "52843_hi-res(5).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_01_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_02_0000.jpeg",
+                        "caption": "52843_hi-res(4).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_02_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_03_0000.jpeg",
+                        "caption": "52843_hi-res(6).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_03_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_04_0000.jpeg",
+                        "caption": "52843_hi-res(9).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_04_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_05_0000.jpeg",
+                        "caption": "52843_hi-res(11).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_05_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_06_0000.jpeg",
+                        "caption": "52843_hi-res(2).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_06_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_07_0000.jpeg",
+                        "caption": "52843_hi-res(7).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_07_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_08_0000.jpeg",
+                        "caption": "52843_hi-res(10).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_08_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_09_0000.jpeg",
+                        "caption": "52843_hi-res(8).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_09_0000_max_476x317.jpeg"
+                    }
+                ],
+                "mainImageSrc": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_10_0001_max_476x317.jpeg",
+                "mainMapImageSrc": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_10_0001_max_296x197.jpeg"
+            },
+            "propertySubType": "Flat",
+            "listingUpdate": {
+                "listingUpdateReason": "price_reduced",
+                "listingUpdateDate": "2025-11-01T13:57:03Z"
+            },
+            "price": {
+                "amount": 100000,
+                "frequency": "not specified",
+                "currencyCode": "GBP",
+                "displayPrices": [
+                    {
+                        "displayPrice": "£100,000",
+                        "displayPriceQualifier": "Shared ownership"
+                    }
+                ]
+            },
+            "customer": {
+                "branchId": 75239,
+                "brandPlusLogoURI": "/company/clogo_29609_0002.jpeg",
+                "contactTelephone": "020 3835 2803",
+                "branchDisplayName": "Salter Rex, Hampstead",
+                "branchName": "Hampstead",
+                "brandTradingName": "Salter Rex",
+                "branchLandingPageUrl": "/estate-agents/agent/Salter-Rex/Hampstead-75239.html",
+                "development": false,
+                "showReducedProperties": true,
+                "commercial": false,
+                "showOnMap": true,
+                "enhancedListing": false,
+                "developmentContent": null,
+                "buildToRent": false,
+                "buildToRentBenefits": [],
+                "brandPlusLogoUrl": "https://media.rightmove.co.uk:443/company/clogo_29609_0002.jpeg"
+            },
+            "transactionType": "buy",
+            "productLabel": {
+                "productLabelText": null,
+                "spotlightLabel": false
+            },
+            "commercial": false,
+            "development": false,
+            "residential": true,
+            "students": false,
+            "auction": false,
+            "feesApply": false,
+            "feesApplyText": null,
+            "displaySize": "523 sq. ft.",
+            "propertyUrl": "/properties/166629686#/?channel=RES_BUY",
+            "channel": "BUY",
+            "firstVisibleDate": "2025-09-05T12:15:31Z",
+            "keywords": [],
+            "keywordMatchType": "no_keyword",
+            "onlineViewingsAvailable": false,
+            "lozengeModel": { "matchingLozenges": [] },
+            "displayStatus": "",
+            "enquiredTimestamp": null,
+            "enquiryAddedTimestamp": null,
+            "enquiryCalledTimestamp": null,
+            "addedOrReduced": "Reduced on 01/11/2025",
+            "formattedBranchName": " by Salter Rex, Hampstead",
+            "propertyTypeFullDescription": "1 bedroom flat for sale",
+            "isRecent": false
+        },
+        "details": {
+            "id": "166629686",
+            "encId": "Vi99YIdVmzIM1CklmSw8zsrStvRB7ms=",
+            "addressId": "f32db06ab34938169d6b941d84554eae",
+            "status": { "published": true, "archived": false },
+            "text": {
+                "description": "A charming one bedroom flat set within a modern purpose-built development with lift access, moments from the excellent amenities and transport links of Finchley Road.  Offered with a 30% share*, the property offers ample living space with modern fixtures and fittings, stylish décor and wood floors.  <br /><br />The property is situated on the first floor and comprises a light and spacious reception room with access to a private balcony, semi open-plan kitchen, good-sized bedroom with built-in wardrobe - also with direct access to the balcony, contemporary bathroom and ample storage space. <br /><br />Lithos Road is a pleasant residential street close to the shops, bars and restaurants of Finchley Road - including the O2 Centre, West Hampstead and Hampstead.  Finchley Road Overground Station is only a 4 minute walk, and Finchley Road Underground Station (Jubilee and Metropolitan lines) an 8 minute walk, providing excellent links into the City and West End.<br /><br />*There is the option to staircase ownership to 100% after 2 years.<br /><br />Lease: Approx 107 years<br />Service Charge: Approx. £306.79 pcm<br />Sinking Fund: Approx. £68.94 pcm<br />Rent payable to CDS: £681.85 pcm<br />Ground Rent: £0<br />Council Tax Band: D<br /><br />",
+                "propertyPhrase": "1 bedroom flat",
+                "disclaimer": "<b>Disclaimer</b> - Property reference 34140238. The information displayed about this property comprises a property advertisement. Rightmove.co.uk makes no warranty as to the accuracy or completeness of the advertisement or any linked or associated information, and Rightmove has no control over the content. This property advertisement does not constitute property particulars. The information is provided and maintained by <b>Salter Rex, Hampstead</b>.&nbsp;Please contact the selling agent or developer directly to obtain any information which may be available under the terms of The Energy Performance of Buildings (Certificates and Inspections) (England and Wales) Regulations 2007 or the Home Report if in relation to a residential property in Scotland.",
+                "auctionFeesDisclaimer": null,
+                "guidePriceDisclaimer": null,
+                "reservePriceDisclaimer": null,
+                "staticMapDisclaimerText": "Map data ©<a href=\"http://www.openstreetmap.org/copyright\" rel=\"nofollow\" target=\"_blank\" title=\"Open Street Map\">OpenStreetMap</a> contributors.",
+                "newHomesBrochureDisclaimer": "Please note that Rightmove will send the above details to Salter Rex only. By submitting this form, you confirm that you agree to our website <a href=\"/this-site/terms-of-use.html\">terms of use</a>, our <a href=\"/this-site/privacy-policy.html\">privacy policy</a> and understand how we store <a href=\"/this-site/cookies.html\">cookies</a> on your device.",
+                "shareText": "Check out this 1 bedroom flat for sale on Rightmove",
+                "shareDescription": "1 bedroom flat for sale in Lithos Road, London, NW3 for £100,000. Marketed by Salter Rex, Hampstead",
+                "pageTitle": "1 bedroom flat for sale in Lithos Road, London, NW3",
+                "shortDescription": "1 bedroom flat for sale"
+            },
+            "prices": {
+                "primaryPrice": "£100,000",
+                "secondaryPrice": null,
+                "displayPriceQualifier": "Shared ownership",
+                "pricePerSqFt": "£191.20 per sq ft",
+                "message": null,
+                "exchangeRate": null
+            },
+            "address": {
+                "displayAddress": "Lithos Road, London, NW3",
+                "countryCode": "GB",
+                "deliveryPointId": 102044012,
+                "ukCountry": "England",
+                "outcode": "NW3",
+                "incode": "6BF"
+            },
+            "keyFeatures": [
+                "30% Shared Ownership",
+                "First Floor Flat",
+                "One Bedroom",
+                "Spacious Reception",
+                "Balcony Acceessible From Reception &amp; Bedroom",
+                "Semi Open-plan Kitchen",
+                "Lift Access",
+                "No Onward Chain",
+                "(Option To Staircase Ownership To 100% After 2 years)"
+            ],
+            "images": [
+                {
+                    "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_10_0001.jpeg",
+                    "caption": "external.jpg",
+                    "resizedImageUrls": {
+                        "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_10_0001_max_135x100.jpeg",
+                        "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_10_0001_max_476x317.jpeg",
+                        "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_10_0001_max_656x437.jpeg"
+                    }
+                },
+                {
+                    "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_01_0000.jpeg",
+                    "caption": "52843_hi-res(5).jpg",
+                    "resizedImageUrls": {
+                        "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_01_0000_max_135x100.jpeg",
+                        "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_01_0000_max_476x317.jpeg",
+                        "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_01_0000_max_656x437.jpeg"
+                    }
+                },
+                {
+                    "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_02_0000.jpeg",
+                    "caption": "52843_hi-res(4).jpg",
+                    "resizedImageUrls": {
+                        "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_02_0000_max_135x100.jpeg",
+                        "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_02_0000_max_476x317.jpeg",
+                        "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_02_0000_max_656x437.jpeg"
+                    }
+                },
+                {
+                    "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_03_0000.jpeg",
+                    "caption": "52843_hi-res(6).jpg",
+                    "resizedImageUrls": {
+                        "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_03_0000_max_135x100.jpeg",
+                        "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_03_0000_max_476x317.jpeg",
+                        "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_03_0000_max_656x437.jpeg"
+                    }
+                },
+                {
+                    "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_04_0000.jpeg",
+                    "caption": "52843_hi-res(9).jpg",
+                    "resizedImageUrls": {
+                        "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_04_0000_max_135x100.jpeg",
+                        "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_04_0000_max_476x317.jpeg",
+                        "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_04_0000_max_656x437.jpeg"
+                    }
+                },
+                {
+                    "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_05_0000.jpeg",
+                    "caption": "52843_hi-res(11).jpg",
+                    "resizedImageUrls": {
+                        "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_05_0000_max_135x100.jpeg",
+                        "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_05_0000_max_476x317.jpeg",
+                        "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_05_0000_max_656x437.jpeg"
+                    }
+                },
+                {
+                    "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_06_0000.jpeg",
+                    "caption": "52843_hi-res(2).jpg",
+                    "resizedImageUrls": {
+                        "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_06_0000_max_135x100.jpeg",
+                        "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_06_0000_max_476x317.jpeg",
+                        "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_06_0000_max_656x437.jpeg"
+                    }
+                },
+                {
+                    "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_07_0000.jpeg",
+                    "caption": "52843_hi-res(7).jpg",
+                    "resizedImageUrls": {
+                        "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_07_0000_max_135x100.jpeg",
+                        "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_07_0000_max_476x317.jpeg",
+                        "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_07_0000_max_656x437.jpeg"
+                    }
+                },
+                {
+                    "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_08_0000.jpeg",
+                    "caption": "52843_hi-res(10).jpg",
+                    "resizedImageUrls": {
+                        "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_08_0000_max_135x100.jpeg",
+                        "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_08_0000_max_476x317.jpeg",
+                        "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_08_0000_max_656x437.jpeg"
+                    }
+                },
+                {
+                    "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_09_0000.jpeg",
+                    "caption": "52843_hi-res(8).jpg",
+                    "resizedImageUrls": {
+                        "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_09_0000_max_135x100.jpeg",
+                        "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_09_0000_max_476x317.jpeg",
+                        "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_09_0000_max_656x437.jpeg"
+                    }
+                }
+            ],
+            "floorplans": [
+                {
+                    "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_FLP_00_0000.jpeg",
+                    "caption": "52843hi.jpg",
+                    "type": "IMAGE",
+                    "resizedFloorplanUrls": {
+                        "size296x197": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_FLP_00_0000_max_296x197.jpeg"
+                    }
+                }
+            ],
+            "virtualTours": [],
+            "customer": {
+                "branchId": 75239,
+                "branchName": "Hampstead",
+                "branchDisplayName": "Salter Rex, Hampstead",
+                "companyName": "Salter Rex",
+                "companyTradingName": "Salter Rex",
+                "displayAddress": "47 South End Road,\r\nLondon,\r\nNW3 2QB",
+                "logoPath": "https://media.rightmove.co.uk/company/clogo_29609_0002.jpeg",
+                "customerDescription": {
+                    "truncatedDescriptionHTML": "<p>Founded in 1854, Salter Rex combine traditional values with exceptional standards of service and the most advanced marketing methods, to obtain the best possible outcome for our clients.</p>",
+                    "isTruncated": false,
+                    "descriptionHTML": "<p>Founded in 1854, Salter Rex combine traditional values with exceptional standards of service and the most advanced marketing methods, to obtain the best possible outcome for our clients.</p>"
+                },
+                "bannerAd": null,
+                "mpuAd": null,
+                "customerProfileUrl": "/estate-agents/agent/Salter-Rex/Hampstead-75239.html",
+                "customerBannerAdProfileUrl": "/estate-agents/agent/Salter-Rex/Hampstead-75239.html#ram_about_us",
+                "customerMpuAdProfileUrl": "/estate-agents/agent/Salter-Rex/Hampstead-75239.html#ram_about_us",
+                "customerPropertiesUrl": "/property-for-sale/find/Salter-Rex/Hampstead.html?locationIdentifier=BRANCH%5E75239&includeSSTC=true&_includeSSTC=on",
+                "isNewHomeDeveloper": false,
+                "spotlight": null,
+                "showBrochureLeadModal": false,
+                "developmentInfo": {
+                    "sitePlanUri": null,
+                    "micrositeFeatures": []
+                },
+                "buildToRent": false,
+                "commercial": false,
+                "buildToRentBenefits": [],
+                "videoUrl": null,
+                "videoEnabled": false,
+                "valuationFormUrl": "/estate-agents/contactBranch.html?branchId=75239",
+                "products": { "hasMicrosite": false }
+            },
+            "industryAffiliations": [
+                {
+                    "name": "Ombudsman for Estate Agents and Lettings Estate Agents",
+                    "imagePath": "https://media.rightmove.co.uk/dir/customer/industry-affiliation/ombudsman-for-combined-estate-agent_max_135x100.png"
+                },
+                {
+                    "name": "National Association of Estate Agents",
+                    "imagePath": "https://media.rightmove.co.uk/dir/customer/industry-affiliation/national-association-of-estate-agents_max_135x100.png"
+                },
+                {
+                    "name": "Association of Residential Letting Agents",
+                    "imagePath": "https://media.rightmove.co.uk/dir/customer/industry-affiliation/association-of-residential-lettings-agent_max_135x100.png"
+                }
+            ],
+            "rooms": [],
+            "location": {
+                "latitude": 51.54969,
+                "longitude": -0.183526,
+                "circleRadiusOnMap": 0,
+                "zoomLevel": 15,
+                "pinType": "ACCURATE_POINT",
+                "showMap": true
+            },
+            "streetView": {
+                "heading": 0,
+                "pitch": 10,
+                "zoom": 1,
+                "latitude": 51.549692,
+                "longitude": -0.183527
+            },
+            "nearestAirports": [],
+            "nearestStations": [
+                {
+                    "name": "Finchley Road & Frognal Station",
+                    "types": ["LONDON_OVERGROUND"],
+                    "distance": 0.03413423509431073,
+                    "unit": "miles"
+                },
+                {
+                    "name": "Finchley Road Station",
+                    "types": ["LONDON_UNDERGROUND"],
+                    "distance": 0.22702344046596346,
+                    "unit": "miles"
+                },
+                {
+                    "name": "West Hampstead Station",
+                    "types": [
+                        "NATIONAL_TRAIN",
+                        "LONDON_UNDERGROUND",
+                        "LONDON_OVERGROUND"
+                    ],
+                    "distance": 0.3988885082790691,
+                    "unit": "miles"
+                }
+            ],
+            "showSchoolInfo": true,
+            "countryGuide": null,
+            "channel": "RES_BUY",
+            "sizings": [
+                {
+                    "unit": "ac",
+                    "displayUnit": "ac.",
+                    "minimumSize": 0.01,
+                    "maximumSize": 0.01
+                },
+                {
+                    "unit": "ha",
+                    "displayUnit": "ha.",
+                    "minimumSize": 0,
+                    "maximumSize": 0
+                },
+                {
+                    "unit": "sqft",
+                    "displayUnit": "sq. ft.",
+                    "minimumSize": 523,
+                    "maximumSize": 523
+                },
+                {
+                    "unit": "sqm",
+                    "displayUnit": "sq. m.",
+                    "minimumSize": 49,
+                    "maximumSize": 49
+                }
+            ],
+            "brochures": [
+                {
+                    "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_DOC_02_0002.pdf",
+                    "caption": "Lithos Road, London, NW3"
+                },
+                {
+                    "url": "https://www.vebra.com/details/property/34140238",
+                    "caption": "Brochure"
+                }
+            ],
+            "epcGraphs": [
+                {
+                    "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_EPCGRAPH_00_0000.png",
+                    "caption": "EE Rating"
+                }
+            ],
+            "bedrooms": 1,
+            "bathrooms": 1,
+            "transactionType": "BUY",
+            "tags": [],
+            "misInfo": {
+                "branchId": 75239,
+                "offerAdvertStampTypeId": null,
+                "premiumDisplay": false,
+                "premiumDisplayStampId": null,
+                "brandPlus": true,
+                "featuredProperty": false
+            },
+            "staticMapImgUrls": {
+                "staticMapImgUrlMobile": "https://media.rightmove.co.uk/map/_generate?width=375&height=375&zoomLevel=15&latitude=51.54969&longitude=-0.183526&signature=VNClHS4qEvPIPIoPJzlk6SXg5a4=",
+                "staticMapImgUrlTablet": "https://media.rightmove.co.uk/map/_generate?width=768&height=347&zoomLevel=15&latitude=51.54969&longitude=-0.183526&signature=bawzHZeBhUdHWrm1kv0vwamCRRY=",
+                "staticMapImgUrlDesktopSmall": "https://media.rightmove.co.uk/map/_generate?width=580&height=347&zoomLevel=15&latitude=51.54969&longitude=-0.183526&signature=xwWovZ1r98SJhcuarJwavFNHV7M=",
+                "staticMapImgUrlDesktopLarge": "https://media.rightmove.co.uk/map/_generate?width=761&height=347&zoomLevel=15&latitude=51.54969&longitude=-0.183526&signature=XREOrJA_Kn8cXzwpHtETpdTdyNE="
+            },
+            "listingHistory": {
+                "listingUpdateReason": "Reduced on 01/11/2025"
+            },
+            "feesApply": null,
+            "broadband": {
+                "disclaimer": "* This is the average speed from the provider with the fastest broadband package available on <a rel=\"sponsored\" href=\"https://www.comparethemarket.com\" target=\"_blank\">comparethemarket.com</a> at this postcode. The average speed displayed is based on the download speeds of at least 50% of customers at peak time (8pm to 10pm). Fibre/cable services at the postcode are subject to availability and may differ between properties within a postcode. Speeds can be affected by a range of technical and environmental factors. The speed at the property may be lower than that listed above. You can check the estimated speed and confirm availability to a property prior to purchasing on the broadband provider's website. Providers may increase charges. The information is provided and maintained by <a href=\"https://www.stickee.co.uk/\" target=\"_blank\">Stickee Technology Limited</a>.",
+                "broadbandCheckerUrl": "https://partnerships-broadband.comparethemarket.com/v1/broadband/rightmove/NW36BF?apikey=524754e13765dedb716b07b8ba008f01916c00d513067c87e13caadca83f0b3b"
+            },
+            "contactInfo": {
+                "contactMethod": "EMAIL",
+                "telephoneNumbers": {
+                    "localNumber": "020 3835 2803",
+                    "internationalNumber": null,
+                    "disclaimerText": null,
+                    "disclaimerTitle": null,
+                    "disclaimerDescription": null
+                }
+            },
+            "lettings": null,
+            "infoReelItems": [
+                {
+                    "title": "PROPERTY TYPE",
+                    "type": "PROPERTY_TYPE",
+                    "primaryText": "Flat",
+                    "secondaryText": "",
+                    "tooltipText": ""
+                },
+                {
+                    "title": "BEDROOMS",
+                    "type": "BEDROOMS",
+                    "primaryText": "1",
+                    "secondaryText": "",
+                    "tooltipText": ""
+                },
+                {
+                    "title": "BATHROOMS",
+                    "type": "BATHROOMS",
+                    "primaryText": "1",
+                    "secondaryText": "",
+                    "tooltipText": ""
+                },
+                {
+                    "title": "SIZE",
+                    "type": "SIZE",
+                    "primaryText": "523 sq ft",
+                    "secondaryText": "49 sq m",
+                    "tooltipText": ""
+                }
+            ],
+            "mortgageCalculator": {
+                "price": 100000,
+                "propertyTypeAlias": "flats_apartments"
+            },
+            "tenure": {
+                "tenureType": "LEASEHOLD",
+                "yearsRemainingOnLease": 107,
+                "message": null
+            },
+            "propertyUrls": {
+                "similarPropertiesUrl": "/property-for-sale/NW3-6BF.html?radius=0.5&minPrice=90000&maxPrice=110000&minBedrooms=1",
+                "nearbySoldPropertiesUrl": "/house-prices/nw3-6bf.html"
+            },
+            "soldPropertyType": "FLAT",
+            "propertySubType": "Flat",
+            "businessForSale": false,
+            "commercial": false,
+            "commercialUseClasses": [],
+            "affordableBuyingScheme": true,
+            "sharedOwnership": {
+                "sharedOwnershipFlag": true,
+                "ownershipPercentage": 30,
+                "rentPrice": 681.85,
+                "rentFrequency": "monthly"
+            },
+            "livingCosts": {
+                "councilTaxExempt": false,
+                "councilTaxIncluded": false,
+                "annualGroundRent": 0,
+                "groundRentReviewPeriodInYears": null,
+                "groundRentPercentageIncrease": null,
+                "annualServiceCharge": 4508,
+                "councilTaxBand": "D",
+                "domesticRates": null
+            },
+            "termsOfUse": "This Application Programming Interface (API) is for the use of Rightmove Group Limited only. No other individual or business may link to, or make use of, this API without the express written permission of Rightmove's Legal Team. Any unauthorised use of this API will constitute a breach of Rightmove's Terms of Use, available at https://www.rightmove.co.uk/this-site/terms-of-use.html, and Rightmove will enforce its rights to the fullest extent permitted by law.",
+            "features": {
+                "electricity": [
+                    {
+                        "alias": "has_mains_electric",
+                        "displayText": "Mains supply"
+                    }
+                ],
+                "broadband": [],
+                "water": [
+                    {
+                        "alias": "has_mains_water",
+                        "displayText": "Mains supply"
+                    }
+                ],
+                "sewerage": [
+                    {
+                        "alias": "has_mains_sewerage",
+                        "displayText": "Mains supply"
+                    }
+                ],
+                "heating": [
+                    { "alias": "gas_central", "displayText": "Gas central" }
+                ],
+                "accessibility": [
+                    { "alias": "lift_access", "displayText": "Lift access" }
+                ],
+                "parking": [
+                    { "alias": "no_parking", "displayText": "No parking" }
+                ],
+                "garden": [],
+                "risks": {
+                    "floodedInLastFiveYears": null,
+                    "floodDefences": null,
+                    "floodSources": []
+                },
+                "obligations": {
+                    "listed": null,
+                    "restrictions": null,
+                    "requiredAccess": null,
+                    "rightsOfWay": null
+                }
+            },
+            "entranceFloor": null,
+            "dfpAdInfo": {
+                "channel": "RES_BUY",
+                "targeting": [
+                    { "key": "SO", "value": ["TRUE"] },
+                    { "key": "R", "value": ["FALSE"] },
+                    { "key": "AUCP", "value": ["FALSE"] },
+                    { "key": "CCY", "value": ["GBP"] },
+                    { "key": "UTo_A", "value": ["NW"] },
+                    { "key": "UTo_C", "value": ["GB"] },
+                    { "key": "CT", "value": ["property-for-sale"] },
+                    { "key": "TT", "value": ["buy"] },
+                    { "key": "BD", "value": ["1"] },
+                    { "key": "PT", "value": ["flats_apartments"] },
+                    { "key": "PST", "value": ["flat"] },
+                    { "key": "RESALEPRICE", "value": ["100000"] },
+                    { "key": "B", "value": ["Band1"] },
+                    { "key": "B_ID", "value": ["75239"] },
+                    { "key": "C_ID", "value": ["Salter Rex"] },
+                    { "key": "FP", "value": ["Y"] },
+                    { "key": "EPC", "value": ["Y"] },
+                    { "key": "P_ID", "value": ["166629686"] },
+                    { "key": "OV", "value": ["N"] },
+                    { "key": "UTo_D", "value": ["NW3"] },
+                    { "key": "UTo_Inc", "value": ["6BF"] },
+                    {
+                        "key": "F",
+                        "value": [
+                            "parking",
+                            "accessibility",
+                            "electricity",
+                            "sewerage",
+                            "heating",
+                            "water"
+                        ]
+                    },
+                    { "key": "UTo_UKZ", "value": ["England"] }
+                ]
+            },
+            "reviews": null,
+            "aiLocationInfo": null
+        }
+    },
+    "events": [
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-05T12:42:47.302Z",
+            "seq": 1,
+            "data": {
+                "locationCodes": ["STATION^3509"],
+                "id": 166629686,
+                "bedrooms": 1,
+                "bathrooms": 1,
+                "numberOfImages": 11,
+                "numberOfFloorplans": 1,
+                "numberOfVirtualTours": 0,
+                "summary": "A charming one bedroom flat set within a modern purpose-built development with lift access, moments from the excellent amenities and transport links of Finchley Road. Offered with a 30% share*, the property offers ample living space with modern fixtures and fittings, stylish décor and wood floor...",
+                "displayAddress": "Lithos Road, London, NW3",
+                "countryCode": "GB",
+                "location": { "latitude": 51.54969, "longitude": -0.183526 },
+                "propertyImages": {
+                    "images": [
+                        {
+                            "url": "76k/75239/166629686/75239_34140238_IMG_00_0000.jpeg",
+                            "caption": "52843_hi-res(12).jpg",
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_00_0000_max_476x317.jpeg"
+                        },
+                        {
+                            "url": "76k/75239/166629686/75239_34140238_IMG_01_0000.jpeg",
+                            "caption": "52843_hi-res(5).jpg",
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_01_0000_max_476x317.jpeg"
+                        },
+                        {
+                            "url": "76k/75239/166629686/75239_34140238_IMG_02_0000.jpeg",
+                            "caption": "52843_hi-res(4).jpg",
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_02_0000_max_476x317.jpeg"
+                        },
+                        {
+                            "url": "76k/75239/166629686/75239_34140238_IMG_03_0000.jpeg",
+                            "caption": "52843_hi-res(6).jpg",
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_03_0000_max_476x317.jpeg"
+                        },
+                        {
+                            "url": "76k/75239/166629686/75239_34140238_IMG_04_0000.jpeg",
+                            "caption": "52843_hi-res(9).jpg",
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_04_0000_max_476x317.jpeg"
+                        },
+                        {
+                            "url": "76k/75239/166629686/75239_34140238_IMG_05_0000.jpeg",
+                            "caption": "52843_hi-res(11).jpg",
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_05_0000_max_476x317.jpeg"
+                        },
+                        {
+                            "url": "76k/75239/166629686/75239_34140238_IMG_06_0000.jpeg",
+                            "caption": "52843_hi-res(2).jpg",
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_06_0000_max_476x317.jpeg"
+                        },
+                        {
+                            "url": "76k/75239/166629686/75239_34140238_IMG_07_0000.jpeg",
+                            "caption": "52843_hi-res(7).jpg",
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_07_0000_max_476x317.jpeg"
+                        },
+                        {
+                            "url": "76k/75239/166629686/75239_34140238_IMG_08_0000.jpeg",
+                            "caption": "52843_hi-res(10).jpg",
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_08_0000_max_476x317.jpeg"
+                        },
+                        {
+                            "url": "76k/75239/166629686/75239_34140238_IMG_09_0000.jpeg",
+                            "caption": "52843_hi-res(8).jpg",
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_09_0000_max_476x317.jpeg"
+                        },
+                        {
+                            "url": "76k/75239/166629686/75239_34140238_IMG_10_0000.jpeg",
+                            "caption": "52843_hi-res(01).jpg",
+                            "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_10_0000_max_476x317.jpeg"
+                        }
+                    ],
+                    "mainImageSrc": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_00_0000_max_476x317.jpeg",
+                    "mainMapImageSrc": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_00_0000_max_296x197.jpeg"
+                },
+                "propertySubType": "Flat",
+                "listingUpdate": {
+                    "listingUpdateReason": "new",
+                    "listingUpdateDate": "2025-09-05T12:21:05Z"
+                },
+                "price": {
+                    "amount": 120000,
+                    "frequency": "not specified",
+                    "currencyCode": "GBP",
+                    "displayPrices": [
+                        {
+                            "displayPrice": "£120,000",
+                            "displayPriceQualifier": "Shared ownership"
+                        }
+                    ]
+                },
+                "customer": {
+                    "branchId": 75239,
+                    "brandPlusLogoURI": "/company/clogo_29609_0002.jpeg",
+                    "contactTelephone": "020 3835 2803",
+                    "branchDisplayName": "Salter Rex, Hampstead",
+                    "branchName": "Hampstead",
+                    "brandTradingName": "Salter Rex",
+                    "branchLandingPageUrl": "/estate-agents/agent/Salter-Rex/Hampstead-75239.html",
+                    "development": false,
+                    "showReducedProperties": true,
+                    "commercial": false,
+                    "showOnMap": true,
+                    "enhancedListing": false,
+                    "developmentContent": null,
+                    "buildToRent": false,
+                    "buildToRentBenefits": [],
+                    "brandPlusLogoUrl": "https://media.rightmove.co.uk:443/company/clogo_29609_0002.jpeg"
+                },
+                "transactionType": "buy",
+                "productLabel": {
+                    "productLabelText": null,
+                    "spotlightLabel": false
+                },
+                "commercial": false,
+                "development": false,
+                "residential": true,
+                "students": false,
+                "auction": false,
+                "feesApply": false,
+                "feesApplyText": null,
+                "displaySize": "523 sq. ft.",
+                "propertyUrl": "/properties/166629686#/?channel=RES_BUY",
+                "channel": "BUY",
+                "firstVisibleDate": "2025-09-05T12:15:31Z",
+                "keywords": [],
+                "keywordMatchType": "no_keyword",
+                "onlineViewingsAvailable": false,
+                "lozengeModel": { "matchingLozenges": [] },
+                "displayStatus": "",
+                "enquiredTimestamp": null,
+                "enquiryAddedTimestamp": null,
+                "enquiryCalledTimestamp": null,
+                "addedOrReduced": "Added today",
+                "formattedBranchName": " by Salter Rex, Hampstead",
+                "propertyTypeFullDescription": "1 bedroom flat for sale",
+                "isRecent": true
+            },
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-05T12:42:48.787Z",
+            "seq": 2,
+            "data": {
+                "id": "166629686",
+                "encId": "4rgthNjrI-HzkhU8lxqt80Q_HKb3JVg=",
+                "addressId": "f32db06ab34938169d6b941d84554eae",
+                "status": { "published": true, "archived": false },
+                "text": {
+                    "description": "A charming one bedroom flat set within a modern purpose-built development with lift access, moments from the excellent amenities and transport links of Finchley Road.  Offered with a 30% share*, the property offers ample living space with modern fixtures and fittings, stylish décor and wood floors.  <br /><br />The property is situated on the first floor and comprises a light and spacious reception room with access to a private balcony, semi open-plan kitchen, good-sized bedroom with built-in wardrobe - also with direct access to the balcony, contemporary bathroom and ample storage space. <br /><br />Lithos Road is a pleasant residential street close to the shops, bars and restaurants of Finchley Road - including the O2 Centre, West Hampstead and Hampstead.  Finchley Road Overground Station is only a 4 minute walk, and Finchley Road Underground Station (Jubilee and Metropolitan lines) an 8 minute walk, providing excellent links into the City and West End.<br /><br />*There is the option to staircase ownership to 100% after 2 years.<br /><br />Lease: Approx 107 years<br />Service Charge: Approx. £306.79 pcm<br />Sinking Fund: Approx. £68.94 pcm<br />Rent payable to CDS: £681.85 pcm<br />Ground Rent: £0<br />Council Tax Band: D<br /><br />",
+                    "propertyPhrase": "1 bedroom flat",
+                    "disclaimer": "<b>Disclaimer</b> - Property reference 34140238. The information displayed about this property comprises a property advertisement. Rightmove.co.uk makes no warranty as to the accuracy or completeness of the advertisement or any linked or associated information, and Rightmove has no control over the content. This property advertisement does not constitute property particulars. The information is provided and maintained by <b>Salter Rex, Hampstead</b>.&nbsp;Please contact the selling agent or developer directly to obtain any information which may be available under the terms of The Energy Performance of Buildings (Certificates and Inspections) (England and Wales) Regulations 2007 or the Home Report if in relation to a residential property in Scotland.",
+                    "auctionFeesDisclaimer": null,
+                    "guidePriceDisclaimer": null,
+                    "reservePriceDisclaimer": null,
+                    "staticMapDisclaimerText": "Map data ©<a href=\"http://www.openstreetmap.org/copyright\" rel=\"nofollow\" target=\"_blank\" title=\"Open Street Map\">OpenStreetMap</a> contributors.",
+                    "newHomesBrochureDisclaimer": "Please note that Rightmove will send the above details to Salter Rex only. By submitting this form, you confirm that you agree to our website <a href=\"/this-site/terms-of-use.html\">terms of use</a>, our <a href=\"/this-site/privacy-policy.html\">privacy policy</a> and understand how we store <a href=\"/this-site/cookies.html\">cookies</a> on your device.",
+                    "shareText": "Check out this 1 bedroom flat for sale on Rightmove",
+                    "shareDescription": "1 bedroom flat for sale in Lithos Road, London, NW3 for £120,000. Marketed by Salter Rex, Hampstead",
+                    "pageTitle": "1 bedroom flat for sale in Lithos Road, London, NW3",
+                    "shortDescription": "1 bedroom flat for sale"
+                },
+                "prices": {
+                    "primaryPrice": "£120,000",
+                    "secondaryPrice": null,
+                    "displayPriceQualifier": "Shared ownership",
+                    "pricePerSqFt": "£229.45 per sq ft",
+                    "message": null,
+                    "exchangeRate": null
+                },
+                "address": {
+                    "displayAddress": "Lithos Road, London, NW3",
+                    "countryCode": "GB",
+                    "deliveryPointId": 102044012,
+                    "ukCountry": "England",
+                    "outcode": "NW3",
+                    "incode": "6BF"
+                },
+                "keyFeatures": [
+                    "30% Shared Ownership",
+                    "First Floor Flat",
+                    "One Bedroom",
+                    "Spacious Reception",
+                    "Balcony Acceessible From Reception &amp; Bedroom",
+                    "Semi Open-plan Kitchen",
+                    "Lift Access",
+                    "No Onward Chain",
+                    "(Option To Staircase Ownership To 100% After 2 years)"
+                ],
+                "images": [
+                    {
+                        "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_00_0000.jpeg",
+                        "caption": "52843_hi-res(12).jpg",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_00_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_00_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_00_0000_max_656x437.jpeg"
+                        }
+                    },
+                    {
+                        "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_01_0000.jpeg",
+                        "caption": "52843_hi-res(5).jpg",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_01_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_01_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_01_0000_max_656x437.jpeg"
+                        }
+                    },
+                    {
+                        "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_02_0000.jpeg",
+                        "caption": "52843_hi-res(4).jpg",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_02_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_02_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_02_0000_max_656x437.jpeg"
+                        }
+                    },
+                    {
+                        "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_03_0000.jpeg",
+                        "caption": "52843_hi-res(6).jpg",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_03_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_03_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_03_0000_max_656x437.jpeg"
+                        }
+                    },
+                    {
+                        "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_04_0000.jpeg",
+                        "caption": "52843_hi-res(9).jpg",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_04_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_04_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_04_0000_max_656x437.jpeg"
+                        }
+                    },
+                    {
+                        "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_05_0000.jpeg",
+                        "caption": "52843_hi-res(11).jpg",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_05_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_05_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_05_0000_max_656x437.jpeg"
+                        }
+                    },
+                    {
+                        "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_06_0000.jpeg",
+                        "caption": "52843_hi-res(2).jpg",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_06_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_06_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_06_0000_max_656x437.jpeg"
+                        }
+                    },
+                    {
+                        "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_07_0000.jpeg",
+                        "caption": "52843_hi-res(7).jpg",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_07_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_07_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_07_0000_max_656x437.jpeg"
+                        }
+                    },
+                    {
+                        "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_08_0000.jpeg",
+                        "caption": "52843_hi-res(10).jpg",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_08_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_08_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_08_0000_max_656x437.jpeg"
+                        }
+                    },
+                    {
+                        "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_09_0000.jpeg",
+                        "caption": "52843_hi-res(8).jpg",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_09_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_09_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_09_0000_max_656x437.jpeg"
+                        }
+                    },
+                    {
+                        "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_10_0000.jpeg",
+                        "caption": "52843_hi-res(01).jpg",
+                        "resizedImageUrls": {
+                            "size135x100": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_10_0000_max_135x100.jpeg",
+                            "size476x317": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_10_0000_max_476x317.jpeg",
+                            "size656x437": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_10_0000_max_656x437.jpeg"
+                        }
+                    }
+                ],
+                "floorplans": [
+                    {
+                        "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_FLP_00_0000.jpeg",
+                        "caption": "52843hi.jpg",
+                        "type": "IMAGE",
+                        "resizedFloorplanUrls": {
+                            "size296x197": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_FLP_00_0000_max_296x197.jpeg"
+                        }
+                    }
+                ],
+                "virtualTours": [],
+                "customer": {
+                    "branchId": 75239,
+                    "branchName": "Hampstead",
+                    "branchDisplayName": "Salter Rex, Hampstead",
+                    "companyName": "Salter Rex",
+                    "companyTradingName": "Salter Rex",
+                    "displayAddress": "47 South End Road,\r\nLondon,\r\nNW3 2QB",
+                    "logoPath": "https://media.rightmove.co.uk/company/clogo_29609_0002.jpeg",
+                    "customerDescription": {
+                        "truncatedDescriptionHTML": "<p>Founded in 1854, Salter Rex combine traditional values with exceptional standards of service and the most advanced marketing methods, to obtain the best possible outcome for our clients.</p>",
+                        "isTruncated": false,
+                        "descriptionHTML": "<p>Founded in 1854, Salter Rex combine traditional values with exceptional standards of service and the most advanced marketing methods, to obtain the best possible outcome for our clients.</p>"
+                    },
+                    "bannerAd": null,
+                    "mpuAd": null,
+                    "customerProfileUrl": "/estate-agents/agent/Salter-Rex/Hampstead-75239.html",
+                    "customerBannerAdProfileUrl": "/estate-agents/agent/Salter-Rex/Hampstead-75239.html#ram_about_us",
+                    "customerMpuAdProfileUrl": "/estate-agents/agent/Salter-Rex/Hampstead-75239.html#ram_about_us",
+                    "customerPropertiesUrl": "/property-for-sale/find/Salter-Rex/Hampstead.html?locationIdentifier=BRANCH%5E75239&includeSSTC=true&_includeSSTC=on",
+                    "isNewHomeDeveloper": false,
+                    "spotlight": null,
+                    "showBrochureLeadModal": false,
+                    "developmentInfo": {
+                        "sitePlanUri": null,
+                        "micrositeFeatures": []
+                    },
+                    "buildToRent": false,
+                    "commercial": false,
+                    "buildToRentBenefits": [],
+                    "videoUrl": null,
+                    "videoEnabled": false,
+                    "valuationFormUrl": "/estate-agents/contactBranch.html?branchId=75239",
+                    "products": { "hasMicrosite": false }
+                },
+                "industryAffiliations": [
+                    {
+                        "name": "National Association of Estate Agents",
+                        "imagePath": "https://media.rightmove.co.uk/dir/customer/industry-affiliation/national-association-of-estate-agents_max_135x100.png"
+                    },
+                    {
+                        "name": "Ombudsman for REsale Estate Agents (no OFT logo)",
+                        "imagePath": "https://media.rightmove.co.uk/dir/customer/industry-affiliation/ombudsman-for-resale-estate-agent_max_135x100.png"
+                    },
+                    {
+                        "name": "Association of Residential Letting Agents",
+                        "imagePath": "https://media.rightmove.co.uk/dir/customer/industry-affiliation/association-of-residential-lettings-agent_max_135x100.png"
+                    }
+                ],
+                "rooms": [],
+                "location": {
+                    "latitude": 51.54969,
+                    "longitude": -0.183526,
+                    "circleRadiusOnMap": 0,
+                    "zoomLevel": 15,
+                    "pinType": "ACCURATE_POINT",
+                    "showMap": true
+                },
+                "streetView": {
+                    "heading": 0,
+                    "pitch": 10,
+                    "zoom": 1,
+                    "latitude": 51.549692,
+                    "longitude": -0.183527
+                },
+                "nearestAirports": [],
+                "nearestStations": [
+                    {
+                        "name": "Finchley Road & Frognal Station",
+                        "types": ["LONDON_OVERGROUND"],
+                        "distance": 0.03413423509431073,
+                        "unit": "miles"
+                    },
+                    {
+                        "name": "Finchley Road Station",
+                        "types": ["LONDON_UNDERGROUND"],
+                        "distance": 0.22702344046596346,
+                        "unit": "miles"
+                    },
+                    {
+                        "name": "West Hampstead Station",
+                        "types": [
+                            "NATIONAL_TRAIN",
+                            "LONDON_UNDERGROUND",
+                            "LONDON_OVERGROUND"
+                        ],
+                        "distance": 0.3988885082790691,
+                        "unit": "miles"
+                    }
+                ],
+                "showSchoolInfo": true,
+                "countryGuide": null,
+                "channel": "RES_BUY",
+                "sizings": [
+                    {
+                        "unit": "ac",
+                        "displayUnit": "ac.",
+                        "minimumSize": 0.01,
+                        "maximumSize": 0.01
+                    },
+                    {
+                        "unit": "ha",
+                        "displayUnit": "ha.",
+                        "minimumSize": 0,
+                        "maximumSize": 0
+                    },
+                    {
+                        "unit": "sqft",
+                        "displayUnit": "sq. ft.",
+                        "minimumSize": 523,
+                        "maximumSize": 523
+                    },
+                    {
+                        "unit": "sqm",
+                        "displayUnit": "sq. m.",
+                        "minimumSize": 49,
+                        "maximumSize": 49
+                    }
+                ],
+                "brochures": [
+                    {
+                        "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_DOC_02_0000.pdf",
+                        "caption": "Lithos Road, London, NW3"
+                    },
+                    {
+                        "url": "https://www.vebra.com/details/property/34140238",
+                        "caption": "Brochure"
+                    }
+                ],
+                "epcGraphs": [
+                    {
+                        "url": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_EPCGRAPH_00_0000.png",
+                        "caption": "EE Rating"
+                    }
+                ],
+                "bedrooms": 1,
+                "bathrooms": 1,
+                "transactionType": "BUY",
+                "tags": [],
+                "misInfo": {
+                    "branchId": 75239,
+                    "offerAdvertStampTypeId": null,
+                    "premiumDisplay": false,
+                    "premiumDisplayStampId": null,
+                    "brandPlus": true,
+                    "featuredProperty": false
+                },
+                "staticMapImgUrls": {
+                    "staticMapImgUrlMobile": "https://media.rightmove.co.uk/map/_generate?width=375&height=375&zoomLevel=15&latitude=51.54969&longitude=-0.183526&signature=VNClHS4qEvPIPIoPJzlk6SXg5a4=",
+                    "staticMapImgUrlTablet": "https://media.rightmove.co.uk/map/_generate?width=768&height=347&zoomLevel=15&latitude=51.54969&longitude=-0.183526&signature=bawzHZeBhUdHWrm1kv0vwamCRRY=",
+                    "staticMapImgUrlDesktopSmall": "https://media.rightmove.co.uk/map/_generate?width=580&height=347&zoomLevel=15&latitude=51.54969&longitude=-0.183526&signature=xwWovZ1r98SJhcuarJwavFNHV7M=",
+                    "staticMapImgUrlDesktopLarge": "https://media.rightmove.co.uk/map/_generate?width=761&height=347&zoomLevel=15&latitude=51.54969&longitude=-0.183526&signature=XREOrJA_Kn8cXzwpHtETpdTdyNE="
+                },
+                "listingHistory": { "listingUpdateReason": "Added today" },
+                "feesApply": null,
+                "broadband": {
+                    "disclaimer": "* This is the average speed from the provider with the fastest broadband package available on <a rel=\"sponsored\" href=\"https://www.comparethemarket.com\" target=\"_blank\">comparethemarket.com</a> at this postcode. The average speed displayed is based on the download speeds of at least 50% of customers at peak time (8pm to 10pm). Fibre/cable services at the postcode are subject to availability and may differ between properties within a postcode. Speeds can be affected by a range of technical and environmental factors. The speed at the property may be lower than that listed above. You can check the estimated speed and confirm availability to a property prior to purchasing on the broadband provider's website. Providers may increase charges. The information is provided and maintained by <a href=\"https://www.stickee.co.uk/\" target=\"_blank\">Stickee Technology Limited</a>.",
+                    "broadbandCheckerUrl": "https://partnerships-broadband.comparethemarket.com/v1/broadband/rightmove/NW36BF?apikey=524754e13765dedb716b07b8ba008f01916c00d513067c87e13caadca83f0b3b"
+                },
+                "contactInfo": {
+                    "contactMethod": "EMAIL",
+                    "telephoneNumbers": {
+                        "localNumber": "020 3835 2803",
+                        "internationalNumber": null,
+                        "disclaimerText": null,
+                        "disclaimerTitle": null,
+                        "disclaimerDescription": null
+                    }
+                },
+                "lettings": null,
+                "infoReelItems": [
+                    {
+                        "title": "PROPERTY TYPE",
+                        "type": "PROPERTY_TYPE",
+                        "primaryText": "Flat",
+                        "secondaryText": "",
+                        "tooltipText": ""
+                    },
+                    {
+                        "title": "BEDROOMS",
+                        "type": "BEDROOMS",
+                        "primaryText": "1",
+                        "secondaryText": "",
+                        "tooltipText": ""
+                    },
+                    {
+                        "title": "BATHROOMS",
+                        "type": "BATHROOMS",
+                        "primaryText": "1",
+                        "secondaryText": "",
+                        "tooltipText": ""
+                    },
+                    {
+                        "title": "SIZE",
+                        "type": "SIZE",
+                        "primaryText": "523 sq ft",
+                        "secondaryText": "49 sq m",
+                        "tooltipText": ""
+                    }
+                ],
+                "mortgageCalculator": {
+                    "price": 120000,
+                    "propertyTypeAlias": "flats_apartments"
+                },
+                "tenure": {
+                    "tenureType": "LEASEHOLD",
+                    "yearsRemainingOnLease": 107,
+                    "message": null
+                },
+                "propertyUrls": {
+                    "similarPropertiesUrl": "/property-for-sale/NW3-6BF.html?radius=0.5&minPrice=100000&maxPrice=140000&minBedrooms=1",
+                    "nearbySoldPropertiesUrl": "/house-prices/nw3-6bf.html"
+                },
+                "soldPropertyType": "FLAT",
+                "propertySubType": "Flat",
+                "businessForSale": false,
+                "commercial": false,
+                "commercialUseClasses": [],
+                "affordableBuyingScheme": true,
+                "sharedOwnership": {
+                    "sharedOwnershipFlag": true,
+                    "ownershipPercentage": 30,
+                    "rentPrice": 681.85,
+                    "rentFrequency": "monthly"
+                },
+                "livingCosts": {
+                    "councilTaxExempt": false,
+                    "councilTaxIncluded": false,
+                    "annualGroundRent": 0,
+                    "groundRentReviewPeriodInYears": null,
+                    "groundRentPercentageIncrease": null,
+                    "annualServiceCharge": 4508,
+                    "councilTaxBand": "D",
+                    "domesticRates": null
+                },
+                "termsOfUse": "This Application Programming Interface (API) is for the use of Rightmove Group Limited only. No other individual or business may link to, or make use of, this API without the express written permission of Rightmove's Legal Team. Any unauthorised use of this API will constitute a breach of Rightmove's Terms of Use, available at https://www.rightmove.co.uk/this-site/terms-of-use.html, and Rightmove will enforce its rights to the fullest extent permitted by law.",
+                "features": {
+                    "electricity": [
+                        {
+                            "alias": "has_mains_electric",
+                            "displayText": "Mains supply"
+                        }
+                    ],
+                    "broadband": [],
+                    "water": [
+                        {
+                            "alias": "has_mains_water",
+                            "displayText": "Mains supply"
+                        }
+                    ],
+                    "sewerage": [
+                        {
+                            "alias": "has_mains_sewerage",
+                            "displayText": "Mains supply"
+                        }
+                    ],
+                    "heating": [
+                        { "alias": "gas_central", "displayText": "Gas central" }
+                    ],
+                    "accessibility": [
+                        { "alias": "lift_access", "displayText": "Lift access" }
+                    ],
+                    "parking": [
+                        { "alias": "no_parking", "displayText": "No parking" }
+                    ],
+                    "garden": [],
+                    "risks": {
+                        "floodedInLastFiveYears": null,
+                        "floodDefences": null,
+                        "floodSources": []
+                    },
+                    "obligations": {
+                        "listed": null,
+                        "restrictions": null,
+                        "requiredAccess": null,
+                        "rightsOfWay": null
+                    }
+                },
+                "entranceFloor": null,
+                "dfpAdInfo": {
+                    "channel": "RES_BUY",
+                    "targeting": [
+                        { "key": "SO", "value": ["TRUE"] },
+                        { "key": "R", "value": ["FALSE"] },
+                        { "key": "AUCP", "value": ["FALSE"] },
+                        { "key": "CCY", "value": ["GBP"] },
+                        { "key": "UTo_A", "value": ["NW"] },
+                        { "key": "UTo_C", "value": ["GB"] },
+                        { "key": "CT", "value": ["property-for-sale"] },
+                        { "key": "TT", "value": ["buy"] },
+                        { "key": "BD", "value": ["1"] },
+                        { "key": "PT", "value": ["flats_apartments"] },
+                        { "key": "PST", "value": ["flat"] },
+                        { "key": "RESALEPRICE", "value": ["120000"] },
+                        { "key": "B", "value": ["Band2"] },
+                        { "key": "B_ID", "value": ["75239"] },
+                        { "key": "C_ID", "value": ["Salter Rex"] },
+                        { "key": "FP", "value": ["Y"] },
+                        { "key": "EPC", "value": ["Y"] },
+                        { "key": "P_ID", "value": ["166629686"] },
+                        { "key": "OV", "value": ["N"] },
+                        { "key": "UTo_D", "value": ["NW3"] },
+                        { "key": "UTo_Inc", "value": ["6BF"] },
+                        {
+                            "key": "F",
+                            "value": [
+                                "parking",
+                                "accessibility",
+                                "electricity",
+                                "sewerage",
+                                "heating",
+                                "water"
+                            ]
+                        },
+                        { "key": "UTo_UKZ", "value": ["England"] }
+                    ]
+                },
+                "reviews": null,
+                "aiLocationInfo": null
+            },
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-05T12:44:01.251Z",
+            "seq": 3,
+            "data": [
+                {
+                    "op": "add",
+                    "path": ["locationCodes", 1],
+                    "val": "STATION^3512"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-05T12:44:02.396Z",
+            "seq": 4,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["encId"],
+                    "val": "oOPtrz9OCjk0kImaolYmzm4pscDe2NI="
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-05T13:04:25.655Z",
+            "seq": 5,
+            "data": [
+                {
+                    "op": "add",
+                    "path": ["locationCodes", 2],
+                    "val": "STATION^9848"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-05T13:04:26.698Z",
+            "seq": 6,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["encId"],
+                    "val": "GKxB__5QWJb7dVUZ6fyWMEbpHr8j2c0="
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-05T13:05:25.889Z",
+            "seq": 7,
+            "data": [
+                {
+                    "op": "add",
+                    "path": ["locationCodes", 3],
+                    "val": "STATION^9854"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-05T13:07:28.532Z",
+            "seq": 8,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["encId"],
+                    "val": "HJ0Ven9VZVjgMtTF5eMnRLRChGSiN_g="
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-05T14:17:56.547Z",
+            "seq": 9,
+            "data": [
+                {
+                    "op": "add",
+                    "path": ["locationCodes", 4],
+                    "val": "OUTCODE^1859"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-05T14:18:10.315Z",
+            "seq": 10,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["encId"],
+                    "val": "urj3Hq8aLoHf5EwHQr3Hee6Bll2R-4I="
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-06T03:08:20.012Z",
+            "seq": 11,
+            "data": [
+                {
+                    "op": "add",
+                    "path": ["locationCodes", 5],
+                    "val": "REGION^70359"
+                },
+                {
+                    "op": "update",
+                    "path": ["addedOrReduced"],
+                    "val": "Added yesterday"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-06T03:08:21.292Z",
+            "seq": 12,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["encId"],
+                    "val": "hvQaQIONSchHQTAnLH8Xg_GsQL8jUZc="
+                },
+                {
+                    "op": "update",
+                    "path": ["listingHistory", "listingUpdateReason"],
+                    "val": "Added yesterday"
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-06T05:46:20.271Z",
+            "seq": 13,
+            "data": [
+                {
+                    "op": "add",
+                    "path": ["locationCodes", 6],
+                    "val": "REGION^85236"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-06T05:46:22.003Z",
+            "seq": 14,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["encId"],
+                    "val": "Q8bqy6BPAnu7-KWVtw-3uPzRrt5da18="
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-07T00:53:30.784Z",
+            "seq": 15,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["addedOrReduced"],
+                    "val": "Added on 05/09/2025"
+                },
+                { "op": "update", "path": ["isRecent"], "val": false }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-07T00:53:33.236Z",
+            "seq": 16,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["encId"],
+                    "val": "hS1Hz-OPvH7gwqgJZoMR6K_2h1vS58c="
+                },
+                {
+                    "op": "update",
+                    "path": ["listingHistory", "listingUpdateReason"],
+                    "val": "Added on 05/09/2025"
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-19T20:22:25.673Z",
+            "seq": 17,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["encId"],
+                    "val": "ZnpgKZi9BKfNk1079sMeqMPgYfAFfuw="
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-09-21T13:31:48.155Z",
+            "seq": 18,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["encId"],
+                    "val": "xxn2xK36EKoNCjbp0pKbiJcAo_z89SM="
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-10-21T02:12:19.423Z",
+            "seq": 19,
+            "data": [
+                { "op": "update", "path": ["numberOfImages"], "val": 10 },
+                {
+                    "op": "update",
+                    "path": ["propertyImages", "images", 0, "url"],
+                    "val": "76k/75239/166629686/75239_34140238_IMG_10_0001.jpeg"
+                },
+                {
+                    "op": "update",
+                    "path": ["propertyImages", "images", 0, "caption"],
+                    "val": "external.jpg"
+                },
+                {
+                    "op": "update",
+                    "path": ["propertyImages", "images", 0, "srcUrl"],
+                    "val": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_10_0001_max_476x317.jpeg"
+                },
+                { "op": "delete", "path": ["propertyImages", "images", 10] },
+                {
+                    "op": "update",
+                    "path": ["propertyImages", "mainImageSrc"],
+                    "val": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_10_0001_max_476x317.jpeg"
+                },
+                {
+                    "op": "update",
+                    "path": ["propertyImages", "mainMapImageSrc"],
+                    "val": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_10_0001_max_296x197.jpeg"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-10-21T07:40:03.532Z",
+            "seq": 20,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["encId"],
+                    "val": "6C5HQJVs2-fpOXkOAgNSZy_q9bnTNwc="
+                },
+                {
+                    "op": "update",
+                    "path": ["images", 0, "url"],
+                    "val": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_IMG_10_0001.jpeg"
+                },
+                {
+                    "op": "update",
+                    "path": ["images", 0, "caption"],
+                    "val": "external.jpg"
+                },
+                {
+                    "op": "update",
+                    "path": ["images", 0, "resizedImageUrls", "size135x100"],
+                    "val": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_10_0001_max_135x100.jpeg"
+                },
+                {
+                    "op": "update",
+                    "path": ["images", 0, "resizedImageUrls", "size476x317"],
+                    "val": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_10_0001_max_476x317.jpeg"
+                },
+                {
+                    "op": "update",
+                    "path": ["images", 0, "resizedImageUrls", "size656x437"],
+                    "val": "https://media.rightmove.co.uk/dir/76k/75239/166629686/75239_34140238_IMG_10_0001_max_656x437.jpeg"
+                },
+                { "op": "delete", "path": ["images", 10] },
+                {
+                    "op": "update",
+                    "path": ["industryAffiliations", 0, "name"],
+                    "val": "Ombudsman for Estate Agents and Lettings Estate Agents"
+                },
+                {
+                    "op": "update",
+                    "path": ["industryAffiliations", 0, "imagePath"],
+                    "val": "https://media.rightmove.co.uk/dir/customer/industry-affiliation/ombudsman-for-combined-estate-agent_max_135x100.png"
+                },
+                {
+                    "op": "update",
+                    "path": ["industryAffiliations", 1, "name"],
+                    "val": "National Association of Estate Agents"
+                },
+                {
+                    "op": "update",
+                    "path": ["industryAffiliations", 1, "imagePath"],
+                    "val": "https://media.rightmove.co.uk/dir/customer/industry-affiliation/national-association-of-estate-agents_max_135x100.png"
+                },
+                {
+                    "op": "update",
+                    "path": ["brochures", 0, "url"],
+                    "val": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_DOC_02_0001.pdf"
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-11-01T14:09:00.746Z",
+            "seq": 21,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["listingUpdate", "listingUpdateReason"],
+                    "val": "price_reduced"
+                },
+                {
+                    "op": "update",
+                    "path": ["listingUpdate", "listingUpdateDate"],
+                    "val": "2025-11-01T13:57:03Z"
+                },
+                { "op": "update", "path": ["price", "amount"], "val": 100000 },
+                {
+                    "op": "update",
+                    "path": ["price", "displayPrices", 0, "displayPrice"],
+                    "val": "£100,000"
+                },
+                {
+                    "op": "update",
+                    "path": ["addedOrReduced"],
+                    "val": "Reduced today"
+                },
+                { "op": "update", "path": ["isRecent"], "val": true }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-11-01T14:09:01.941Z",
+            "seq": 22,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["encId"],
+                    "val": "t1MazDsYawQuBCtnQwJs70QCQL_JRzk="
+                },
+                {
+                    "op": "update",
+                    "path": ["text", "shareDescription"],
+                    "val": "1 bedroom flat for sale in Lithos Road, London, NW3 for £100,000. Marketed by Salter Rex, Hampstead"
+                },
+                {
+                    "op": "update",
+                    "path": ["prices", "primaryPrice"],
+                    "val": "£100,000"
+                },
+                {
+                    "op": "update",
+                    "path": ["prices", "pricePerSqFt"],
+                    "val": "£191.20 per sq ft"
+                },
+                {
+                    "op": "update",
+                    "path": ["brochures", 0, "url"],
+                    "val": "https://media.rightmove.co.uk/76k/75239/166629686/75239_34140238_DOC_02_0002.pdf"
+                },
+                {
+                    "op": "update",
+                    "path": ["listingHistory", "listingUpdateReason"],
+                    "val": "Reduced today"
+                },
+                {
+                    "op": "update",
+                    "path": ["mortgageCalculator", "price"],
+                    "val": 100000
+                },
+                {
+                    "op": "update",
+                    "path": ["propertyUrls", "similarPropertiesUrl"],
+                    "val": "/property-for-sale/NW3-6BF.html?radius=0.5&minPrice=90000&maxPrice=110000&minBedrooms=1"
+                },
+                {
+                    "op": "update",
+                    "path": ["dfpAdInfo", "targeting", 11, "value", 0],
+                    "val": "100000"
+                },
+                {
+                    "op": "update",
+                    "path": ["dfpAdInfo", "targeting", 12, "value", 0],
+                    "val": "Band1"
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-11-02T02:46:33.276Z",
+            "seq": 23,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["addedOrReduced"],
+                    "val": "Reduced yesterday"
+                }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-11-02T02:46:48.979Z",
+            "seq": 24,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["encId"],
+                    "val": "RVIEwth9nRtQRVdkTTCk3ncUQg9wVoM="
+                },
+                {
+                    "op": "update",
+                    "path": ["listingHistory", "listingUpdateReason"],
+                    "val": "Reduced yesterday"
+                }
+            ],
+            "key": "details"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-11-03T02:00:38.924Z",
+            "seq": 25,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["addedOrReduced"],
+                    "val": "Reduced on 01/11/2025"
+                },
+                { "op": "update", "path": ["isRecent"], "val": false }
+            ],
+            "key": "api"
+        },
+        {
+            "topic": "rm_listing.166629686",
+            "timestamp": "2025-11-03T02:00:39.913Z",
+            "seq": 26,
+            "data": [
+                {
+                    "op": "update",
+                    "path": ["encId"],
+                    "val": "Vi99YIdVmzIM1CklmSw8zsrStvRB7ms="
+                },
+                {
+                    "op": "update",
+                    "path": ["listingHistory", "listingUpdateReason"],
+                    "val": "Reduced on 01/11/2025"
+                }
+            ],
+            "key": "details"
+        }
+    ],
+    "root": {
+        "topic": "rm_listing.166629686",
+        "timestamp": "2025-09-05T12:42:47.302Z",
+        "seq": 1,
+        "data": {
+            "locationCodes": ["STATION^3509"],
+            "id": 166629686,
+            "bedrooms": 1,
+            "bathrooms": 1,
+            "numberOfImages": 11,
+            "numberOfFloorplans": 1,
+            "numberOfVirtualTours": 0,
+            "summary": "A charming one bedroom flat set within a modern purpose-built development with lift access, moments from the excellent amenities and transport links of Finchley Road. Offered with a 30% share*, the property offers ample living space with modern fixtures and fittings, stylish décor and wood floor...",
+            "displayAddress": "Lithos Road, London, NW3",
+            "countryCode": "GB",
+            "location": { "latitude": 51.54969, "longitude": -0.183526 },
+            "propertyImages": {
+                "images": [
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_00_0000.jpeg",
+                        "caption": "52843_hi-res(12).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_00_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_01_0000.jpeg",
+                        "caption": "52843_hi-res(5).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_01_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_02_0000.jpeg",
+                        "caption": "52843_hi-res(4).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_02_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_03_0000.jpeg",
+                        "caption": "52843_hi-res(6).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_03_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_04_0000.jpeg",
+                        "caption": "52843_hi-res(9).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_04_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_05_0000.jpeg",
+                        "caption": "52843_hi-res(11).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_05_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_06_0000.jpeg",
+                        "caption": "52843_hi-res(2).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_06_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_07_0000.jpeg",
+                        "caption": "52843_hi-res(7).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_07_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_08_0000.jpeg",
+                        "caption": "52843_hi-res(10).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_08_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_09_0000.jpeg",
+                        "caption": "52843_hi-res(8).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_09_0000_max_476x317.jpeg"
+                    },
+                    {
+                        "url": "76k/75239/166629686/75239_34140238_IMG_10_0000.jpeg",
+                        "caption": "52843_hi-res(01).jpg",
+                        "srcUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_10_0000_max_476x317.jpeg"
+                    }
+                ],
+                "mainImageSrc": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_00_0000_max_476x317.jpeg",
+                "mainMapImageSrc": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/76k/75239/166629686/75239_34140238_IMG_00_0000_max_296x197.jpeg"
+            },
+            "propertySubType": "Flat",
+            "listingUpdate": {
+                "listingUpdateReason": "new",
+                "listingUpdateDate": "2025-09-05T12:21:05Z"
+            },
+            "price": {
+                "amount": 120000,
+                "frequency": "not specified",
+                "currencyCode": "GBP",
+                "displayPrices": [
+                    {
+                        "displayPrice": "£120,000",
+                        "displayPriceQualifier": "Shared ownership"
+                    }
+                ]
+            },
+            "customer": {
+                "branchId": 75239,
+                "brandPlusLogoURI": "/company/clogo_29609_0002.jpeg",
+                "contactTelephone": "020 3835 2803",
+                "branchDisplayName": "Salter Rex, Hampstead",
+                "branchName": "Hampstead",
+                "brandTradingName": "Salter Rex",
+                "branchLandingPageUrl": "/estate-agents/agent/Salter-Rex/Hampstead-75239.html",
+                "development": false,
+                "showReducedProperties": true,
+                "commercial": false,
+                "showOnMap": true,
+                "enhancedListing": false,
+                "developmentContent": null,
+                "buildToRent": false,
+                "buildToRentBenefits": [],
+                "brandPlusLogoUrl": "https://media.rightmove.co.uk:443/company/clogo_29609_0002.jpeg"
+            },
+            "transactionType": "buy",
+            "productLabel": {
+                "productLabelText": null,
+                "spotlightLabel": false
+            },
+            "commercial": false,
+            "development": false,
+            "residential": true,
+            "students": false,
+            "auction": false,
+            "feesApply": false,
+            "feesApplyText": null,
+            "displaySize": "523 sq. ft.",
+            "propertyUrl": "/properties/166629686#/?channel=RES_BUY",
+            "channel": "BUY",
+            "firstVisibleDate": "2025-09-05T12:15:31Z",
+            "keywords": [],
+            "keywordMatchType": "no_keyword",
+            "onlineViewingsAvailable": false,
+            "lozengeModel": { "matchingLozenges": [] },
+            "displayStatus": "",
+            "enquiredTimestamp": null,
+            "enquiryAddedTimestamp": null,
+            "enquiryCalledTimestamp": null,
+            "addedOrReduced": "Added today",
+            "formattedBranchName": " by Salter Rex, Hampstead",
+            "propertyTypeFullDescription": "1 bedroom flat for sale",
+            "isRecent": true
+        },
+        "key": "api"
+    },
+    "tail": {
+        "topic": "rm_listing.166629686",
+        "timestamp": "2025-11-03T02:00:39.913Z",
+        "seq": 26,
+        "data": [
+            {
+                "op": "update",
+                "path": ["encId"],
+                "val": "Vi99YIdVmzIM1CklmSw8zsrStvRB7ms="
+            },
+            {
+                "op": "update",
+                "path": ["listingHistory", "listingUpdateReason"],
+                "val": "Reduced on 01/11/2025"
+            }
+        ],
+        "key": "details"
+    },
+    "lastSeq": 26
+}

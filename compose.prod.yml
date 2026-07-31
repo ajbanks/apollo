@@ -1,0 +1,166 @@
+volumes:
+    postgres_data:
+        driver: local
+    clickhouse_data:
+        driver: local
+
+networks:
+    default:
+        name: pimasi-intranet
+        external: true
+
+x-log-config: &log-config
+    options:
+        max-size: "100m"
+
+x-server-config: &server-config
+    DOMAIN_URL: https://apollo.pimasi.com
+    ENABLE_DOCS: 1
+    DATABASE_URL: postgresql://root:Nitc9L60lhxNhFr4IZbP@apollo-postgres:5432/apollo
+    CLICKHOUSE_URL: http://root:78GJ4OtTPMO2bY6eLtI2@apollo-clickhouse:8123/default
+    REDIS_URL: redis://apollo-redis:6379
+    PROXY_HOST: apollo-proxy
+    PROXY_PORT: 9150
+    RM_API_WORKERS: 10
+    JWT_SECRET: DFBwKycKvWR97MdY3g8F2Z92sxddDgd8vGSW
+    S3_CREDENTIAL_KEY: ${S3_CREDENTIAL_KEY}
+    S3_CREDENTIAL_SECRET: ${S3_CREDENTIAL_SECRET}
+    LOG_LEVEL: INFO
+    IDEAL_POSTCODES_API_KEY: ${IDEAL_POSTCODES_API_KEY}
+    HMLR_PASSWORD: ${HMLR_PASSWORD}
+    HMLR_USERNAME: ${HMLR_USERNAME}
+    OPENAI_API_KEY: ${OPENAI_API_KEY}
+    GOOGLE_MAPS_API_KEY: ${GOOGLE_MAPS_API_KEY}
+    MAPBOX_API_KEY: ${MAPBOX_API_KEY}
+
+x-postgres-config: &postgres-config
+    POSTGRES_PASSWORD: Nitc9L60lhxNhFr4IZbP
+    POSTGRES_USER: root
+    POSTGRES_DB: apollo
+
+x-clickhouse-config: &clickhouse-config
+    CLICKHOUSE_DB: default
+    CLICKHOUSE_USER: root
+    CLICKHOUSE_PASSWORD: 78GJ4OtTPMO2bY6eLtI2
+    CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
+
+services:
+    apollo-postgres:
+        image: ${DOCKER_REPO}/apollo-postgres
+        container_name: apollo-postgres
+        command: -c config_file=/etc/postgresql.conf
+        security_opt:
+            - seccomp=unconfined
+        cap_add:
+            - SYS_NICE
+            - IPC_LOCK
+        ulimits:
+            memlock:
+                soft: -1
+                hard: -1
+            nofile:
+                soft: 65536
+                hard: 65536
+        restart: always
+        shm_size: 1gb
+        ports:
+            - 54111:5432
+        environment:
+            <<: *postgres-config
+        logging:
+            <<: *log-config
+        volumes:
+            - postgres_data:/var/lib/postgresql/data
+            - /data/pg_dumps:/dumps
+
+    apollo-redis:
+        image: redis
+        container_name: apollo-redis
+        restart: always
+        shm_size: 1gb
+        ports:
+            - 54222:6379
+        logging:
+            <<: *log-config
+
+    apollo-proxy:
+        image: ${DOCKER_REPO}/apollo-proxy
+        restart: always
+        shm_size: 1gb
+        deploy:
+            replicas: 2
+        logging:
+            <<: *log-config
+
+    apollo-clickhouse:
+        image: clickhouse/clickhouse-server:26.1
+        restart: always
+        container_name: apollo-clickhouse
+        mem_limit: 64g
+        mem_reservation: 1g
+        ports:
+            - 54333:8123
+            - 54334:9000
+        environment:
+            <<: *clickhouse-config
+        ulimits:
+            nproc: 65535
+            nofile:
+                soft: 262144
+                hard: 262144
+        volumes:
+            - clickhouse_data:/var/lib/clickhouse/
+            - /data/clickhouse/user_files/:/var/lib/clickhouse/user_files/
+
+    apollo-server:
+        image: ${DOCKER_REPO}/apollo-server
+        command: sh -c "wait-for-it apollo-postgres:5432 -- npm run knex:migrate && npm run api:prod"
+        container_name: apollo-server
+        restart: always
+        environment:
+            <<: *server-config
+        depends_on:
+            - apollo-redis
+            - apollo-postgres
+            - apollo-proxy
+            - apollo-clickhouse
+        volumes:
+            - /data/apollo_server_dumps:/app/.dumps
+        logging:
+            <<: *log-config
+
+    apollo-workers:
+        image: ${DOCKER_REPO}/apollo-server
+        command: sh -c "wait-for-it server:5000 -- npm run workers:prod"
+        container_name: apollo-workers
+        restart: always
+        environment:
+            <<: *server-config
+        depends_on:
+            - apollo-proxy
+        logging:
+            <<: *log-config
+
+    apollo-cron:
+        image: ${DOCKER_REPO}/apollo-server
+        command: sh -c "wait-for-it server:5000 -- npm run cron:prod"
+        container_name: apollo-cron
+        restart: always
+        environment:
+            <<: *server-config
+        depends_on:
+            - apollo-server
+        logging:
+            <<: *log-config
+
+    apollo-rm-crawler:
+        image: ${DOCKER_REPO}/apollo-server
+        command: sh -c "wait-for-it proxy:9150 -- npm run rm-crawler:prod"
+        container_name: apollo-rm-crawler
+        restart: always
+        environment:
+            <<: *server-config
+        depends_on:
+            - apollo-server
+        logging:
+            <<: *log-config

@@ -1,0 +1,217 @@
+x-server-config: &server-config
+    NODE_TLS_REJECT_UNAUTHORIZED: 0
+    PROXY_HOST: apollo-proxy
+    DOMAIN_URL: http://localhost:5000
+    PROXY_PORT: 9150
+    ENABLE_DOCS: 1
+    DEBUG: 1
+    RM_API_WORKERS: 1
+    SLACK_API_KEY: ${SLACK_API_KEY}
+    JULIA_SERVICE_URL: http://julia:39821
+    JWT_SECRET: DFBwKycKvWR97MdY3g8F2Z92sxddDgd8vGSW
+    IDEAL_POSTCODES_API_KEY: ak_m62pi61sypGoIXQuFkkwyvKACSOrT
+    CLICKHOUSE_URL: http://admin:password@apollo-clickhouse:8123/default
+    DATABASE_URL: postgresql://admin:secret@apollo-postgres:5432/postgres
+    REDIS_URL: ${REDIS_URL:-redis://apollo-redis:6379}
+    HMLR_PASSWORD: ${HMLR_PASSWORD:-landreg001}
+    HMLR_USERNAME: ${HMLR_USERNAME:-BGUser001}
+    OPENAI_API_KEY: ${OPENAI_API_KEY}
+    GOOGLE_MAPS_API_KEY: ${GOOGLE_MAPS_API_KEY}
+    MAPBOX_API_KEY: ${MAPBOX_API_KEY}
+    SERPAPI_API_KEY: ${SERPAPI_API_KEY}
+
+services:
+    apollo-postgres:
+        image: local/apollo-postgres
+        build:
+            context: .
+            dockerfile: Dockerfile.postgres
+        ports:
+            - 5432:5432
+        container_name: apollo-postgres
+        working_dir: /scripts
+        environment:
+            POSTGRES_PASSWORD: secret
+            POSTGRES_USER: admin
+            POSTGRES_DB: postgres
+            POSTGRES_PORT: 5432
+        volumes:
+            - ${GITROOT:-.}/postgres/scripts:/scripts
+            - ${GITROOT:-.}/postgres/dumps:/dumps
+            - ${GITROOT:-.}/postgres/postgresql.conf:/etc/postgresql.conf
+            - ${GITROOT:-.}/postgres/dumps/seed.sql:/docker-entrypoint-initdb.d/${SEED_FILE:-seed}.sql
+        healthcheck:
+            test: ["CMD-SHELL", "pg_isready -U admin -d postgres"]
+            interval: 10s
+            timeout: 5s
+            retries: 5
+        profiles:
+            - all
+            - server
+            - crawler
+            - external
+
+    apollo-proxy:
+        image: local/apollo-proxy
+        container_name: apollo-proxy
+        build:
+            context: .
+            dockerfile: Dockerfile.proxy
+        profiles:
+            - all
+            - server
+            - crawler
+
+    apollo-redis:
+        image: redis
+        container_name: apollo-redis
+        healthcheck:
+            test: ["CMD", "redis-cli", "ping"]
+            interval: 10s
+            timeout: 5s
+            retries: 5
+        profiles:
+            - all
+            - server
+            - crawler
+            - external
+
+    apollo-clickhouse:
+        image: clickhouse/clickhouse-server
+        container_name: apollo-clickhouse
+        mem_limit: 48g
+        ports:
+            - 8123:8123
+            - 9000:9000
+        environment:
+            CLICKHOUSE_USER: admin
+            CLICKHOUSE_PASSWORD: password
+            CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
+            CLICKHOUSE_DB: default
+        working_dir: /scripts
+        volumes:
+            - ./clickhouse/.dumps:/user_files
+            - ./clickhouse/scripts:/scripts
+        ulimits:
+            nproc: 65535
+            nofile:
+                soft: 262144
+                hard: 262144
+        healthcheck:
+            test:
+                ["CMD", "wget", "--spider", "-q", "http://localhost:8123/ping"]
+            interval: 10s
+            timeout: 5s
+            retries: 5
+        profiles:
+            - all
+            - server
+            - crawler
+
+    apollo-server:
+        image: local/apollo-server
+        container_name: apollo-server
+        build:
+            context: .
+            dockerfile: Dockerfile.server
+            target: ${TARGET:-src}
+        command: sh -c "npm run knex:migrate && npm run api:dev"
+        develop:
+            watch:
+                - action: rebuild
+                  path: ./server/package.json
+                - action: sync
+                  path: ./server
+                  target: /app
+                  ignore:
+                      - ./server/node_modules
+                      - ./server/dist
+        ports:
+            - 5000:5000
+        depends_on:
+            apollo-postgres:
+                condition: service_healthy
+            apollo-redis:
+                condition: service_healthy
+            # apollo-proxy:
+            #     condition: service_healthy
+            apollo-clickhouse:
+                condition: service_healthy
+        volumes:
+            - .dumps:/app/.dumps
+        environment:
+            <<: *server-config
+        # healthcheck:
+        #     test:
+        #         ["CMD", "wget", "--spider", "-q", "http://localhost:5000/ping"]
+        #     interval: 10s
+        #     timeout: 5s
+        #     retries: 5
+        #     start_period: 30s
+        profiles:
+            - all
+            - server
+            - crawler
+
+    apollo-workers:
+        image: local/apollo-server
+        container_name: apollo-workers
+        command: sh -c "npm run workers:dev"
+        ports:
+            - 4100:3000
+        depends_on:
+            # apollo-server:
+            #     condition: service_healthy
+            - apollo-server
+        develop:
+            watch:
+                - action: sync
+                  path: ./server
+                  target: /app
+                  ignore:
+                      - ./src/node_modules
+                      - ./src/dist
+        environment:
+            <<: *server-config
+        profiles:
+            - all
+            - server
+            - crawler
+
+    apollo-rm-crawler:
+        image: local/apollo-server
+        container_name: apollo-rm-crawler
+        command: sh -c "npm run rm-crawler:dev"
+        depends_on:
+            # apollo-server:
+            #     condition: service_healthy
+            - apollo-server
+        environment:
+            <<: *server-config
+        develop:
+            watch:
+                - action: sync
+                  path: ./server
+                  target: /app
+                  ignore:
+                      - ./src/node_modules
+                      - ./src/dist
+        profiles:
+            - all
+            - crawler
+
+    # julia:
+    #     image: local/apollo-julia
+    #     container_name: apollo-julia
+    #     build:
+    #         context: .
+    #         dockerfile: Dockerfile.julia
+    #     command: julia --project=. ./api.jl
+    #     ports:
+    #         - 39821:39821
+    #     environment:
+    #         <<: *julia-config
+    #     profiles:
+    #         - all
+    #         - server
+    #         - crawler

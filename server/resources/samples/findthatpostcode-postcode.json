@@ -1,0 +1,4529 @@
+{
+    "data": {
+        "attributes": {
+            "bua11": "E34000815",
+            "bua11_name": "Epping BUA",
+            "bua22": "E63004569",
+            "bua22_name": "Epping",
+            "buasd11": "E35999999",
+            "calncv": "E56000023",
+            "calncv_name": "East of England - South",
+            "ccg": "E38000197",
+            "ccg_name": "NHS Hertfordshire and West Essex ICB - 07H",
+            "ced": "E58000430",
+            "ced_name": "Epping and Theydon Bois ED",
+            "ctry": "E92000001",
+            "ctry_name": "England",
+            "cty": "E10000012",
+            "cty_name": "Essex",
+            "dointr": "1980-01-01",
+            "doterm": null,
+            "eer": "E15000006",
+            "eer_name": "Eastern",
+            "hash": "2e0fa7962923ff570c57c3b884004882",
+            "hlthau": "E18000006",
+            "hlthau_name": "East of England",
+            "icb": "E54000025",
+            "icb_name": "NHS Hertfordshire and West Essex Integrated Care Board",
+            "imd": 17548,
+            "itl": "E07000072",
+            "itl_name": "Epping Forest",
+            "lat": 51.690405,
+            "laua": "E07000072",
+            "laua_name": "Epping Forest",
+            "lep1": "E37000056",
+            "lep1_name": "South East",
+            "lep2": null,
+            "location": {
+                "lat": 51.690405,
+                "lon": 0.09673
+            },
+            "long": 0.09673,
+            "lsoa11": "E01021758",
+            "lsoa11_name": "Epping Forest 006C",
+            "lsoa21": "E01021758",
+            "lsoa21_name": "Epping Forest 006C",
+            "msoa11": "E02004532",
+            "msoa11_name": "Epping South",
+            "msoa21": "E02004532",
+            "msoa21_name": "Epping South",
+            "nhser": "E40000007",
+            "nhser_name": "East of England",
+            "oa11": "E00110513",
+            "oa11_name": "",
+            "oa21": "E00110513",
+            "oa21_name": "",
+            "oac11": {
+                "code": "5B2",
+                "group": "Ageing urban living",
+                "subgroup": "Communal retirement",
+                "supergroup": "Urbanites"
+            },
+            "oseast1m": 545026,
+            "osgrdind": 1,
+            "osnrth1m": 201153,
+            "park": "E65000001",
+            "park_name": "England Non-National Park Area",
+            "pcd": "CM164EA",
+            "pcd2": "CM16 4EA",
+            "pcds": "CM16 4EA",
+            "pcon": "E14000693",
+            "pcon_name": "Epping Forest",
+            "pct": "E16000128",
+            "pct_name": "West Essex",
+            "pfa": "E23000028",
+            "pfa_name": "Essex",
+            "rgn": "E12000006",
+            "rgn_name": "East of England",
+            "ru11ind": {
+                "code": "C1",
+                "description": "Urban city and town"
+            },
+            "sicbl": "E38000197",
+            "sicbl_name": "NHS Hertfordshire and West Essex ICB - 07H",
+            "stp": "E54000025",
+            "stp_name": "NHS Hertfordshire and West Essex Integrated Care Board",
+            "teclec": "E24000006",
+            "teclec_name": "Essex",
+            "ttwa": "E30000234",
+            "ttwa_name": "London",
+            "usertype": 0,
+            "ward": "E05004153",
+            "ward_name": "Epping Hemnall",
+            "wz11": "E33026701",
+            "wz11_name": ""
+        },
+        "id": "CM16 4EA",
+        "links": {
+            "html": "postcodes/CM16+4EA.html",
+            "self": "postcodes/CM16+4EA"
+        },
+        "relationships": {
+            "areas": {
+                "data": [
+                    {
+                        "id": "E00110513",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E10000012",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E58000430",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E07000072",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E05004153",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E18000006",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E40000007",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E92000001",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E12000006",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E14000693",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E15000006",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E24000006",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E30000234",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E16000128",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E07000072",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E65000001",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E01021758",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E02004532",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E33026701",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E38000197",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E34000815",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E37000056",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E23000028",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E56000023",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E54000025",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E01021758",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E00110513",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E02004532",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E54000025",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E38000197",
+                        "type": "areas"
+                    },
+                    {
+                        "id": "E63004569",
+                        "type": "areas"
+                    }
+                ],
+                "links": {
+                    "related": "postcodes/CM16+4EA/areas",
+                    "self": "postcodes/CM16+4EA/relationships/areas"
+                }
+            },
+            "nearest_places": {
+                "data": [
+                    {
+                        "id": "IPN0037364",
+                        "type": "places"
+                    },
+                    {
+                        "id": "IPN0008008",
+                        "type": "places"
+                    },
+                    {
+                        "id": "IPN0095636",
+                        "type": "places"
+                    },
+                    {
+                        "id": "IPN0070472",
+                        "type": "places"
+                    },
+                    {
+                        "id": "IPN0066422",
+                        "type": "places"
+                    },
+                    {
+                        "id": "IPN0070467",
+                        "type": "places"
+                    },
+                    {
+                        "id": "IPN0041404",
+                        "type": "places"
+                    },
+                    {
+                        "id": "IPN0025425",
+                        "type": "places"
+                    },
+                    {
+                        "id": "IPN0017071",
+                        "type": "places"
+                    },
+                    {
+                        "id": "IPN0017161",
+                        "type": "places"
+                    }
+                ],
+                "links": {
+                    "related": "postcodes/CM16+4EA/nearest_places",
+                    "self": "postcodes/CM16+4EA/relationships/nearest_places"
+                }
+            }
+        },
+        "type": "postcodes"
+    },
+    "included": [
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": [],
+                "areachect": 43.05,
+                "areaehect": 43.05,
+                "areaihect": 0,
+                "arealhect": 43.05,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E00110513",
+                "date_end": null,
+                "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+                "entity": "E00",
+                "equivalents": {
+                    "ons": "22UHGP0006"
+                },
+                "name": "",
+                "name_welsh": null,
+                "owner": "ONS",
+                "parent": "E01021758",
+                "predecessor": ["22UHGP0006"],
+                "sort_order": "E00110513",
+                "statutory_instrument_id": "1111/1001",
+                "statutory_instrument_title": "GSS re-coding strategy",
+                "successor": []
+            },
+            "id": "E00110513",
+            "links": {
+                "html": "areas/E00110513.html",
+                "self": "areas/E00110513"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "oa21",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E00110513/areatype",
+                        "self": "areas/E00110513/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E00110513/children",
+                        "self": "areas/E00110513/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E00110513/example_postcodes",
+                        "self": "areas/E00110513/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E01021758",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E00110513/parent",
+                        "self": "areas/E00110513/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "errors": [
+                                {
+                                    "detail": "resource could not be found",
+                                    "status": "404",
+                                    "title": "resource not found"
+                                }
+                            ]
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E00110513/predecessor",
+                        "self": "areas/E00110513/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E00110513/successor",
+                        "self": "areas/E00110513/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["Essex"],
+                "areachect": 346614.93,
+                "areaehect": 369673.18,
+                "areaihect": 757.07,
+                "arealhect": 345857.86,
+                "child_count": 82,
+                "child_counts": {
+                    "ced": 70,
+                    "laua": 12
+                },
+                "code": "E10000012",
+                "date_end": null,
+                "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+                "entity": "E10",
+                "equivalents": {
+                    "mhclg": "Z1585",
+                    "nhs": "620",
+                    "ons": "22"
+                },
+                "name": "Essex",
+                "name_welsh": null,
+                "owner": "DLUHC",
+                "parent": "E12000006",
+                "predecessor": ["22"],
+                "sort_order": "E10000012",
+                "statutory_instrument_id": "1111/1001",
+                "statutory_instrument_title": "GSS re-coding strategy",
+                "successor": []
+            },
+            "id": "E10000012",
+            "links": {
+                "html": "areas/E10000012.html",
+                "self": "areas/E10000012"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "cty",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E10000012/areatype",
+                        "self": "areas/E10000012/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E10000012/children",
+                        "self": "areas/E10000012/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E10000012/example_postcodes",
+                        "self": "areas/E10000012/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E12000006",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E10000012/parent",
+                        "self": "areas/E10000012/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "errors": [
+                                {
+                                    "detail": "resource could not be found",
+                                    "status": "404",
+                                    "title": "resource not found"
+                                }
+                            ]
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E10000012/predecessor",
+                        "self": "areas/E10000012/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E10000012/successor",
+                        "self": "areas/E10000012/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["Epping and Theydon Bois ED"],
+                "areachect": null,
+                "areaehect": null,
+                "areaihect": null,
+                "arealhect": null,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E58000430",
+                "date_end": null,
+                "date_start": "Thu, 10 Jun 2004 00:00:00 GMT",
+                "entity": "E58",
+                "equivalents": {},
+                "name": "Epping and Theydon Bois ED",
+                "name_welsh": null,
+                "owner": "DLUHC",
+                "parent": "E10000012",
+                "predecessor": [],
+                "sort_order": "E58000430",
+                "statutory_instrument_id": "2813/2004",
+                "statutory_instrument_title": "The County of Essex (Electoral Changes) Order 2004",
+                "successor": []
+            },
+            "id": "E58000430",
+            "links": {
+                "html": "areas/E58000430.html",
+                "self": "areas/E58000430"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "ced",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E58000430/areatype",
+                        "self": "areas/E58000430/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E58000430/children",
+                        "self": "areas/E58000430/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E58000430/example_postcodes",
+                        "self": "areas/E58000430/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E10000012",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E58000430/parent",
+                        "self": "areas/E58000430/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E58000430/predecessor",
+                        "self": "areas/E58000430/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E58000430/successor",
+                        "self": "areas/E58000430/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["Epping Forest"],
+                "areachect": 33898.42,
+                "areaehect": 33898.42,
+                "areaihect": 0,
+                "arealhect": 33898.42,
+                "child_count": 82,
+                "child_counts": {
+                    "msoa21": 17,
+                    "par": 31,
+                    "ward": 34
+                },
+                "code": "E07000072",
+                "date_end": null,
+                "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+                "entity": "E07",
+                "equivalents": {
+                    "mhclg": "J1535",
+                    "nhs": "185",
+                    "ons": "22UH"
+                },
+                "name": "Epping Forest",
+                "name_welsh": null,
+                "owner": "DLUHC",
+                "parent": "E10000012",
+                "predecessor": ["22UH"],
+                "sort_order": "E07000072",
+                "statutory_instrument_id": "1111/1001",
+                "statutory_instrument_title": "GSS re-coding strategy",
+                "successor": []
+            },
+            "id": "E07000072",
+            "links": {
+                "html": "areas/E07000072.html",
+                "self": "areas/E07000072"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "laua",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E07000072/areatype",
+                        "self": "areas/E07000072/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E07000072/children",
+                        "self": "areas/E07000072/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E07000072/example_postcodes",
+                        "self": "areas/E07000072/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E10000012",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E07000072/parent",
+                        "self": "areas/E07000072/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "errors": [
+                                {
+                                    "detail": "resource could not be found",
+                                    "status": "404",
+                                    "title": "resource not found"
+                                }
+                            ]
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E07000072/predecessor",
+                        "self": "areas/E07000072/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E07000072/successor",
+                        "self": "areas/E07000072/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["Epping Hemnall"],
+                "areachect": 472.65,
+                "areaehect": 472.65,
+                "areaihect": 0,
+                "arealhect": 472.65,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E05004153",
+                "date_end": null,
+                "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+                "entity": "E05",
+                "equivalents": {
+                    "ons": "22UHGP"
+                },
+                "name": "Epping Hemnall",
+                "name_welsh": null,
+                "owner": "DLUHC",
+                "parent": "E07000072",
+                "predecessor": ["22UHGP"],
+                "sort_order": "E05004153",
+                "statutory_instrument_id": "1111/1001",
+                "statutory_instrument_title": "GSS re-coding strategy",
+                "successor": []
+            },
+            "id": "E05004153",
+            "links": {
+                "html": "areas/E05004153.html",
+                "self": "areas/E05004153"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "ward",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E05004153/areatype",
+                        "self": "areas/E05004153/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E05004153/children",
+                        "self": "areas/E05004153/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E05004153/example_postcodes",
+                        "self": "areas/E05004153/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E07000072",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E05004153/parent",
+                        "self": "areas/E05004153/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "errors": [
+                                {
+                                    "detail": "resource could not be found",
+                                    "status": "404",
+                                    "title": "resource not found"
+                                }
+                            ]
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E05004153/predecessor",
+                        "self": "areas/E05004153/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E05004153/successor",
+                        "self": "areas/E05004153/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": false,
+                "alternative_names": ["East of England"],
+                "areachect": null,
+                "areaehect": null,
+                "areaihect": null,
+                "arealhect": null,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E18000006",
+                "date_end": "Sun, 31 Mar 2013 00:00:00 GMT",
+                "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+                "entity": "E18",
+                "equivalents": {
+                    "ons": "Q35"
+                },
+                "name": "East of England",
+                "name_welsh": null,
+                "owner": "ODS",
+                "parent": "E19000001",
+                "predecessor": ["Q35"],
+                "sort_order": "E18000006",
+                "statutory_instrument_id": "1111/1001",
+                "statutory_instrument_title": "GSS re-coding strategy",
+                "successor": [""]
+            },
+            "id": "E18000006",
+            "links": {
+                "html": "areas/E18000006.html",
+                "self": "areas/E18000006"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "sha",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E18000006/areatype",
+                        "self": "areas/E18000006/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E18000006/children",
+                        "self": "areas/E18000006/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E18000006/example_postcodes",
+                        "self": "areas/E18000006/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E19000001",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E18000006/parent",
+                        "self": "areas/E18000006/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "errors": [
+                                {
+                                    "detail": "resource could not be found",
+                                    "status": "404",
+                                    "title": "resource not found"
+                                }
+                            ]
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E18000006/predecessor",
+                        "self": "areas/E18000006/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E18000006/successor",
+                        "self": "areas/E18000006/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["East of England"],
+                "areachect": 1978530.65,
+                "areaehect": 2022898.61,
+                "areaihect": 1682.91,
+                "arealhect": 1976847.74,
+                "child_count": 8,
+                "child_counts": {
+                    "nhsrlo": 1,
+                    "stp": 7
+                },
+                "code": "E40000007",
+                "date_end": null,
+                "date_start": "Mon, 01 Apr 2019 00:00:00 GMT",
+                "entity": "E40",
+                "equivalents": {
+                    "nhs": "Y61"
+                },
+                "name": "East of England",
+                "name_welsh": null,
+                "owner": "ODS",
+                "parent": null,
+                "predecessor": ["E40000002"],
+                "sort_order": "E40000007",
+                "statutory_instrument_id": null,
+                "statutory_instrument_title": null,
+                "successor": []
+            },
+            "id": "E40000007",
+            "links": {
+                "html": "areas/E40000007.html",
+                "self": "areas/E40000007"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "nhser",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E40000007/areatype",
+                        "self": "areas/E40000007/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E40000007/children",
+                        "self": "areas/E40000007/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E40000007/example_postcodes",
+                        "self": "areas/E40000007/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E40000007/parent",
+                        "self": "areas/E40000007/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "id": "E40000002",
+                            "type": "areas"
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E40000007/predecessor",
+                        "self": "areas/E40000007/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E40000007/successor",
+                        "self": "areas/E40000007/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["England", "Lloegr"],
+                "areachect": 13046317.35,
+                "areaehect": 13292909.69,
+                "areaihect": 15188.35,
+                "arealhect": 13031129,
+                "child_count": 10000,
+                "child_counts": {
+                    "bua11": 5360,
+                    "cmcty": 35,
+                    "cmlad": 55,
+                    "eer": 9,
+                    "regd": 155,
+                    "rgn": 9,
+                    "ttwa": 149
+                },
+                "code": "E92000001",
+                "date_end": null,
+                "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+                "entity": "E92",
+                "equivalents": {
+                    "mhclg": "W0015",
+                    "nhs": "E",
+                    "ons": "921"
+                },
+                "name": "England",
+                "name_welsh": "Lloegr",
+                "owner": "ONS",
+                "parent": null,
+                "predecessor": ["921"],
+                "sort_order": "E92000001",
+                "statutory_instrument_id": "1111/1001",
+                "statutory_instrument_title": "GSS re-coding strategy",
+                "successor": []
+            },
+            "id": "E92000001",
+            "links": {
+                "html": "areas/E92000001.html",
+                "self": "areas/E92000001"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "ctry",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E92000001/areatype",
+                        "self": "areas/E92000001/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E92000001/children",
+                        "self": "areas/E92000001/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E92000001/example_postcodes",
+                        "self": "areas/E92000001/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E92000001/parent",
+                        "self": "areas/E92000001/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "errors": [
+                                {
+                                    "detail": "resource could not be found",
+                                    "status": "404",
+                                    "title": "resource not found"
+                                }
+                            ]
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E92000001/predecessor",
+                        "self": "areas/E92000001/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E92000001/successor",
+                        "self": "areas/E92000001/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["East of England"],
+                "areachect": 1913254.85,
+                "areaehect": 1958443.83,
+                "areaihect": 1682.9,
+                "arealhect": 1911571.95,
+                "child_count": 58,
+                "child_counts": {
+                    "cty": 6,
+                    "laua": 6,
+                    "lpa": 46
+                },
+                "code": "E12000006",
+                "date_end": null,
+                "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+                "entity": "E12",
+                "equivalents": {
+                    "mhclg": "J0086",
+                    "nhs": "08",
+                    "ons": "G"
+                },
+                "name": "East of England",
+                "name_welsh": null,
+                "owner": "DLUHC",
+                "parent": "E92000001",
+                "predecessor": ["G"],
+                "sort_order": "E12000006",
+                "statutory_instrument_id": "1111/1001",
+                "statutory_instrument_title": "GSS re-coding strategy",
+                "successor": []
+            },
+            "id": "E12000006",
+            "links": {
+                "html": "areas/E12000006.html",
+                "self": "areas/E12000006"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "rgn",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E12000006/areatype",
+                        "self": "areas/E12000006/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E12000006/children",
+                        "self": "areas/E12000006/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E12000006/example_postcodes",
+                        "self": "areas/E12000006/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E92000001",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E12000006/parent",
+                        "self": "areas/E12000006/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "errors": [
+                                {
+                                    "detail": "resource could not be found",
+                                    "status": "404",
+                                    "title": "resource not found"
+                                }
+                            ]
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E12000006/predecessor",
+                        "self": "areas/E12000006/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E12000006/successor",
+                        "self": "areas/E12000006/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["Epping Forest"],
+                "areachect": 12624.56,
+                "areaehect": 12624.56,
+                "areaihect": 0,
+                "arealhect": 12624.56,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E14000693",
+                "date_end": null,
+                "date_start": "Thu, 06 May 2010 00:00:00 GMT",
+                "entity": "E14",
+                "equivalents": {
+                    "ons": "B65"
+                },
+                "name": "Epping Forest",
+                "name_welsh": null,
+                "owner": "LGBC",
+                "parent": "E15000006",
+                "predecessor": ["E14000163", "E14000198"],
+                "sort_order": "E14000693",
+                "statutory_instrument_id": "1681/2007",
+                "statutory_instrument_title": "The Parliamentary Constituencies (England) Order 2007",
+                "successor": []
+            },
+            "id": "E14000693",
+            "links": {
+                "html": "areas/E14000693.html",
+                "self": "areas/E14000693"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "pcon",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E14000693/areatype",
+                        "self": "areas/E14000693/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E14000693/children",
+                        "self": "areas/E14000693/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E14000693/example_postcodes",
+                        "self": "areas/E14000693/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E15000006",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E14000693/parent",
+                        "self": "areas/E14000693/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "id": "E14000163",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E14000198",
+                            "type": "areas"
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E14000693/predecessor",
+                        "self": "areas/E14000693/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E14000693/successor",
+                        "self": "areas/E14000693/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": false,
+                "alternative_names": ["Eastern"],
+                "areachect": 1913254.7,
+                "areaehect": 1958443.7,
+                "areaihect": 1682.91,
+                "arealhect": 1911571.79,
+                "child_count": 114,
+                "child_counts": {
+                    "pcon": 114
+                },
+                "code": "E15000006",
+                "date_end": "Thu, 31 Dec 2020 00:00:00 GMT",
+                "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+                "entity": "E15",
+                "equivalents": {
+                    "ons": "06"
+                },
+                "name": "Eastern",
+                "name_welsh": null,
+                "owner": "ONS",
+                "parent": "E92000001",
+                "predecessor": ["06"],
+                "sort_order": "E15000006",
+                "statutory_instrument_id": "1111/1001",
+                "statutory_instrument_title": "GSS re-coding strategy",
+                "successor": [""]
+            },
+            "id": "E15000006",
+            "links": {
+                "html": "areas/E15000006.html",
+                "self": "areas/E15000006"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "eer",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E15000006/areatype",
+                        "self": "areas/E15000006/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E15000006/children",
+                        "self": "areas/E15000006/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E15000006/example_postcodes",
+                        "self": "areas/E15000006/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E92000001",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E15000006/parent",
+                        "self": "areas/E15000006/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "errors": [
+                                {
+                                    "detail": "resource could not be found",
+                                    "status": "404",
+                                    "title": "resource not found"
+                                }
+                            ]
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E15000006/predecessor",
+                        "self": "areas/E15000006/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E15000006/successor",
+                        "self": "areas/E15000006/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": false,
+                "alternative_names": ["Essex"],
+                "areachect": null,
+                "areaehect": null,
+                "areaihect": null,
+                "arealhect": null,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E24000006",
+                "date_end": "Wed, 31 Mar 2010 00:00:00 GMT",
+                "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+                "entity": "E24",
+                "equivalents": {
+                    "ons": "EE110"
+                },
+                "name": "Essex",
+                "name_welsh": null,
+                "owner": "ONS",
+                "parent": null,
+                "predecessor": ["EE110"],
+                "sort_order": "E24000006",
+                "statutory_instrument_id": "1111/1001",
+                "statutory_instrument_title": "GSS re-coding strategy",
+                "successor": []
+            },
+            "id": "E24000006",
+            "links": {
+                "html": "areas/E24000006.html",
+                "self": "areas/E24000006"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "llsc",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E24000006/areatype",
+                        "self": "areas/E24000006/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E24000006/children",
+                        "self": "areas/E24000006/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E24000006/example_postcodes",
+                        "self": "areas/E24000006/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E24000006/parent",
+                        "self": "areas/E24000006/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "errors": [
+                                {
+                                    "detail": "resource could not be found",
+                                    "status": "404",
+                                    "title": "resource not found"
+                                }
+                            ]
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E24000006/predecessor",
+                        "self": "areas/E24000006/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E24000006/successor",
+                        "self": "areas/E24000006/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["London"],
+                "areachect": 217743.65,
+                "areaehect": 221132.44,
+                "areaihect": 136.93,
+                "arealhect": 217606.72,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E30000234",
+                "date_end": null,
+                "date_start": "Fri, 31 Jul 2015 00:00:00 GMT",
+                "entity": "E30",
+                "equivalents": {},
+                "name": "London",
+                "name_welsh": null,
+                "owner": "ONS",
+                "parent": "E92000001",
+                "predecessor": [],
+                "sort_order": "E30000234",
+                "statutory_instrument_id": null,
+                "statutory_instrument_title": null,
+                "successor": []
+            },
+            "id": "E30000234",
+            "links": {
+                "html": "areas/E30000234.html",
+                "self": "areas/E30000234"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "ttwa",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E30000234/areatype",
+                        "self": "areas/E30000234/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E30000234/children",
+                        "self": "areas/E30000234/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E30000234/example_postcodes",
+                        "self": "areas/E30000234/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E92000001",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E30000234/parent",
+                        "self": "areas/E30000234/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E30000234/predecessor",
+                        "self": "areas/E30000234/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E30000234/successor",
+                        "self": "areas/E30000234/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": false,
+                "alternative_names": ["West Essex"],
+                "areachect": 104141.48,
+                "areaehect": 104141.48,
+                "areaihect": 0,
+                "arealhect": 104141.48,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E16000128",
+                "date_end": "Sun, 31 Mar 2013 00:00:00 GMT",
+                "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+                "entity": "E16",
+                "equivalents": {
+                    "ons": "5PV"
+                },
+                "name": "West Essex",
+                "name_welsh": null,
+                "owner": "ODS",
+                "parent": null,
+                "predecessor": ["5PV"],
+                "sort_order": "E16000128",
+                "statutory_instrument_id": "1111/1001",
+                "statutory_instrument_title": "GSS re-coding strategy",
+                "successor": [""]
+            },
+            "id": "E16000128",
+            "links": {
+                "html": "areas/E16000128.html",
+                "self": "areas/E16000128"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "pct",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E16000128/areatype",
+                        "self": "areas/E16000128/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E16000128/children",
+                        "self": "areas/E16000128/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E16000128/example_postcodes",
+                        "self": "areas/E16000128/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E16000128/parent",
+                        "self": "areas/E16000128/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "errors": [
+                                {
+                                    "detail": "resource could not be found",
+                                    "status": "404",
+                                    "title": "resource not found"
+                                }
+                            ]
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E16000128/predecessor",
+                        "self": "areas/E16000128/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E16000128/successor",
+                        "self": "areas/E16000128/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["Epping Forest"],
+                "areachect": 33898.42,
+                "areaehect": 33898.42,
+                "areaihect": 0,
+                "arealhect": 33898.42,
+                "child_count": 82,
+                "child_counts": {
+                    "msoa21": 17,
+                    "par": 31,
+                    "ward": 34
+                },
+                "code": "E07000072",
+                "date_end": null,
+                "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+                "entity": "E07",
+                "equivalents": {
+                    "mhclg": "J1535",
+                    "nhs": "185",
+                    "ons": "22UH"
+                },
+                "name": "Epping Forest",
+                "name_welsh": null,
+                "owner": "DLUHC",
+                "parent": "E10000012",
+                "predecessor": ["22UH"],
+                "sort_order": "E07000072",
+                "statutory_instrument_id": "1111/1001",
+                "statutory_instrument_title": "GSS re-coding strategy",
+                "successor": []
+            },
+            "id": "E07000072",
+            "links": {
+                "html": "areas/E07000072.html",
+                "self": "areas/E07000072"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "laua",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E07000072/areatype",
+                        "self": "areas/E07000072/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E07000072/children",
+                        "self": "areas/E07000072/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E07000072/example_postcodes",
+                        "self": "areas/E07000072/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E10000012",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E07000072/parent",
+                        "self": "areas/E07000072/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "errors": [
+                                {
+                                    "detail": "resource could not be found",
+                                    "status": "404",
+                                    "title": "resource not found"
+                                }
+                            ]
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E07000072/predecessor",
+                        "self": "areas/E07000072/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E07000072/successor",
+                        "self": "areas/E07000072/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["England Non-National Park Area"],
+                "areachect": null,
+                "areaehect": null,
+                "areaihect": null,
+                "arealhect": null,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E65000001",
+                "date_end": null,
+                "date_start": "Mon, 27 Feb 2023 00:00:00 GMT",
+                "entity": "E65",
+                "equivalents": {},
+                "name": "England Non-National Park Area",
+                "name_welsh": null,
+                "owner": "ONS",
+                "parent": null,
+                "predecessor": [],
+                "sort_order": "E65000001",
+                "statutory_instrument_id": null,
+                "statutory_instrument_title": null,
+                "successor": []
+            },
+            "id": "E65000001",
+            "links": {
+                "html": "areas/E65000001.html",
+                "self": "areas/E65000001"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "E65",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E65000001/areatype",
+                        "self": "areas/E65000001/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E65000001/children",
+                        "self": "areas/E65000001/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E65000001/example_postcodes",
+                        "self": "areas/E65000001/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E65000001/parent",
+                        "self": "areas/E65000001/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E65000001/predecessor",
+                        "self": "areas/E65000001/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E65000001/successor",
+                        "self": "areas/E65000001/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["Epping Forest 006C"],
+                "areachect": 65.87,
+                "areaehect": 65.87,
+                "areaihect": 0,
+                "arealhect": 65.87,
+                "child_count": 6,
+                "child_counts": {
+                    "oa21": 6
+                },
+                "code": "E01021758",
+                "date_end": null,
+                "date_start": "Sun, 01 Feb 2004 00:00:00 GMT",
+                "entity": "E01",
+                "equivalents": {},
+                "name": "Epping Forest 006C",
+                "name_welsh": null,
+                "owner": "ONS",
+                "parent": "E02004532",
+                "predecessor": [],
+                "sort_order": "E01021758",
+                "stats": {
+                    "idaci2015": {
+                        "idaci_decile": 5,
+                        "idaci_rank": 15082,
+                        "idaci_score": 0.164
+                    },
+                    "idaci2019": {
+                        "idaci_decile": 6,
+                        "idaci_rank": 16552,
+                        "idaci_score": 0.125
+                    },
+                    "idaopi2015": {
+                        "idaopi_decile": 5,
+                        "idaopi_rank": 14429,
+                        "idaopi_score": 0.17
+                    },
+                    "idaopi2019": {
+                        "idaopi_decile": 5,
+                        "idaopi_rank": 14547,
+                        "idaopi_score": 0.146
+                    },
+                    "imd2015": {
+                        "imd_crime_decile": 6,
+                        "imd_crime_rank": 17760,
+                        "imd_crime_score": -0.079,
+                        "imd_decile": 6,
+                        "imd_education_adults_decile": 6,
+                        "imd_education_adults_rank": 18285,
+                        "imd_education_adults_score": 0.28,
+                        "imd_education_children_decile": 5,
+                        "imd_education_children_rank": 15439,
+                        "imd_education_children_score": 0.048,
+                        "imd_education_decile": 6,
+                        "imd_education_rank": 17359,
+                        "imd_education_score": 15.133,
+                        "imd_employment_decile": 5,
+                        "imd_employment_rank": 15163,
+                        "imd_employment_score": 0.104,
+                        "imd_environment_decile": 6,
+                        "imd_environment_indoors_decile": 7,
+                        "imd_environment_indoors_rank": 21968,
+                        "imd_environment_indoors_score": -0.385,
+                        "imd_environment_outdoors_rank": 4,
+                        "imd_environment_outdoors_score": 0.289,
+                        "imd_environment_rank": 19595,
+                        "imd_environment_score": 13.844,
+                        "imd_health_decile": 7,
+                        "imd_health_rank": 21926,
+                        "imd_health_score": -0.4,
+                        "imd_housing_decile": 4,
+                        "imd_housing_geographical_decile": 3,
+                        "imd_housing_geographical_rank": 9031,
+                        "imd_housing_geographical_score": 0.42,
+                        "imd_housing_rank": 10991,
+                        "imd_housing_score": 25.054,
+                        "imd_housing_wider_decile": 4,
+                        "imd_housing_wider_rank": 12819,
+                        "imd_housing_wider_score": 0.523,
+                        "imd_income_decile": 5,
+                        "imd_income_rank": 14016,
+                        "imd_income_score": 0.134,
+                        "imd_rank": 17552,
+                        "imd_score": 16.086
+                    },
+                    "imd2019": {
+                        "imd_crime_decile": 5,
+                        "imd_crime_rank": 13889,
+                        "imd_crime_score": 0.177,
+                        "imd_decile": 6,
+                        "imd_education_adults_decile": 6,
+                        "imd_education_adults_rank": 18285,
+                        "imd_education_adults_score": 0.28,
+                        "imd_education_children_decile": 6,
+                        "imd_education_children_rank": 17682,
+                        "imd_education_children_score": -0.096,
+                        "imd_education_decile": 6,
+                        "imd_education_rank": 18494,
+                        "imd_education_score": 13.613,
+                        "imd_employment_decile": 5,
+                        "imd_employment_rank": 15169,
+                        "imd_employment_score": 0.085,
+                        "imd_environment_decile": 7,
+                        "imd_environment_indoors_decile": 9,
+                        "imd_environment_indoors_rank": 26857,
+                        "imd_environment_indoors_score": -0.752,
+                        "imd_environment_outdoors_rank": 3,
+                        "imd_environment_outdoors_score": 0.408,
+                        "imd_environment_rank": 21625,
+                        "imd_environment_score": 12.392,
+                        "imd_health_decile": 7,
+                        "imd_health_rank": 20136,
+                        "imd_health_score": -0.267,
+                        "imd_housing_decile": 4,
+                        "imd_housing_geographical_decile": 3,
+                        "imd_housing_geographical_rank": 8886,
+                        "imd_housing_geographical_score": 0.431,
+                        "imd_housing_rank": 10676,
+                        "imd_housing_score": 25.471,
+                        "imd_housing_wider_decile": 4,
+                        "imd_housing_wider_rank": 12546,
+                        "imd_housing_wider_score": 0.549,
+                        "imd_income_decile": 5,
+                        "imd_income_rank": 14287,
+                        "imd_income_score": 0.115,
+                        "imd_rank": 17548,
+                        "imd_score": 16.42
+                    },
+                    "population2012": {
+                        "population_0_15": 221,
+                        "population_16_59": 839,
+                        "population_60_plus": 508,
+                        "population_total": 1568,
+                        "population_workingage": 853
+                    },
+                    "population2015": {
+                        "population_0_15": 243,
+                        "population_16_59": 850,
+                        "population_60_plus": 513,
+                        "population_total": 1606,
+                        "population_workingage": 867
+                    }
+                },
+                "statutory_instrument_id": null,
+                "statutory_instrument_title": null,
+                "successor": []
+            },
+            "id": "E01021758",
+            "links": {
+                "html": "areas/E01021758.html",
+                "self": "areas/E01021758"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "lsoa21",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E01021758/areatype",
+                        "self": "areas/E01021758/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E01021758/children",
+                        "self": "areas/E01021758/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E01021758/example_postcodes",
+                        "self": "areas/E01021758/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E02004532",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E01021758/parent",
+                        "self": "areas/E01021758/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E01021758/predecessor",
+                        "self": "areas/E01021758/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E01021758/successor",
+                        "self": "areas/E01021758/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["Epping South"],
+                "areachect": 472.63,
+                "areaehect": 472.63,
+                "areaihect": 0,
+                "arealhect": 472.63,
+                "child_count": 9,
+                "child_counts": {
+                    "lsoa21": 4,
+                    "wz11": 5
+                },
+                "code": "E02004532",
+                "date_end": null,
+                "date_start": "Sun, 01 Aug 2004 00:00:00 GMT",
+                "entity": "E02",
+                "equivalents": {},
+                "name": "Epping South",
+                "name_welsh": null,
+                "owner": "ONS",
+                "parent": "E07000072",
+                "predecessor": [],
+                "sort_order": "E02004532",
+                "statutory_instrument_id": null,
+                "statutory_instrument_title": null,
+                "successor": []
+            },
+            "id": "E02004532",
+            "links": {
+                "html": "areas/E02004532.html",
+                "self": "areas/E02004532"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "msoa21",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E02004532/areatype",
+                        "self": "areas/E02004532/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E02004532/children",
+                        "self": "areas/E02004532/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E02004532/example_postcodes",
+                        "self": "areas/E02004532/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E07000072",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E02004532/parent",
+                        "self": "areas/E02004532/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E02004532/predecessor",
+                        "self": "areas/E02004532/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E02004532/successor",
+                        "self": "areas/E02004532/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": [],
+                "areachect": 91.13,
+                "areaehect": 91.13,
+                "areaihect": 0,
+                "arealhect": 91.13,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E33026701",
+                "date_end": null,
+                "date_start": "Sat, 31 Dec 2011 00:00:00 GMT",
+                "entity": "E33",
+                "equivalents": {},
+                "name": "",
+                "name_welsh": null,
+                "owner": "ONS",
+                "parent": "E02004532",
+                "predecessor": [],
+                "sort_order": "E33026701",
+                "statutory_instrument_id": "2011/1001",
+                "statutory_instrument_title": "2011 Census Maintenance",
+                "successor": []
+            },
+            "id": "E33026701",
+            "links": {
+                "html": "areas/E33026701.html",
+                "self": "areas/E33026701"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "wz11",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E33026701/areatype",
+                        "self": "areas/E33026701/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E33026701/children",
+                        "self": "areas/E33026701/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E33026701/example_postcodes",
+                        "self": "areas/E33026701/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E02004532",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E33026701/parent",
+                        "self": "areas/E33026701/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E33026701/predecessor",
+                        "self": "areas/E33026701/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E33026701/successor",
+                        "self": "areas/E33026701/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": [
+                    "NHS West Essex",
+                    "NHS West Essex CCG",
+                    "NHS Hertfordshire and West Essex ICB - 07H"
+                ],
+                "areachect": null,
+                "areaehect": null,
+                "areaihect": null,
+                "arealhect": null,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E38000197",
+                "date_end": null,
+                "date_start": "Mon, 01 Apr 2013 00:00:00 GMT",
+                "entity": "E38",
+                "equivalents": {
+                    "nhs": "07H"
+                },
+                "name": "NHS Hertfordshire and West Essex ICB - 07H",
+                "name_welsh": null,
+                "owner": "ODS",
+                "parent": "E54000025",
+                "predecessor": [
+                    "E38000197",
+                    "E38000197",
+                    "E38000197",
+                    "E38000197",
+                    "E38000197"
+                ],
+                "sort_order": "E38000197",
+                "statutory_instrument_id": null,
+                "statutory_instrument_title": null,
+                "successor": [
+                    "E38000197",
+                    "E38000197",
+                    "E38000197",
+                    "E38000197",
+                    "E38000197"
+                ]
+            },
+            "id": "E38000197",
+            "links": {
+                "html": "areas/E38000197.html",
+                "self": "areas/E38000197"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "ccg",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E38000197/areatype",
+                        "self": "areas/E38000197/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E38000197/children",
+                        "self": "areas/E38000197/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E38000197/example_postcodes",
+                        "self": "areas/E38000197/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E54000025",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E38000197/parent",
+                        "self": "areas/E38000197/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E38000197/predecessor",
+                        "self": "areas/E38000197/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": [
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E38000197/successor",
+                        "self": "areas/E38000197/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": false,
+                "alternative_names": ["Epping BUA"],
+                "areachect": null,
+                "areaehect": 292.75,
+                "areaihect": 0,
+                "arealhect": 292.75,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E34000815",
+                "date_end": "Wed, 30 Nov 2022 00:00:00 GMT",
+                "date_start": "Sun, 27 Mar 2011 00:00:00 GMT",
+                "entity": "E34",
+                "equivalents": {},
+                "name": "Epping BUA",
+                "name_welsh": null,
+                "owner": "ONS",
+                "parent": "E92000001",
+                "predecessor": [],
+                "sort_order": "E34000815",
+                "statutory_instrument_id": null,
+                "statutory_instrument_title": null,
+                "successor": [""]
+            },
+            "id": "E34000815",
+            "links": {
+                "html": "areas/E34000815.html",
+                "self": "areas/E34000815"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "bua11",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E34000815/areatype",
+                        "self": "areas/E34000815/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E34000815/children",
+                        "self": "areas/E34000815/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E34000815/example_postcodes",
+                        "self": "areas/E34000815/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E92000001",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E34000815/parent",
+                        "self": "areas/E34000815/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E34000815/predecessor",
+                        "self": "areas/E34000815/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E34000815/successor",
+                        "self": "areas/E34000815/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["South East"],
+                "areachect": 912345.5,
+                "areaehect": 957990.03,
+                "areaihect": 1282.21,
+                "arealhect": 911063.29,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E37000056",
+                "date_end": null,
+                "date_start": "Wed, 01 Apr 2020 00:00:00 GMT",
+                "entity": "E37",
+                "equivalents": {},
+                "name": "South East",
+                "name_welsh": null,
+                "owner": "BEIS",
+                "parent": null,
+                "predecessor": ["E37000004", "E37000030", "E37000042"],
+                "sort_order": "E37000056",
+                "statutory_instrument_id": null,
+                "statutory_instrument_title": null,
+                "successor": []
+            },
+            "id": "E37000056",
+            "links": {
+                "html": "areas/E37000056.html",
+                "self": "areas/E37000056"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "lep",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E37000056/areatype",
+                        "self": "areas/E37000056/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E37000056/children",
+                        "self": "areas/E37000056/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E37000056/example_postcodes",
+                        "self": "areas/E37000056/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E37000056/parent",
+                        "self": "areas/E37000056/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "id": "E37000004",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E37000030",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E37000042",
+                            "type": "areas"
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E37000056/predecessor",
+                        "self": "areas/E37000056/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E37000056/successor",
+                        "self": "areas/E37000056/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["Essex"],
+                "areachect": null,
+                "areaehect": null,
+                "areaihect": null,
+                "arealhect": null,
+                "child_count": 14,
+                "child_counts": {
+                    "csp": 14
+                },
+                "code": "E23000028",
+                "date_end": null,
+                "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+                "entity": "E23",
+                "equivalents": {
+                    "ons": "42"
+                },
+                "name": "Essex",
+                "name_welsh": null,
+                "owner": "Home Office",
+                "parent": null,
+                "predecessor": ["42"],
+                "sort_order": "E23000028",
+                "statutory_instrument_id": "1111/1001",
+                "statutory_instrument_title": "GSS re-coding strategy",
+                "successor": []
+            },
+            "id": "E23000028",
+            "links": {
+                "html": "areas/E23000028.html",
+                "self": "areas/E23000028"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "pfa",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E23000028/areatype",
+                        "self": "areas/E23000028/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E23000028/children",
+                        "self": "areas/E23000028/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E23000028/example_postcodes",
+                        "self": "areas/E23000028/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E23000028/parent",
+                        "self": "areas/E23000028/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "errors": [
+                                {
+                                    "detail": "resource could not be found",
+                                    "status": "404",
+                                    "title": "resource not found"
+                                }
+                            ]
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E23000028/predecessor",
+                        "self": "areas/E23000028/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E23000028/successor",
+                        "self": "areas/E23000028/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["East of England - South"],
+                "areachect": 617753.84,
+                "areaehect": 640883,
+                "areaihect": 346.93,
+                "arealhect": 617406.91,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E56000023",
+                "date_end": null,
+                "date_start": "Mon, 01 Jul 2019 00:00:00 GMT",
+                "entity": "E56",
+                "equivalents": {},
+                "name": "East of England - South",
+                "name_welsh": null,
+                "owner": "NHS England",
+                "parent": null,
+                "predecessor": ["E56000009"],
+                "sort_order": "E56000023",
+                "statutory_instrument_id": null,
+                "statutory_instrument_title": null,
+                "successor": []
+            },
+            "id": "E56000023",
+            "links": {
+                "html": "areas/E56000023.html",
+                "self": "areas/E56000023"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "cal",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E56000023/areatype",
+                        "self": "areas/E56000023/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E56000023/children",
+                        "self": "areas/E56000023/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E56000023/example_postcodes",
+                        "self": "areas/E56000023/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E56000023/parent",
+                        "self": "areas/E56000023/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "id": "E56000009",
+                            "type": "areas"
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E56000023/predecessor",
+                        "self": "areas/E56000023/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E56000023/successor",
+                        "self": "areas/E56000023/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": [
+                    "Hertfordshire and West Essex",
+                    "NHS Hertfordshire and West Essex Integrated Care Board"
+                ],
+                "areachect": null,
+                "areaehect": null,
+                "areaihect": null,
+                "arealhect": null,
+                "child_count": 3,
+                "child_counts": {
+                    "ccg": 3
+                },
+                "code": "E54000025",
+                "date_end": null,
+                "date_start": "Fri, 01 Apr 2016 00:00:00 GMT",
+                "entity": "E54",
+                "equivalents": {
+                    "nhs": "QM7"
+                },
+                "name": "NHS Hertfordshire and West Essex Integrated Care Board",
+                "name_welsh": null,
+                "owner": "ODS",
+                "parent": "E40000007",
+                "predecessor": ["E54000025"],
+                "sort_order": "E54000025",
+                "statutory_instrument_id": null,
+                "statutory_instrument_title": null,
+                "successor": ["E54000025"]
+            },
+            "id": "E54000025",
+            "links": {
+                "html": "areas/E54000025.html",
+                "self": "areas/E54000025"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "stp",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E54000025/areatype",
+                        "self": "areas/E54000025/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E54000025/children",
+                        "self": "areas/E54000025/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E54000025/example_postcodes",
+                        "self": "areas/E54000025/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E40000007",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E54000025/parent",
+                        "self": "areas/E54000025/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "id": "E54000025",
+                            "type": "areas"
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E54000025/predecessor",
+                        "self": "areas/E54000025/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": [
+                        {
+                            "id": "E54000025",
+                            "type": "areas"
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E54000025/successor",
+                        "self": "areas/E54000025/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["Epping Forest 006C"],
+                "areachect": 65.87,
+                "areaehect": 65.87,
+                "areaihect": 0,
+                "arealhect": 65.87,
+                "child_count": 6,
+                "child_counts": {
+                    "oa21": 6
+                },
+                "code": "E01021758",
+                "date_end": null,
+                "date_start": "Sun, 01 Feb 2004 00:00:00 GMT",
+                "entity": "E01",
+                "equivalents": {},
+                "name": "Epping Forest 006C",
+                "name_welsh": null,
+                "owner": "ONS",
+                "parent": "E02004532",
+                "predecessor": [],
+                "sort_order": "E01021758",
+                "stats": {
+                    "idaci2015": {
+                        "idaci_decile": 5,
+                        "idaci_rank": 15082,
+                        "idaci_score": 0.164
+                    },
+                    "idaci2019": {
+                        "idaci_decile": 6,
+                        "idaci_rank": 16552,
+                        "idaci_score": 0.125
+                    },
+                    "idaopi2015": {
+                        "idaopi_decile": 5,
+                        "idaopi_rank": 14429,
+                        "idaopi_score": 0.17
+                    },
+                    "idaopi2019": {
+                        "idaopi_decile": 5,
+                        "idaopi_rank": 14547,
+                        "idaopi_score": 0.146
+                    },
+                    "imd2015": {
+                        "imd_crime_decile": 6,
+                        "imd_crime_rank": 17760,
+                        "imd_crime_score": -0.079,
+                        "imd_decile": 6,
+                        "imd_education_adults_decile": 6,
+                        "imd_education_adults_rank": 18285,
+                        "imd_education_adults_score": 0.28,
+                        "imd_education_children_decile": 5,
+                        "imd_education_children_rank": 15439,
+                        "imd_education_children_score": 0.048,
+                        "imd_education_decile": 6,
+                        "imd_education_rank": 17359,
+                        "imd_education_score": 15.133,
+                        "imd_employment_decile": 5,
+                        "imd_employment_rank": 15163,
+                        "imd_employment_score": 0.104,
+                        "imd_environment_decile": 6,
+                        "imd_environment_indoors_decile": 7,
+                        "imd_environment_indoors_rank": 21968,
+                        "imd_environment_indoors_score": -0.385,
+                        "imd_environment_outdoors_rank": 4,
+                        "imd_environment_outdoors_score": 0.289,
+                        "imd_environment_rank": 19595,
+                        "imd_environment_score": 13.844,
+                        "imd_health_decile": 7,
+                        "imd_health_rank": 21926,
+                        "imd_health_score": -0.4,
+                        "imd_housing_decile": 4,
+                        "imd_housing_geographical_decile": 3,
+                        "imd_housing_geographical_rank": 9031,
+                        "imd_housing_geographical_score": 0.42,
+                        "imd_housing_rank": 10991,
+                        "imd_housing_score": 25.054,
+                        "imd_housing_wider_decile": 4,
+                        "imd_housing_wider_rank": 12819,
+                        "imd_housing_wider_score": 0.523,
+                        "imd_income_decile": 5,
+                        "imd_income_rank": 14016,
+                        "imd_income_score": 0.134,
+                        "imd_rank": 17552,
+                        "imd_score": 16.086
+                    },
+                    "imd2019": {
+                        "imd_crime_decile": 5,
+                        "imd_crime_rank": 13889,
+                        "imd_crime_score": 0.177,
+                        "imd_decile": 6,
+                        "imd_education_adults_decile": 6,
+                        "imd_education_adults_rank": 18285,
+                        "imd_education_adults_score": 0.28,
+                        "imd_education_children_decile": 6,
+                        "imd_education_children_rank": 17682,
+                        "imd_education_children_score": -0.096,
+                        "imd_education_decile": 6,
+                        "imd_education_rank": 18494,
+                        "imd_education_score": 13.613,
+                        "imd_employment_decile": 5,
+                        "imd_employment_rank": 15169,
+                        "imd_employment_score": 0.085,
+                        "imd_environment_decile": 7,
+                        "imd_environment_indoors_decile": 9,
+                        "imd_environment_indoors_rank": 26857,
+                        "imd_environment_indoors_score": -0.752,
+                        "imd_environment_outdoors_rank": 3,
+                        "imd_environment_outdoors_score": 0.408,
+                        "imd_environment_rank": 21625,
+                        "imd_environment_score": 12.392,
+                        "imd_health_decile": 7,
+                        "imd_health_rank": 20136,
+                        "imd_health_score": -0.267,
+                        "imd_housing_decile": 4,
+                        "imd_housing_geographical_decile": 3,
+                        "imd_housing_geographical_rank": 8886,
+                        "imd_housing_geographical_score": 0.431,
+                        "imd_housing_rank": 10676,
+                        "imd_housing_score": 25.471,
+                        "imd_housing_wider_decile": 4,
+                        "imd_housing_wider_rank": 12546,
+                        "imd_housing_wider_score": 0.549,
+                        "imd_income_decile": 5,
+                        "imd_income_rank": 14287,
+                        "imd_income_score": 0.115,
+                        "imd_rank": 17548,
+                        "imd_score": 16.42
+                    },
+                    "population2012": {
+                        "population_0_15": 221,
+                        "population_16_59": 839,
+                        "population_60_plus": 508,
+                        "population_total": 1568,
+                        "population_workingage": 853
+                    },
+                    "population2015": {
+                        "population_0_15": 243,
+                        "population_16_59": 850,
+                        "population_60_plus": 513,
+                        "population_total": 1606,
+                        "population_workingage": 867
+                    }
+                },
+                "statutory_instrument_id": null,
+                "statutory_instrument_title": null,
+                "successor": []
+            },
+            "id": "E01021758",
+            "links": {
+                "html": "areas/E01021758.html",
+                "self": "areas/E01021758"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "lsoa21",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E01021758/areatype",
+                        "self": "areas/E01021758/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E01021758/children",
+                        "self": "areas/E01021758/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E01021758/example_postcodes",
+                        "self": "areas/E01021758/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E02004532",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E01021758/parent",
+                        "self": "areas/E01021758/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E01021758/predecessor",
+                        "self": "areas/E01021758/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E01021758/successor",
+                        "self": "areas/E01021758/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": [],
+                "areachect": 43.05,
+                "areaehect": 43.05,
+                "areaihect": 0,
+                "arealhect": 43.05,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E00110513",
+                "date_end": null,
+                "date_start": "Thu, 01 Jan 2009 00:00:00 GMT",
+                "entity": "E00",
+                "equivalents": {
+                    "ons": "22UHGP0006"
+                },
+                "name": "",
+                "name_welsh": null,
+                "owner": "ONS",
+                "parent": "E01021758",
+                "predecessor": ["22UHGP0006"],
+                "sort_order": "E00110513",
+                "statutory_instrument_id": "1111/1001",
+                "statutory_instrument_title": "GSS re-coding strategy",
+                "successor": []
+            },
+            "id": "E00110513",
+            "links": {
+                "html": "areas/E00110513.html",
+                "self": "areas/E00110513"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "oa21",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E00110513/areatype",
+                        "self": "areas/E00110513/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E00110513/children",
+                        "self": "areas/E00110513/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E00110513/example_postcodes",
+                        "self": "areas/E00110513/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E01021758",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E00110513/parent",
+                        "self": "areas/E00110513/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "errors": [
+                                {
+                                    "detail": "resource could not be found",
+                                    "status": "404",
+                                    "title": "resource not found"
+                                }
+                            ]
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E00110513/predecessor",
+                        "self": "areas/E00110513/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E00110513/successor",
+                        "self": "areas/E00110513/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["Epping South"],
+                "areachect": 472.63,
+                "areaehect": 472.63,
+                "areaihect": 0,
+                "arealhect": 472.63,
+                "child_count": 9,
+                "child_counts": {
+                    "lsoa21": 4,
+                    "wz11": 5
+                },
+                "code": "E02004532",
+                "date_end": null,
+                "date_start": "Sun, 01 Aug 2004 00:00:00 GMT",
+                "entity": "E02",
+                "equivalents": {},
+                "name": "Epping South",
+                "name_welsh": null,
+                "owner": "ONS",
+                "parent": "E07000072",
+                "predecessor": [],
+                "sort_order": "E02004532",
+                "statutory_instrument_id": null,
+                "statutory_instrument_title": null,
+                "successor": []
+            },
+            "id": "E02004532",
+            "links": {
+                "html": "areas/E02004532.html",
+                "self": "areas/E02004532"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "msoa21",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E02004532/areatype",
+                        "self": "areas/E02004532/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E02004532/children",
+                        "self": "areas/E02004532/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E02004532/example_postcodes",
+                        "self": "areas/E02004532/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E07000072",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E02004532/parent",
+                        "self": "areas/E02004532/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E02004532/predecessor",
+                        "self": "areas/E02004532/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E02004532/successor",
+                        "self": "areas/E02004532/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": [
+                    "Hertfordshire and West Essex",
+                    "NHS Hertfordshire and West Essex Integrated Care Board"
+                ],
+                "areachect": null,
+                "areaehect": null,
+                "areaihect": null,
+                "arealhect": null,
+                "child_count": 3,
+                "child_counts": {
+                    "ccg": 3
+                },
+                "code": "E54000025",
+                "date_end": null,
+                "date_start": "Fri, 01 Apr 2016 00:00:00 GMT",
+                "entity": "E54",
+                "equivalents": {
+                    "nhs": "QM7"
+                },
+                "name": "NHS Hertfordshire and West Essex Integrated Care Board",
+                "name_welsh": null,
+                "owner": "ODS",
+                "parent": "E40000007",
+                "predecessor": ["E54000025"],
+                "sort_order": "E54000025",
+                "statutory_instrument_id": null,
+                "statutory_instrument_title": null,
+                "successor": ["E54000025"]
+            },
+            "id": "E54000025",
+            "links": {
+                "html": "areas/E54000025.html",
+                "self": "areas/E54000025"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "stp",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E54000025/areatype",
+                        "self": "areas/E54000025/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E54000025/children",
+                        "self": "areas/E54000025/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E54000025/example_postcodes",
+                        "self": "areas/E54000025/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E40000007",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E54000025/parent",
+                        "self": "areas/E54000025/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "id": "E54000025",
+                            "type": "areas"
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E54000025/predecessor",
+                        "self": "areas/E54000025/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": [
+                        {
+                            "id": "E54000025",
+                            "type": "areas"
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E54000025/successor",
+                        "self": "areas/E54000025/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": [
+                    "NHS West Essex",
+                    "NHS West Essex CCG",
+                    "NHS Hertfordshire and West Essex ICB - 07H"
+                ],
+                "areachect": null,
+                "areaehect": null,
+                "areaihect": null,
+                "arealhect": null,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E38000197",
+                "date_end": null,
+                "date_start": "Mon, 01 Apr 2013 00:00:00 GMT",
+                "entity": "E38",
+                "equivalents": {
+                    "nhs": "07H"
+                },
+                "name": "NHS Hertfordshire and West Essex ICB - 07H",
+                "name_welsh": null,
+                "owner": "ODS",
+                "parent": "E54000025",
+                "predecessor": [
+                    "E38000197",
+                    "E38000197",
+                    "E38000197",
+                    "E38000197",
+                    "E38000197"
+                ],
+                "sort_order": "E38000197",
+                "statutory_instrument_id": null,
+                "statutory_instrument_title": null,
+                "successor": [
+                    "E38000197",
+                    "E38000197",
+                    "E38000197",
+                    "E38000197",
+                    "E38000197"
+                ]
+            },
+            "id": "E38000197",
+            "links": {
+                "html": "areas/E38000197.html",
+                "self": "areas/E38000197"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "ccg",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E38000197/areatype",
+                        "self": "areas/E38000197/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E38000197/children",
+                        "self": "areas/E38000197/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E38000197/example_postcodes",
+                        "self": "areas/E38000197/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E54000025",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E38000197/parent",
+                        "self": "areas/E38000197/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": [
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E38000197/predecessor",
+                        "self": "areas/E38000197/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": [
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        },
+                        {
+                            "id": "E38000197",
+                            "type": "areas"
+                        }
+                    ],
+                    "links": {
+                        "related": "areas/E38000197/successor",
+                        "self": "areas/E38000197/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "active": true,
+                "alternative_names": ["Epping"],
+                "areachect": null,
+                "areaehect": null,
+                "areaihect": null,
+                "arealhect": null,
+                "child_count": 0,
+                "child_counts": {},
+                "code": "E63004569",
+                "date_end": null,
+                "date_start": "Thu, 01 Dec 2022 00:00:00 GMT",
+                "entity": "E63",
+                "equivalents": {},
+                "name": "Epping",
+                "name_welsh": null,
+                "owner": "OS",
+                "parent": "E92000001",
+                "predecessor": [],
+                "sort_order": "E63004569",
+                "statutory_instrument_id": null,
+                "statutory_instrument_title": null,
+                "successor": []
+            },
+            "id": "E63004569",
+            "links": {
+                "html": "areas/E63004569.html",
+                "self": "areas/E63004569"
+            },
+            "relationships": {
+                "areatype": {
+                    "data": {
+                        "id": "E63",
+                        "type": "areatypes"
+                    },
+                    "links": {
+                        "related": "areas/E63004569/areatype",
+                        "self": "areas/E63004569/relationships/areatype"
+                    }
+                },
+                "children": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E63004569/children",
+                        "self": "areas/E63004569/relationships/children"
+                    }
+                },
+                "example_postcodes": {
+                    "data": [],
+                    "links": {
+                        "related": "areas/E63004569/example_postcodes",
+                        "self": "areas/E63004569/relationships/example_postcodes"
+                    }
+                },
+                "parent": {
+                    "data": {
+                        "id": "E92000001",
+                        "type": "areas"
+                    },
+                    "links": {
+                        "related": "areas/E63004569/parent",
+                        "self": "areas/E63004569/relationships/parent"
+                    }
+                },
+                "predecessor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E63004569/predecessor",
+                        "self": "areas/E63004569/relationships/predecessor"
+                    }
+                },
+                "successor": {
+                    "data": null,
+                    "links": {
+                        "related": "areas/E63004569/successor",
+                        "self": "areas/E63004569/relationships/successor"
+                    }
+                }
+            },
+            "type": "areas"
+        },
+        {
+            "attributes": {
+                "areas": {},
+                "bua22cd": null,
+                "ced21cd": null,
+                "ced22cd": null,
+                "country": "Great Britain",
+                "ctry21nm": "England",
+                "ctry22nm": "England",
+                "cty21cd": "E10000012",
+                "cty21nm": "Essex",
+                "cty22cd": "E10000012",
+                "cty22nm": "Essex",
+                "cty61nm": "Essex",
+                "cty91nm": "Essex",
+                "ctyhistnm": "Essex",
+                "ctyltnm": "Essex",
+                "descnm": "LOC",
+                "eer21cd": "E15000006",
+                "eer21nm": "Eastern",
+                "eer22cd": "E15000006",
+                "eer22nm": "Eastern",
+                "grid1km": "TL4501",
+                "gridgb1e": "545500",
+                "gridgb1m": "5455000201030",
+                "gridgb1n": "0201030",
+                "hlth21cd": "E18000006",
+                "hlth21nm": "East of England",
+                "hlth22cd": "E18000006",
+                "hlth22nm": "East of England",
+                "lad21cd": "E07000072",
+                "lad21desc": "NMD",
+                "lad21nm": "Epping Forest",
+                "lad22cd": "E07000072",
+                "lad22desc": "NMD",
+                "lad22nm": "Epping Forest",
+                "lad61desc": "UD",
+                "lad61nm": "Epping",
+                "lad91desc": "NMD",
+                "lad91nm": "Epping Forest",
+                "lat": 51.689127,
+                "location": {
+                    "lat": 51.689127,
+                    "lon": 0.103556
+                },
+                "long": 0.103556,
+                "name": "Ivy Chimneys",
+                "npark21cd": null,
+                "npark21nm": null,
+                "npark22cd": null,
+                "npark22nm": null,
+                "par21cd": null,
+                "par22cd": null,
+                "pcon21cd": "E14000693",
+                "pcon21nm": "Epping Forest",
+                "pcon22cd": "E14000693",
+                "pcon22nm": "Epping Forest",
+                "pfa21cd": "E23000028",
+                "pfa21nm": "Essex",
+                "pfa22cd": "E23000028",
+                "pfa22nm": "Essex",
+                "place21cd": "IPN0037364",
+                "place22cd": "IPN0037364",
+                "placeid": "35551",
+                "placesort": "ivychimneys",
+                "regd21cd": "E28000210",
+                "regd21nm": "Essex",
+                "regd22cd": "E28000210",
+                "regd22nm": "Essex",
+                "rgn21cd": "E12000006",
+                "rgn21nm": "East of England",
+                "rgn22cd": "E12000006",
+                "rgn22nm": "East of England",
+                "splitind": false,
+                "type": "Locality",
+                "wd21cd": null,
+                "wd22cd": null
+            },
+            "id": "IPN0037364",
+            "links": {
+                "html": "places/IPN0037364.html",
+                "self": "places/IPN0037364"
+            },
+            "relationships": {
+                "areas": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0037364/areas",
+                        "self": "places/IPN0037364/relationships/areas"
+                    }
+                },
+                "nearest_places": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0037364/nearest_places",
+                        "self": "places/IPN0037364/relationships/nearest_places"
+                    }
+                },
+                "nearest_postcodes": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0037364/nearest_postcodes",
+                        "self": "places/IPN0037364/relationships/nearest_postcodes"
+                    }
+                }
+            },
+            "type": "places"
+        },
+        {
+            "attributes": {
+                "areas": {},
+                "bua22cd": null,
+                "ced21cd": null,
+                "ced22cd": null,
+                "country": "Great Britain",
+                "ctry21nm": "England",
+                "ctry22nm": "England",
+                "cty21cd": "E10000012",
+                "cty21nm": "Essex",
+                "cty22cd": "E10000012",
+                "cty22nm": "Essex",
+                "cty61nm": "Essex",
+                "cty91nm": "Essex",
+                "ctyhistnm": "Essex",
+                "ctyltnm": "Essex",
+                "descnm": "LOC",
+                "eer21cd": "E15000006",
+                "eer21nm": "Eastern",
+                "eer22cd": "E15000006",
+                "eer22nm": "Eastern",
+                "grid1km": "TL4601",
+                "gridgb1e": "546270",
+                "gridgb1m": "5462700201230",
+                "gridgb1n": "0201230",
+                "hlth21cd": "E18000006",
+                "hlth21nm": "East of England",
+                "hlth22cd": "E18000006",
+                "hlth22nm": "East of England",
+                "lad21cd": "E07000072",
+                "lad21desc": "NMD",
+                "lad21nm": "Epping Forest",
+                "lad22cd": "E07000072",
+                "lad22desc": "NMD",
+                "lad22nm": "Epping Forest",
+                "lad61desc": "UD",
+                "lad61nm": "Epping",
+                "lad91desc": "NMD",
+                "lad91nm": "Epping Forest",
+                "lat": 51.690724,
+                "location": {
+                    "lat": 51.690724,
+                    "lon": 0.114772
+                },
+                "long": 0.114772,
+                "name": "Bower Hill",
+                "npark21cd": null,
+                "npark21nm": null,
+                "npark22cd": null,
+                "npark22nm": null,
+                "par21cd": null,
+                "par22cd": null,
+                "pcon21cd": "E14000693",
+                "pcon21nm": "Epping Forest",
+                "pcon22cd": "E14000693",
+                "pcon22nm": "Epping Forest",
+                "pfa21cd": "E23000028",
+                "pfa21nm": "Essex",
+                "pfa22cd": "E23000028",
+                "pfa22nm": "Essex",
+                "place21cd": "IPN0008008",
+                "place22cd": "IPN0008008",
+                "placeid": "7625",
+                "placesort": "bowerhill",
+                "regd21cd": "E28000210",
+                "regd21nm": "Essex",
+                "regd22cd": "E28000210",
+                "regd22nm": "Essex",
+                "rgn21cd": "E12000006",
+                "rgn21nm": "East of England",
+                "rgn22cd": "E12000006",
+                "rgn22nm": "East of England",
+                "splitind": false,
+                "type": "Locality",
+                "wd21cd": null,
+                "wd22cd": null
+            },
+            "id": "IPN0008008",
+            "links": {
+                "html": "places/IPN0008008.html",
+                "self": "places/IPN0008008"
+            },
+            "relationships": {
+                "areas": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0008008/areas",
+                        "self": "places/IPN0008008/relationships/areas"
+                    }
+                },
+                "nearest_places": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0008008/nearest_places",
+                        "self": "places/IPN0008008/relationships/nearest_places"
+                    }
+                },
+                "nearest_postcodes": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0008008/nearest_postcodes",
+                        "self": "places/IPN0008008/relationships/nearest_postcodes"
+                    }
+                }
+            },
+            "type": "places"
+        },
+        {
+            "attributes": {
+                "areas": {},
+                "bua22cd": null,
+                "ced21cd": null,
+                "ced22cd": null,
+                "country": "Great Britain",
+                "ctry21nm": "England",
+                "ctry22nm": "England",
+                "cty21cd": "E10000012",
+                "cty21nm": "Essex",
+                "cty22cd": "E10000012",
+                "cty22nm": "Essex",
+                "cty61nm": "Essex",
+                "cty91nm": "Essex",
+                "ctyhistnm": "Essex",
+                "ctyltnm": "Essex",
+                "descnm": "LOC",
+                "eer21cd": "E15000006",
+                "eer21nm": "Eastern",
+                "eer22cd": "E15000006",
+                "eer22nm": "Eastern",
+                "grid1km": "TL4502",
+                "gridgb1e": "545958",
+                "gridgb1m": "5459580202062",
+                "gridgb1n": "0202062",
+                "hlth21cd": "E18000006",
+                "hlth21nm": "East of England",
+                "hlth22cd": "E18000006",
+                "hlth22nm": "East of England",
+                "lad21cd": "E07000072",
+                "lad21desc": "NMD",
+                "lad21nm": "Epping Forest",
+                "lad22cd": "E07000072",
+                "lad22desc": "NMD",
+                "lad22nm": "Epping Forest",
+                "lad61desc": "UD",
+                "lad61nm": "Epping",
+                "lad91desc": "NMD",
+                "lad91nm": "Epping Forest",
+                "lat": 51.698281,
+                "location": {
+                    "lat": 51.698281,
+                    "lon": 0.110609
+                },
+                "long": 0.110609,
+                "name": "Epping",
+                "npark21cd": null,
+                "npark21nm": null,
+                "npark22cd": null,
+                "npark22nm": null,
+                "par21cd": null,
+                "par22cd": null,
+                "pcon21cd": "E14000693",
+                "pcon21nm": "Epping Forest",
+                "pcon22cd": "E14000693",
+                "pcon22nm": "Epping Forest",
+                "pfa21cd": "E23000028",
+                "pfa21nm": "Essex",
+                "pfa22cd": "E23000028",
+                "pfa22nm": "Essex",
+                "place21cd": "IPN0095636",
+                "place22cd": "IPN0095636",
+                "placeid": "89807",
+                "placesort": "epping",
+                "regd21cd": "E28000210",
+                "regd21nm": "Essex",
+                "regd22cd": "E28000210",
+                "regd22nm": "Essex",
+                "rgn21cd": "E12000006",
+                "rgn21nm": "East of England",
+                "rgn22cd": "E12000006",
+                "rgn22nm": "East of England",
+                "splitind": false,
+                "type": "Locality",
+                "wd21cd": null,
+                "wd22cd": null
+            },
+            "id": "IPN0095636",
+            "links": {
+                "html": "places/IPN0095636.html",
+                "self": "places/IPN0095636"
+            },
+            "relationships": {
+                "areas": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0095636/areas",
+                        "self": "places/IPN0095636/relationships/areas"
+                    }
+                },
+                "nearest_places": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0095636/nearest_places",
+                        "self": "places/IPN0095636/relationships/nearest_places"
+                    }
+                },
+                "nearest_postcodes": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0095636/nearest_postcodes",
+                        "self": "places/IPN0095636/relationships/nearest_postcodes"
+                    }
+                }
+            },
+            "type": "places"
+        },
+        {
+            "attributes": {
+                "areas": {},
+                "bua22cd": null,
+                "ced21cd": null,
+                "ced22cd": null,
+                "country": "Great Britain",
+                "ctry21nm": "England",
+                "ctry22nm": "England",
+                "cty21cd": "E10000012",
+                "cty21nm": "Essex",
+                "cty22cd": "E10000012",
+                "cty22nm": "Essex",
+                "cty61nm": "Essex",
+                "cty91nm": "Essex",
+                "ctyhistnm": "Essex",
+                "ctyltnm": "Essex",
+                "descnm": "LOC",
+                "eer21cd": "E15000006",
+                "eer21nm": "Eastern",
+                "eer22cd": "E15000006",
+                "eer22nm": "Eastern",
+                "grid1km": "TL4602",
+                "gridgb1e": "546350",
+                "gridgb1m": "5463500202400",
+                "gridgb1n": "0202400",
+                "hlth21cd": "E18000006",
+                "hlth21nm": "East of England",
+                "hlth22cd": "E18000006",
+                "hlth22nm": "East of England",
+                "lad21cd": "E07000072",
+                "lad21desc": "NMD",
+                "lad21nm": "Epping Forest",
+                "lad22cd": "E07000072",
+                "lad22desc": "NMD",
+                "lad22nm": "Epping Forest",
+                "lad61desc": "UD",
+                "lad61nm": "Epping",
+                "lad91desc": "NMD",
+                "lad91nm": "Epping Forest",
+                "lat": 51.701216,
+                "location": {
+                    "lat": 51.701216,
+                    "lon": 0.116419
+                },
+                "long": 0.116419,
+                "name": "Theydon Grove",
+                "npark21cd": null,
+                "npark21nm": null,
+                "npark22cd": null,
+                "npark22nm": null,
+                "par21cd": null,
+                "par22cd": null,
+                "pcon21cd": "E14000693",
+                "pcon21nm": "Epping Forest",
+                "pcon22cd": "E14000693",
+                "pcon22nm": "Epping Forest",
+                "pfa21cd": "E23000028",
+                "pfa21nm": "Essex",
+                "pfa22cd": "E23000028",
+                "pfa22nm": "Essex",
+                "place21cd": "IPN0070472",
+                "place22cd": "IPN0070472",
+                "placeid": "67106",
+                "placesort": "theydongrove",
+                "regd21cd": "E28000210",
+                "regd21nm": "Essex",
+                "regd22cd": "E28000210",
+                "regd22nm": "Essex",
+                "rgn21cd": "E12000006",
+                "rgn21nm": "East of England",
+                "rgn22cd": "E12000006",
+                "rgn22nm": "East of England",
+                "splitind": false,
+                "type": "Locality",
+                "wd21cd": null,
+                "wd22cd": null
+            },
+            "id": "IPN0070472",
+            "links": {
+                "html": "places/IPN0070472.html",
+                "self": "places/IPN0070472"
+            },
+            "relationships": {
+                "areas": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0070472/areas",
+                        "self": "places/IPN0070472/relationships/areas"
+                    }
+                },
+                "nearest_places": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0070472/nearest_places",
+                        "self": "places/IPN0070472/relationships/nearest_places"
+                    }
+                },
+                "nearest_postcodes": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0070472/nearest_postcodes",
+                        "self": "places/IPN0070472/relationships/nearest_postcodes"
+                    }
+                }
+            },
+            "type": "places"
+        },
+        {
+            "attributes": {
+                "areas": {},
+                "bua22cd": null,
+                "ced21cd": null,
+                "ced22cd": null,
+                "country": "Great Britain",
+                "ctry21nm": "England",
+                "ctry22nm": "England",
+                "cty21cd": "E10000012",
+                "cty21nm": "Essex",
+                "cty22cd": "E10000012",
+                "cty22nm": "Essex",
+                "cty61nm": "Essex",
+                "cty91nm": "Essex",
+                "ctyhistnm": "Essex",
+                "ctyltnm": "Essex",
+                "descnm": "LOC",
+                "eer21cd": "E15000006",
+                "eer21nm": "Eastern",
+                "eer22cd": "E15000006",
+                "eer22nm": "Eastern",
+                "grid1km": "TL4601",
+                "gridgb1e": "546860",
+                "gridgb1m": "5468600201000",
+                "gridgb1n": "0201000",
+                "hlth21cd": "E18000006",
+                "hlth21nm": "East of England",
+                "hlth22cd": "E18000006",
+                "hlth22nm": "East of England",
+                "lad21cd": "E07000072",
+                "lad21desc": "NMD",
+                "lad21nm": "Epping Forest",
+                "lad22cd": "E07000072",
+                "lad22desc": "NMD",
+                "lad22nm": "Epping Forest",
+                "lad61desc": "UD",
+                "lad61nm": "Epping",
+                "lad91desc": "NMD",
+                "lad91nm": "Epping Forest",
+                "lat": 51.688503,
+                "location": {
+                    "lat": 51.688503,
+                    "lon": 0.123205
+                },
+                "long": 0.123205,
+                "name": "Steward's Green",
+                "npark21cd": null,
+                "npark21nm": null,
+                "npark22cd": null,
+                "npark22nm": null,
+                "par21cd": null,
+                "par22cd": null,
+                "pcon21cd": "E14000693",
+                "pcon21nm": "Epping Forest",
+                "pcon22cd": "E14000693",
+                "pcon22nm": "Epping Forest",
+                "pfa21cd": "E23000028",
+                "pfa21nm": "Essex",
+                "pfa22cd": "E23000028",
+                "pfa22nm": "Essex",
+                "place21cd": "IPN0066422",
+                "place22cd": "IPN0066422",
+                "placeid": "63244",
+                "placesort": "stewardsgreen",
+                "regd21cd": "E28000210",
+                "regd21nm": "Essex",
+                "regd22cd": "E28000210",
+                "regd22nm": "Essex",
+                "rgn21cd": "E12000006",
+                "rgn21nm": "East of England",
+                "rgn22cd": "E12000006",
+                "rgn22nm": "East of England",
+                "splitind": false,
+                "type": "Locality",
+                "wd21cd": null,
+                "wd22cd": null
+            },
+            "id": "IPN0066422",
+            "links": {
+                "html": "places/IPN0066422.html",
+                "self": "places/IPN0066422"
+            },
+            "relationships": {
+                "areas": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0066422/areas",
+                        "self": "places/IPN0066422/relationships/areas"
+                    }
+                },
+                "nearest_places": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0066422/nearest_places",
+                        "self": "places/IPN0066422/relationships/nearest_places"
+                    }
+                },
+                "nearest_postcodes": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0066422/nearest_postcodes",
+                        "self": "places/IPN0066422/relationships/nearest_postcodes"
+                    }
+                }
+            },
+            "type": "places"
+        },
+        {
+            "attributes": {
+                "areas": {},
+                "bua22cd": null,
+                "ced21cd": null,
+                "ced22cd": null,
+                "country": "Great Britain",
+                "ctry21nm": "England",
+                "ctry22nm": "England",
+                "cty21cd": "E10000012",
+                "cty21nm": "Essex",
+                "cty22cd": "E10000012",
+                "cty22nm": "Essex",
+                "cty61nm": "Essex",
+                "cty91nm": "Essex",
+                "ctyhistnm": "Essex",
+                "ctyltnm": "Essex",
+                "descnm": "LOC",
+                "eer21cd": "E15000006",
+                "eer21nm": "Eastern",
+                "eer22cd": "E15000006",
+                "eer22nm": "Eastern",
+                "grid1km": "TQ4599",
+                "gridgb1e": "545365",
+                "gridgb1m": "5453650199050",
+                "gridgb1n": "0199050",
+                "hlth21cd": "E18000006",
+                "hlth21nm": "East of England",
+                "hlth22cd": "E18000006",
+                "hlth22nm": "East of England",
+                "lad21cd": "E07000072",
+                "lad21desc": "NMD",
+                "lad21nm": "Epping Forest",
+                "lad22cd": "E07000072",
+                "lad22desc": "NMD",
+                "lad22nm": "Epping Forest",
+                "lad61desc": "RD",
+                "lad61nm": "Epping and Ongar",
+                "lad91desc": "NMD",
+                "lad91nm": "Epping Forest",
+                "lat": 51.671371,
+                "location": {
+                    "lat": 51.671371,
+                    "lon": 0.100781
+                },
+                "long": 0.100781,
+                "name": "Theydon Bois",
+                "npark21cd": null,
+                "npark21nm": null,
+                "npark22cd": null,
+                "npark22nm": null,
+                "par21cd": null,
+                "par22cd": null,
+                "pcon21cd": "E14000693",
+                "pcon21nm": "Epping Forest",
+                "pcon22cd": "E14000693",
+                "pcon22nm": "Epping Forest",
+                "pfa21cd": "E23000028",
+                "pfa21nm": "Essex",
+                "pfa22cd": "E23000028",
+                "pfa22nm": "Essex",
+                "place21cd": "IPN0070467",
+                "place22cd": "IPN0070467",
+                "placeid": "67101",
+                "placesort": "theydonbois",
+                "regd21cd": "E28000210",
+                "regd21nm": "Essex",
+                "regd22cd": "E28000210",
+                "regd22nm": "Essex",
+                "rgn21cd": "E12000006",
+                "rgn21nm": "East of England",
+                "rgn22cd": "E12000006",
+                "rgn22nm": "East of England",
+                "splitind": false,
+                "type": "Locality",
+                "wd21cd": null,
+                "wd22cd": null
+            },
+            "id": "IPN0070467",
+            "links": {
+                "html": "places/IPN0070467.html",
+                "self": "places/IPN0070467"
+            },
+            "relationships": {
+                "areas": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0070467/areas",
+                        "self": "places/IPN0070467/relationships/areas"
+                    }
+                },
+                "nearest_places": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0070467/nearest_places",
+                        "self": "places/IPN0070467/relationships/nearest_places"
+                    }
+                },
+                "nearest_postcodes": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0070467/nearest_postcodes",
+                        "self": "places/IPN0070467/relationships/nearest_postcodes"
+                    }
+                }
+            },
+            "type": "places"
+        },
+        {
+            "attributes": {
+                "areas": {},
+                "bua22cd": null,
+                "ced21cd": null,
+                "ced22cd": null,
+                "country": "Great Britain",
+                "ctry21nm": "England",
+                "ctry22nm": "England",
+                "cty21cd": "E10000012",
+                "cty21nm": "Essex",
+                "cty22cd": "E10000012",
+                "cty22nm": "Essex",
+                "cty61nm": "Essex",
+                "cty91nm": "Essex",
+                "ctyhistnm": "Essex",
+                "ctyltnm": "Essex",
+                "descnm": "LOC",
+                "eer21cd": "E15000006",
+                "eer21nm": "Eastern",
+                "eer22cd": "E15000006",
+                "eer22nm": "Eastern",
+                "grid1km": "TL4503",
+                "gridgb1e": "545900",
+                "gridgb1m": "5459000203140",
+                "gridgb1n": "0203140",
+                "hlth21cd": "E18000006",
+                "hlth21nm": "East of England",
+                "hlth22cd": "E18000006",
+                "hlth22nm": "East of England",
+                "lad21cd": "E07000072",
+                "lad21desc": "NMD",
+                "lad21nm": "Epping Forest",
+                "lad22cd": "E07000072",
+                "lad22desc": "NMD",
+                "lad22nm": "Epping Forest",
+                "lad61desc": "UD",
+                "lad61nm": "Epping",
+                "lad91desc": "NMD",
+                "lad91nm": "Epping Forest",
+                "lat": 51.707982,
+                "location": {
+                    "lat": 51.707982,
+                    "lon": 0.110221
+                },
+                "long": 0.110221,
+                "name": "Lindsey Street",
+                "npark21cd": null,
+                "npark21nm": null,
+                "npark22cd": null,
+                "npark22nm": null,
+                "par21cd": null,
+                "par22cd": null,
+                "pcon21cd": "E14000693",
+                "pcon21nm": "Epping Forest",
+                "pcon22cd": "E14000693",
+                "pcon22nm": "Epping Forest",
+                "pfa21cd": "E23000028",
+                "pfa21nm": "Essex",
+                "pfa22cd": "E23000028",
+                "pfa22nm": "Essex",
+                "place21cd": "IPN0041404",
+                "place22cd": "IPN0041404",
+                "placeid": "39393",
+                "placesort": "lindseystreet",
+                "regd21cd": "E28000210",
+                "regd21nm": "Essex",
+                "regd22cd": "E28000210",
+                "regd22nm": "Essex",
+                "rgn21cd": "E12000006",
+                "rgn21nm": "East of England",
+                "rgn22cd": "E12000006",
+                "rgn22nm": "East of England",
+                "splitind": false,
+                "type": "Locality",
+                "wd21cd": null,
+                "wd22cd": null
+            },
+            "id": "IPN0041404",
+            "links": {
+                "html": "places/IPN0041404.html",
+                "self": "places/IPN0041404"
+            },
+            "relationships": {
+                "areas": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0041404/areas",
+                        "self": "places/IPN0041404/relationships/areas"
+                    }
+                },
+                "nearest_places": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0041404/nearest_places",
+                        "self": "places/IPN0041404/relationships/nearest_places"
+                    }
+                },
+                "nearest_postcodes": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0041404/nearest_postcodes",
+                        "self": "places/IPN0041404/relationships/nearest_postcodes"
+                    }
+                }
+            },
+            "type": "places"
+        },
+        {
+            "attributes": {
+                "areas": {},
+                "bua22cd": null,
+                "ced21cd": null,
+                "ced22cd": null,
+                "country": "Great Britain",
+                "ctry21nm": "England",
+                "ctry22nm": "England",
+                "cty21cd": "E10000012",
+                "cty21nm": "Essex",
+                "cty22cd": "E10000012",
+                "cty22nm": "Essex",
+                "cty61nm": "Essex",
+                "cty91nm": "Essex",
+                "ctyhistnm": "Essex",
+                "ctyltnm": "Essex",
+                "descnm": "LOC",
+                "eer21cd": "E15000006",
+                "eer21nm": "Eastern",
+                "eer22cd": "E15000006",
+                "eer22nm": "Eastern",
+                "grid1km": "TL4701",
+                "gridgb1e": "547400",
+                "gridgb1m": "5474000201060",
+                "gridgb1n": "0201060",
+                "hlth21cd": "E18000006",
+                "hlth21nm": "East of England",
+                "hlth22cd": "E18000006",
+                "hlth22nm": "East of England",
+                "lad21cd": "E07000072",
+                "lad21desc": "NMD",
+                "lad21nm": "Epping Forest",
+                "lad22cd": "E07000072",
+                "lad22desc": "NMD",
+                "lad22nm": "Epping Forest",
+                "lad61desc": "UD",
+                "lad61nm": "Epping",
+                "lad91desc": "NMD",
+                "lad91nm": "Epping Forest",
+                "lat": 51.688901,
+                "location": {
+                    "lat": 51.688901,
+                    "lon": 0.131036
+                },
+                "long": 0.131036,
+                "name": "Fiddlers Hamlet",
+                "npark21cd": null,
+                "npark21nm": null,
+                "npark22cd": null,
+                "npark22nm": null,
+                "par21cd": null,
+                "par22cd": null,
+                "pcon21cd": "E14000693",
+                "pcon21nm": "Epping Forest",
+                "pcon22cd": "E14000693",
+                "pcon22nm": "Epping Forest",
+                "pfa21cd": "E23000028",
+                "pfa21nm": "Essex",
+                "pfa22cd": "E23000028",
+                "pfa22nm": "Essex",
+                "place21cd": "IPN0025425",
+                "place22cd": "IPN0025425",
+                "placeid": "24154",
+                "placesort": "fiddlershamlet",
+                "regd21cd": "E28000210",
+                "regd21nm": "Essex",
+                "regd22cd": "E28000210",
+                "regd22nm": "Essex",
+                "rgn21cd": "E12000006",
+                "rgn21nm": "East of England",
+                "rgn22cd": "E12000006",
+                "rgn22nm": "East of England",
+                "splitind": false,
+                "type": "Locality",
+                "wd21cd": null,
+                "wd22cd": null
+            },
+            "id": "IPN0025425",
+            "links": {
+                "html": "places/IPN0025425.html",
+                "self": "places/IPN0025425"
+            },
+            "relationships": {
+                "areas": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0025425/areas",
+                        "self": "places/IPN0025425/relationships/areas"
+                    }
+                },
+                "nearest_places": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0025425/nearest_places",
+                        "self": "places/IPN0025425/relationships/nearest_places"
+                    }
+                },
+                "nearest_postcodes": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0025425/nearest_postcodes",
+                        "self": "places/IPN0025425/relationships/nearest_postcodes"
+                    }
+                }
+            },
+            "type": "places"
+        },
+        {
+            "attributes": {
+                "areas": {},
+                "bua22cd": null,
+                "ced21cd": null,
+                "ced22cd": null,
+                "country": "Great Britain",
+                "ctry21nm": "England",
+                "ctry22nm": "England",
+                "cty21cd": "E10000012",
+                "cty21nm": "Essex",
+                "cty22cd": "E10000012",
+                "cty22nm": "Essex",
+                "cty61nm": "Essex",
+                "cty91nm": "Essex",
+                "ctyhistnm": "Essex",
+                "ctyltnm": "Essex",
+                "descnm": "LOC",
+                "eer21cd": "E15000006",
+                "eer21nm": "Eastern",
+                "eer22cd": "E15000006",
+                "eer22nm": "Eastern",
+                "grid1km": "TL4701",
+                "gridgb1e": "547360",
+                "gridgb1m": "5473600201780",
+                "gridgb1n": "0201780",
+                "hlth21cd": "E18000006",
+                "hlth21nm": "East of England",
+                "hlth22cd": "E18000006",
+                "hlth22nm": "East of England",
+                "lad21cd": "E07000072",
+                "lad21desc": "NMD",
+                "lad21nm": "Epping Forest",
+                "lad22cd": "E07000072",
+                "lad22desc": "NMD",
+                "lad22nm": "Epping Forest",
+                "lad61desc": "UD",
+                "lad61nm": "Epping",
+                "lad91desc": "NMD",
+                "lad91nm": "Epping Forest",
+                "lat": 51.695381,
+                "location": {
+                    "lat": 51.695381,
+                    "lon": 0.130762
+                },
+                "long": 0.130762,
+                "name": "Coopersale Street",
+                "npark21cd": null,
+                "npark21nm": null,
+                "npark22cd": null,
+                "npark22nm": null,
+                "par21cd": null,
+                "par22cd": null,
+                "pcon21cd": "E14000693",
+                "pcon21nm": "Epping Forest",
+                "pcon22cd": "E14000693",
+                "pcon22nm": "Epping Forest",
+                "pfa21cd": "E23000028",
+                "pfa21nm": "Essex",
+                "pfa22cd": "E23000028",
+                "pfa22nm": "Essex",
+                "place21cd": "IPN0017071",
+                "place22cd": "IPN0017071",
+                "placeid": "16252",
+                "placesort": "coopersalestreet",
+                "regd21cd": "E28000210",
+                "regd21nm": "Essex",
+                "regd22cd": "E28000210",
+                "regd22nm": "Essex",
+                "rgn21cd": "E12000006",
+                "rgn21nm": "East of England",
+                "rgn22cd": "E12000006",
+                "rgn22nm": "East of England",
+                "splitind": false,
+                "type": "Locality",
+                "wd21cd": null,
+                "wd22cd": null
+            },
+            "id": "IPN0017071",
+            "links": {
+                "html": "places/IPN0017071.html",
+                "self": "places/IPN0017071"
+            },
+            "relationships": {
+                "areas": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0017071/areas",
+                        "self": "places/IPN0017071/relationships/areas"
+                    }
+                },
+                "nearest_places": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0017071/nearest_places",
+                        "self": "places/IPN0017071/relationships/nearest_places"
+                    }
+                },
+                "nearest_postcodes": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0017071/nearest_postcodes",
+                        "self": "places/IPN0017071/relationships/nearest_postcodes"
+                    }
+                }
+            },
+            "type": "places"
+        },
+        {
+            "attributes": {
+                "areas": {},
+                "bua22cd": null,
+                "ced21cd": null,
+                "ced22cd": null,
+                "country": "Great Britain",
+                "ctry21nm": "England",
+                "ctry22nm": "England",
+                "cty21cd": "E10000012",
+                "cty21nm": "Essex",
+                "cty22cd": "E10000012",
+                "cty22nm": "Essex",
+                "cty61nm": "Essex",
+                "cty91nm": "Essex",
+                "ctyhistnm": "Essex",
+                "ctyltnm": "Essex",
+                "descnm": "LOC",
+                "eer21cd": "E15000006",
+                "eer21nm": "Eastern",
+                "eer22cd": "E15000006",
+                "eer22nm": "Eastern",
+                "grid1km": "TL4200",
+                "gridgb1e": "542220",
+                "gridgb1m": "5422200200860",
+                "gridgb1n": "0200860",
+                "hlth21cd": "E18000006",
+                "hlth21nm": "East of England",
+                "hlth22cd": "E18000006",
+                "hlth22nm": "East of England",
+                "lad21cd": "E07000072",
+                "lad21desc": "NMD",
+                "lad21nm": "Epping Forest",
+                "lad22cd": "E07000072",
+                "lad22desc": "NMD",
+                "lad22nm": "Epping Forest",
+                "lad61desc": "UD",
+                "lad61nm": "Waltham Holy Cross",
+                "lad91desc": "NMD",
+                "lad91nm": "Epping Forest",
+                "lat": 51.688439,
+                "location": {
+                    "lat": 51.688439,
+                    "lon": 0.056068
+                },
+                "long": 0.056068,
+                "name": "Copthall Green",
+                "npark21cd": null,
+                "npark21nm": null,
+                "npark22cd": null,
+                "npark22nm": null,
+                "par21cd": null,
+                "par22cd": null,
+                "pcon21cd": "E14000693",
+                "pcon21nm": "Epping Forest",
+                "pcon22cd": "E14000693",
+                "pcon22nm": "Epping Forest",
+                "pfa21cd": "E23000028",
+                "pfa21nm": "Essex",
+                "pfa22cd": "E23000028",
+                "pfa22nm": "Essex",
+                "place21cd": "IPN0017161",
+                "place22cd": "IPN0017161",
+                "placeid": "16340",
+                "placesort": "copthallgreen",
+                "regd21cd": "E28000210",
+                "regd21nm": "Essex",
+                "regd22cd": "E28000210",
+                "regd22nm": "Essex",
+                "rgn21cd": "E12000006",
+                "rgn21nm": "East of England",
+                "rgn22cd": "E12000006",
+                "rgn22nm": "East of England",
+                "splitind": false,
+                "type": "Locality",
+                "wd21cd": null,
+                "wd22cd": null
+            },
+            "id": "IPN0017161",
+            "links": {
+                "html": "places/IPN0017161.html",
+                "self": "places/IPN0017161"
+            },
+            "relationships": {
+                "areas": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0017161/areas",
+                        "self": "places/IPN0017161/relationships/areas"
+                    }
+                },
+                "nearest_places": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0017161/nearest_places",
+                        "self": "places/IPN0017161/relationships/nearest_places"
+                    }
+                },
+                "nearest_postcodes": {
+                    "data": null,
+                    "links": {
+                        "related": "places/IPN0017161/nearest_postcodes",
+                        "self": "places/IPN0017161/relationships/nearest_postcodes"
+                    }
+                }
+            },
+            "type": "places"
+        }
+    ],
+    "links": {
+        "html": "postcodes/CM16+4EA.html",
+        "self": "postcodes/CM16+4EA"
+    }
+}

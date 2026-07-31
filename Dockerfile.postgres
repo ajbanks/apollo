@@ -1,0 +1,14 @@
+FROM postgres:18
+
+# install pgvector
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    postgresql-server-dev-$PG_MAJOR build-essential git ca-certificates \
+    && git clone --branch v0.8.1 https://github.com/pgvector/pgvector.git /pgvector \
+    && make -C /pgvector && make -C /pgvector install \
+    && rm -rf /var/lib/apt/lists/* /pgvector
+
+COPY ./postgres/postgresql.conf /etc/postgresql.conf
+
+WORKDIR /
+COPY ./postgres/scripts ./scripts
+WORKDIR /scripts

@@ -1,0 +1,65 @@
+-- grabbing GML
+-- -- 
+-- -- data comes from https://use-land-property-data.service.gov.uk/datasets/inspire/download
+-- -- 
+-- -- ```
+-- -- Array.from(document.querySelectorAll("a")).filter(a => a.href.match(/\.zip$/)).map(x=>x.href)
+-- -- // dump in data/files.txt
+-- -- ```
+-- -- 
+-- -- ----
+-- -- 
+-- -- grabbing data
+-- -- 
+-- -- ```
+-- -- cd data/
+-- -- cat files.txt |  parallel -N5 wget -
+-- -- ls *.zip | parallel 'mkdir -p {/.} && 7za x {} -o{/.}'
+-- -- rm *.zip
+-- -- ```
+-- -- 
+-- -- 
+-- -- 
+-- -- converting to geojson
+-- -- 
+-- -- ```
+-- -- ls **.gml | parallel -j12 --bar --eta 'ogr2ogr -oo XSD=/dev/null -f "GeoJSON" -s_srs EPSG:27700 -t_srs EPSG:4326 {//}.geojson {}'
+-- -- # {//} is the directory name, {/.} is the file name without extension, {} is the whole path
+-- -- # NB: -oo XSD=/dev/null stops it trying to connect to some random server and timing out
+-- -- ```
+-- -- 
+-- -- Takes ~10 minutes
+
+-- from inspire_h3_reader on cyclops
+-- TODO: convert to clickhouse
+
+-- df = select_df(con(), "select uprn, geoToH3(lon, lat, 15) h3 from raw.uprn_metadata")
+-- execute(con("localhost";database="default"), """
+--     CREATE TABLE default.TMP_UPRN_H3
+--     $(tablespec(chtypes(df)))
+--     ENGINE = MergeTree
+--     ORDER BY (uprn, h3)
+--     """)
+-- insert(con("localhost";database="default"), "default.TMP_UPRN_H3", [df2dict(df)])
+
+
+-- # Matching INSPIRE with UPRN
+--  using ThreadsX
+--  df = select_df(con("localhost";database="default"), "select distinct INSPIREID from default.inspire_h3")
+--  k = Iterators.partition(df.INSPIREID, 1000) |> first
+--  @time inspire_uprn = reduce(vcat, ThreadsX.map(inspires -> select_df(con("localhost";database="default"), """
+--                  select uprn, INSPIREID from default.TMP_UPRN_H3 uh left join (select * from default.inspire_h3 where INSPIREID in $(julia2clickhouse(inspires))) ip on
+--                      uh.h3 = ip.h3
+--                          having INSPIREID > 0
+--                              -- settings max_memory_usage = 200000000000
+--                               """), Iterators.partition(df.INSPIREID, 10000)))
+--                  # only takes 15 minutes, lol
+
+-- execute(con("localhost";database="default"), """
+--     CREATE TABLE default.inspire_uprn_raw
+--     $(tablespec(chtypes(inspire_uprn)))
+--     ENGINE = MergeTree
+--     ORDER BY (INSPIREID, uprn)
+--     """)
+-- execute(con("localhost";database="default"), "TRUNCATE TABLE default.inspire_uprn_raw")
+-- insert(con("localhost";database="default"), "default.inspire_uprn_raw", [df2dict(inspire_uprn)])
