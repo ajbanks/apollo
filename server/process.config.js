@@ -26,7 +26,7 @@ module.exports = {
             name: "api",
             script: "dist/api.js",
             exec_mode: "cluster",
-            instances: DEV_MODE ? "1" : "max",
+            instances: DEV_MODE ? "1" : (process.env.PM2_API_INSTANCES || "1"),
             ...LOG_CONFIG,
             ...WATCH_CONFIG,
         },
@@ -47,8 +47,7 @@ module.exports = {
             name: "workers",
             script: "dist/queue-workers.js",
             exec_mode: "cluster",
-            instances: DEV_MODE ? "1" : "max",
-            ...DEV_MODE,
+            instances: DEV_MODE ? "1" : (process.env.PM2_WORKER_INSTANCES || "1"),
             ...LOG_CONFIG,
         },
         {

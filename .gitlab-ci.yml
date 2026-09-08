@@ -5,15 +5,14 @@
     services:
         - docker:dind
     before_script:
-        - apk add --update git openssh
-        # - apk add --update git openssh-client-default=9.3_p2-r0 openssh=9.3_p2-r0
-        - docker login -u ${DOCKER_USERNAME} -p ${DOCKER_PASSWORD}
-        - echo "${PIMASI_001_KEY}" | base64 -d > ./ssh_key
+        - apk add --update git openssh aws-cli
+        - aws ecr get-login-password --region ${AWS_REGION} | docker login --username AWS --password-stdin ${DOCKER_REPO}
+        - echo "${EC2_SSH_KEY}" | base64 -d > ./ssh_key
         - chmod 600 ./ssh_key
         - eval "$(ssh-agent -s)"
         - ssh-add ./ssh_key
     after_script:
-        - ssh -i ./ssh_key -o StrictHostKeyChecking=no ${PIMASI_001_SERVER} "docker restart pimasi-gateway"
+        - ssh -i ./ssh_key -o StrictHostKeyChecking=no ${EC2_DEPLOY_TARGET} "docker restart pimasi-gateway 2>/dev/null || true"
     rules:
         - if: "$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH"
 
@@ -23,7 +22,7 @@ deploy-stores:
         TARGET: prod
     script:
         - SERVICES="apollo-postgres" .ops/build-and-push.sh
-        - SERVICES="apollo-redis apollo-clickhouse apollo-postgres" DEPLOY_TARGET=${PIMASI_001_SERVER} .ops/deploy-apollo.sh
+        - SERVICES="apollo-redis apollo-clickhouse apollo-postgres" DEPLOY_TARGET=${EC2_DEPLOY_TARGET} .ops/deploy-apollo.sh
 
 deploy-rm-crawler:
     <<: *defaults
@@ -31,7 +30,7 @@ deploy-rm-crawler:
         TARGET: prod
     script:
         - SERVICES="apollo-server apollo-proxy" .ops/build-and-push.sh
-        - SERVICES="apollo-rm-crawler apollo-proxy" DEPLOY_TARGET=${PIMASI_001_SERVER} .ops/deploy-apollo.sh
+        - SERVICES="apollo-rm-crawler apollo-proxy" DEPLOY_TARGET=${EC2_DEPLOY_TARGET} .ops/deploy-apollo.sh
 
 deploy-server:
     <<: *defaults
@@ -39,4 +38,4 @@ deploy-server:
         TARGET: prod
     script:
         - SERVICES="apollo-server" .ops/build-and-push.sh
-        - SERVICES="apollo-cron apollo-workers apollo-server" DEPLOY_TARGET=${PIMASI_001_SERVER} .ops/deploy-apollo.sh
+        - SERVICES="apollo-cron apollo-workers apollo-server" DEPLOY_TARGET=${EC2_DEPLOY_TARGET} .ops/deploy-apollo.sh

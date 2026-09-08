@@ -19,7 +19,7 @@ STATE_DIR="/tmp/apollo-transfer-state"
 LOG_FILE="/tmp/apollo-transfer.log"
 
 # --- B2 Presigned URL (paste a fresh one if expired) ---
-B2_URL="https://s3.eu-central-003.backblazeb2.com/pimasi-apollo-backups/2026-06-09?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=003af4e392901ad0000000002%2F20260724%2Feu-central-003%2Fs3%2Faws4_request&X-Amz-Date=20260724T150401Z&X-Amz-Expires=604800&X-Amz-Signature=180348f0ac752a243ff8f2e6fdb3fafb1c78c2c18eb22a207b982892bb00ef41&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+B2_URL="https://pimasi-apollo-backups.s3.eu-central-003.backblazeb2.com/2026-06-09?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=003af4e392901ad0000000002%2F20260731%2Feu-central-003%2Fs3%2Faws4_request&X-Amz-Date=20260731T184924Z&X-Amz-Expires=604800&X-Amz-Signature=0088c8868c0df953453700c917b4e6109baab495ade9af979f93f5819d3bb42e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
 
 # --- Export AWS creds for CLI ---
 export AWS_ACCESS_KEY_ID
@@ -55,11 +55,11 @@ get_part_etag() {
 
 # --- Step 1: Get total file size from B2 ---
 log "Checking remote file size..."
-HEADERS=$(curl -sI "$B2_URL")
-TOTAL_SIZE=$(echo "$HEADERS" | grep -i '^content-length:' | tr -d '\r' | awk '{print $2}')
+HEADERS=$(curl -s -D - -o /dev/null -r 0-0 "$B2_URL")
+TOTAL_SIZE=$(echo "$HEADERS" | grep -i '^content-range:' | tr -d '\r' | awk -F'/' '{print $2}')
 
 if [ -z "$TOTAL_SIZE" ]; then
-    log "ERROR: Could not get Content-Length. The presigned URL may be expired."
+    log "ERROR: Could not get Content-Range. The presigned URL may be expired."
     log "Response headers:"
     echo "$HEADERS" | tee -a "$LOG_FILE"
     exit 1

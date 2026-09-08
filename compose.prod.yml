@@ -14,14 +14,14 @@ x-log-config: &log-config
         max-size: "100m"
 
 x-server-config: &server-config
-    DOMAIN_URL: https://apollo.pimasi.com
+    DOMAIN_URL: ${DOMAIN_URL:-http://localhost:5000}
     ENABLE_DOCS: 1
     DATABASE_URL: postgresql://root:Nitc9L60lhxNhFr4IZbP@apollo-postgres:5432/apollo
     CLICKHOUSE_URL: http://root:78GJ4OtTPMO2bY6eLtI2@apollo-clickhouse:8123/default
     REDIS_URL: redis://apollo-redis:6379
     PROXY_HOST: apollo-proxy
     PROXY_PORT: 9150
-    RM_API_WORKERS: 10
+    RM_API_WORKERS: 2
     JWT_SECRET: DFBwKycKvWR97MdY3g8F2Z92sxddDgd8vGSW
     S3_CREDENTIAL_KEY: ${S3_CREDENTIAL_KEY}
     S3_CREDENTIAL_SECRET: ${S3_CREDENTIAL_SECRET}
@@ -62,33 +62,33 @@ services:
                 soft: 65536
                 hard: 65536
         restart: always
-        shm_size: 1gb
+        shm_size: 256m
         ports:
-            - 54111:5432
+            - 127.0.0.1:54111:5432
         environment:
             <<: *postgres-config
         logging:
             <<: *log-config
         volumes:
-            - postgres_data:/var/lib/postgresql/data
+            - postgres_data:/var/lib/postgresql
             - /data/pg_dumps:/dumps
 
     apollo-redis:
         image: redis
         container_name: apollo-redis
         restart: always
-        shm_size: 1gb
+        shm_size: 128m
         ports:
-            - 54222:6379
+            - 127.0.0.1:54222:6379
         logging:
             <<: *log-config
 
     apollo-proxy:
         image: ${DOCKER_REPO}/apollo-proxy
         restart: always
-        shm_size: 1gb
+        shm_size: 128m
         deploy:
-            replicas: 2
+            replicas: 1
         logging:
             <<: *log-config
 
@@ -96,11 +96,11 @@ services:
         image: clickhouse/clickhouse-server:26.1
         restart: always
         container_name: apollo-clickhouse
-        mem_limit: 64g
-        mem_reservation: 1g
+        mem_limit: 1g
+        mem_reservation: 256m
         ports:
-            - 54333:8123
-            - 54334:9000
+            - 127.0.0.1:54333:8123
+            - 127.0.0.1:54334:9000
         environment:
             <<: *clickhouse-config
         ulimits:
@@ -117,6 +117,8 @@ services:
         command: sh -c "wait-for-it apollo-postgres:5432 -- npm run knex:migrate && npm run api:prod"
         container_name: apollo-server
         restart: always
+        ports:
+            - 5000:5000
         environment:
             <<: *server-config
         depends_on:
