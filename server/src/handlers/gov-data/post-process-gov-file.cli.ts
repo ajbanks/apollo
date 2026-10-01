@@ -21,7 +21,7 @@ async function main() {
     await matchLandRegistryRecordsWithUprn();
     timer.lap(`matching`);
 
-    await buildProperties();
+    await buildProperties({ clean: true });
     timer.lap(`property_map`);
 
     await $slack.sendMessage({

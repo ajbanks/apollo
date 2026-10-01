@@ -5,7 +5,7 @@ import { $logger } from "../../utils/logger";
 import moment from "moment";
 import { $slack } from "../../services/slack";
 import { isMainThread, parentPort, Worker } from "worker_threads";
-import { chunk, sortBy } from "lodash";
+import { chunk, orderBy } from "lodash";
 import { $uprnOs, UprnOS } from "../../models/db/uprn-os";
 import {
     $propertyListings,
@@ -212,12 +212,21 @@ if (!isMainThread) {
                 handler: async (uprn) => {
                     let property = await buildProperty({
                         uprn: uprnMap[uprn]?.[0],
-                        transaction: sortBy(transactionMap[uprn], "date")?.[0],
-                        epcCertificate: sortBy(
-                            epcMap[uprn],
-                            "lodgement_date"
+                        transaction: orderBy(
+                            transactionMap[uprn],
+                            "date",
+                            "desc"
                         )?.[0],
-                        listings: sortBy(listingMap[uprn], "last_crawled_at"),
+                        epcCertificate: orderBy(
+                            epcMap[uprn],
+                            "lodgement_date",
+                            "desc"
+                        )?.[0],
+                        listings: orderBy(
+                            listingMap[uprn],
+                            "last_crawled_at",
+                            "desc"
+                        ),
                     }).catch((err) => undefined);
 
                     if (property) result.push(property as Property);

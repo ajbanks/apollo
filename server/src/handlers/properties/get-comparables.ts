@@ -42,12 +42,11 @@ export async function getComparableProperties({
     lat = null as number | null,
     lon = null as number | null,
 }) {
-    let habitableRooms = BedToHabitableRoomsMap[propertyType]?.[bedrooms];
-    if (!habitableRooms) {
-        throw ExpectationFailed(
-            `No habitable rooms mapping for property type ${propertyType} with ${bedrooms} bedrooms`
-        );
-    }
+    lat = lat == null ? null : Number(lat);
+    lon = lon == null ? null : Number(lon);
+
+    let habitableRooms =
+        BedToHabitableRoomsMap[propertyType]?.[bedrooms] ?? null;
 
     if (!lat || !lon) {
         if (!postcode) {
@@ -65,78 +64,93 @@ export async function getComparableProperties({
         lon = Number(lon || geoPostcode.lon);
     }
 
-    let h3Ring = $h3.gridDiskDistances($h3.latLngToCell(lat, lon, 9), 7).flat();
+    const RESULT_LIMIT = 25;
+    const H3_RING_SIZES = [7, 15, 25];
 
-    let propertyQuery = $properties
-        .knex()
-        .select(
-            "uprn",
-            "lat",
-            "lon",
-            "address",
-            "postcode",
-            "total_floor_area",
-            "property_type",
-            "new_build",
-            "bedrooms",
-            "num_habitable_rooms",
-            "last_epc_certificate_date",
-            "epc_rating",
-            "epc_potential_rating",
-            "last_transaction_price",
-            "last_transaction_date",
-            "year_built_normalised"
-        )
-        .where("type", "domestic")
-        .whereIn("property_type", PropertyTypeNeighbors[propertyType])
-        .whereIn("h3_9", h3Ring)
-        .where(function () {
-            this.whereBetween("num_habitable_rooms", [
-                habitableRooms - 1,
-                habitableRooms + 1,
-            ]).orWhere("bedrooms", bedrooms);
-        })
-        .where(
-            "last_transaction_date",
-            ">=",
-            moment().subtract(2, "years").toDate()
-        );
+    let properties: any[] = [];
 
-    if (floorArea) {
-        propertyQuery.whereBetween("total_floor_area", [
-            Number(floorArea) * 0.8,
-            Number(floorArea) * 1.2,
-        ]);
-    }
+    for (let ringSize of H3_RING_SIZES) {
+        let h3Ring = $h3
+            .gridDiskDistances($h3.latLngToCell(lat, lon, 9), ringSize)
+            .flat();
 
-    if (newBuild !== null) {
-        propertyQuery.where({ new_build: newBuild });
-    }
+        let propertyQuery = $properties
+            .knex()
+            .select(
+                "uprn",
+                "lat",
+                "lon",
+                "address",
+                "postcode",
+                "total_floor_area",
+                "property_type",
+                "new_build",
+                "bedrooms",
+                "num_habitable_rooms",
+                "last_epc_certificate_date",
+                "epc_rating",
+                "epc_potential_rating",
+                "last_transaction_price",
+                "last_transaction_date",
+                "year_built_normalised"
+            )
+            .where("type", "domestic")
+            .whereIn("property_type", PropertyTypeNeighbors[propertyType])
+            .whereIn("h3_9", h3Ring)
+            .where(function () {
+                if (habitableRooms) {
+                    this.whereBetween("num_habitable_rooms", [
+                        habitableRooms - 1,
+                        habitableRooms + 1,
+                    ]).orWhere("bedrooms", bedrooms);
+                } else {
+                    this.where("bedrooms", bedrooms);
+                }
+            })
+            .where(
+                "last_transaction_date",
+                ">=",
+                moment().subtract(2, "years").toDate()
+            );
 
-    let properties = (await propertyQuery).map((item) => {
-        return {
-            ...item,
-            distance: Math.round(
-                distance(
-                    [Number(lon), Number(lat)],
-                    [Number(item.lon), Number(item.lat)],
-                    { units: "meters" }
-                )
-            ),
-            bedrooms:
-                item.bedrooms ||
-                Number(
-                    Object.entries(
-                        BedToHabitableRoomsMap[item.property_type!] ?? {}
-                    ).find(([bedroomCount, habitableRoomCount]) => {
-                        return (
-                            Number(habitableRoomCount) ===
-                            item.num_habitable_rooms
-                        );
-                    })
+        if (floorArea) {
+            propertyQuery.whereBetween("total_floor_area", [
+                Number(floorArea) * 0.8,
+                Number(floorArea) * 1.2,
+            ]);
+        }
+
+        if (newBuild !== null) {
+            propertyQuery.where({ new_build: newBuild });
+        }
+
+        properties = (await propertyQuery).map((item) => {
+            return {
+                ...item,
+                distance: Math.round(
+                    distance(
+                        [Number(lon), Number(lat)],
+                        [Number(item.lon), Number(item.lat)],
+                        { units: "meters" }
+                    )
                 ),
-        };
-    });
+                bedrooms:
+                    item.bedrooms ||
+                    Number(
+                        Object.entries(
+                            BedToHabitableRoomsMap[item.property_type!] ?? {}
+                        ).find(([bedroomCount, habitableRoomCount]) => {
+                            return (
+                                Number(habitableRoomCount) ===
+                                item.num_habitable_rooms
+                            );
+                        })?.[0]
+                    ),
+            };
+        });
 
-    return orderBy(properties, ["distance"], ["asc"]).slice(0, 25);
+        if (properties.length >= RESULT_LIMIT) break;
+    }
+
+    return orderBy(properties, ["distance"], ["asc"]).slice(0, RESULT_LIMIT);
 }
