@@ -113,7 +113,7 @@ let _buildId: string | null = null;
  * current buildId; if the buildId rotates mid-cycle the data route misses and
  * we silently fall back to HTML once.
  */
-async function fetchSearchResults(url: URL): Promise<{
+export async function fetchSearchResults(url: URL): Promise<{
     searchResults: any;
     status: number;
     via: "json" | "html";

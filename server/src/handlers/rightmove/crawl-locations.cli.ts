@@ -1,28 +1,39 @@
 import moment from "moment";
 import { $rmCodes } from "../../models/db/rm-code-map";
-import { $proxyV2 } from "../../services/proxy";
 import { $logger } from "../../utils/logger";
 import { CliCommand } from "../../app/cli-command";
 import { StopWatch } from "../../utils/stop-watch";
-import { parallelize, retry } from "@bahatron/utils/lib/helpers";
+import { parallelize, sleep } from "@bahatron/utils/lib/helpers";
 import { generateCrawlV2Urls } from "./crawler-v2/generate-crawl-url";
-import { extractSearchPageModel } from "./crawler-v2/crawl-rm-v2";
+import { fetchSearchResults } from "./crawler-v2/crawl-rm-v2";
 
 export const CrawlRmLocationsCmd = CliCommand({
     name: "rm-crawl-locations",
     handler: crawlRmLocations,
 });
 
+/**
+ * Rebuild rm_code_map by probing Rightmove's OUTCODE id space.
+ *
+ * OUTCODE^N ids are alphabetical and dense — verified Oct 2026:
+ * OUTCODE^1 = AB10 … OUTCODE^2900 = YO23, nothing beyond ~3000. The previous
+ * implementation brute-forced 250k REGION/OUTCODE/STATION ids through the
+ * paid proxy; this scans ~3k codes direct via the cheap _next/data JSON
+ * route instead. Outcodes alone give complete national coverage — the
+ * crawler fans each outcode out per-bedroom anyway, so REGION/STATION codes
+ * would only add overlapping requests.
+ */
 export async function crawlRmLocations(): Promise<void> {
     let timer = StopWatch({ units: "milliseconds" });
 
-    let codes = [
-        generateCodes("REGION", 150000),
-        generateCodes("OUTCODE", 50000),
-        generateCodes("STATION", 50000),
-    ].flat();
+    let codes = Array.from(
+        { length: 3200 },
+        (_, i) => `OUTCODE^${i + 1}`,
+    );
 
     timer.lap("Generated codes");
+
+    let found = 0;
 
     await parallelize({
         workers: 5,
@@ -31,17 +42,14 @@ export async function crawlRmLocations(): Promise<void> {
             try {
                 let start = moment();
 
-                let testUrl = generateCrawlV2Urls({ locationCode: code })[0];
+                // res-let URL — any channel works, we only need searchResults
+                let testUrl = generateCrawlV2Urls({ locationCode: code })[1];
 
-                let { data, status } = await retry(() => {
-                    return $proxyV2({
-                        method: "GET",
-                        url: testUrl,
-                    });
-                });
+                let { searchResults } = await fetchSearchResults(
+                    new URL(testUrl),
+                );
 
-                let pageModel = extractSearchPageModel(data);
-                let searchResults = pageModel?.props?.pageProps?.searchResults;
+                await sleep(150 + Math.floor(Math.random() * 300));
 
                 if (!searchResults) {
                     await $rmCodes.knex().where({ code }).delete();
@@ -51,24 +59,25 @@ export async function crawlRmLocations(): Promise<void> {
                         .insert({ code })
                         .onConflict("code")
                         .ignore();
+                    found++;
                 }
 
                 $logger.info(
                     {
-                        status,
+                        code,
+                        found: !!searchResults,
                         time: `${moment().diff(start, "milliseconds")}ms`,
                     },
-                    `checked for location code ${code}`,
+                    `checked location code ${code}`,
                 );
             } catch (err: any) {
-                $logger.warn(err, `Error getting location code response`);
+                $logger.warn(
+                    { code, error: err?.message },
+                    `Error getting location code response`,
+                );
             }
         },
     });
-}
 
-function generateCodes(prefix: string, quantity: number) {
-    return Array(quantity)
-        .fill(null)
-        .map((val, i) => `${prefix}^${i + 1}`);
+    $logger.info({ found, total: codes.length }, `rm location crawl complete`);
 }
