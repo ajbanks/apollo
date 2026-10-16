@@ -1,6 +1,5 @@
-import { BrowserContext, chromium } from "playwright";
+import axios from "axios";
 import { $rmCodes } from "../../../models/db/rm-code-map";
-import { $env } from "../../../utils/env";
 import { jsonStringify, parallelize, retry } from "@bahatron/utils/lib/helpers";
 import {
     RmCrawlerBus,
@@ -14,104 +13,186 @@ import { $logger } from "../../../utils/logger";
 import { processApiResult } from "../crawl-api";
 import moment from "moment";
 import { Decimal } from "../../../utils/number-helpers";
-import { cpus } from "os";
-import { $proxyV2 } from "../../../services/proxy";
+
+const FIREFOX_UA =
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0";
+
+const HTTP_HEADERS = {
+    "User-Agent": FIREFOX_UA,
+    Accept:
+        "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-GB,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+    Connection: "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+};
+
+const COOKIE_JAR: Record<string, string> = {};
+
+function buildCookieHeader(): string {
+    return Object.entries(COOKIE_JAR)
+        .map(([k, v]) => `${k}=${v}`)
+        .join("; ");
+}
+
+function parseSetCookies(setCookie: string | string[] | undefined) {
+    if (!setCookie) return;
+    const cookies = Array.isArray(setCookie) ? setCookie : [setCookie];
+    for (const c of cookies) {
+        const match = c.match(/^([^=]+)=([^;]*)/);
+        if (match) {
+            COOKIE_JAR[match[1].trim()] = match[2].trim();
+        }
+    }
+}
+
+function randomDelay(min: number, max: number): Promise<void> {
+    return new Promise((resolve) =>
+        setTimeout(resolve, Math.random() * (max - min) + min),
+    );
+}
 
 export async function crawlRmV2() {
     RmCrawlRunListings.clear();
 
     let codes = (await $rmCodes.knex().select("code")) ?? [];
 
-    // let browser = await chromium.launch({
-    //     proxy: {
-    //         server: `socks5://${$env.PROXY_HOST}:${$env.PROXY_PORT}`,
-    //     },
-    //     headless: true,
-    //     args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    // });
+    /** Visit homepage first to establish session cookies */
+    try {
+        $logger.info(`visiting rightmove homepage to establish session...`);
+        let homeRes = await axios.get("https://www.rightmove.co.uk/", {
+            headers: HTTP_HEADERS,
+            timeout: 30000,
+            validateStatus: () => true,
+        });
+        parseSetCookies(homeRes.headers["set-cookie"]);
+        $logger.info(
+            { status: homeRes.status, cookies: Object.keys(COOKIE_JAR) },
+            `homepage visit complete`,
+        );
+    } catch (err: any) {
+        $logger.warn({ error: err?.message }, `homepage visit failed`);
+    }
 
-    await parallelize({
-        // queue: [{ code: "OUTCODE^1859" }],
-        queue: codes,
-        // workers: $env.DEV_MODE ? 1 : cpus().length,
-        workers: $env.RM_API_WORKERS,
-        handler: async ({ code }) => {
-            let urls = generateCrawlV2Urls({ locationCode: code });
+    for (let { code } of codes) {
+        let urls = generateCrawlV2Urls({ locationCode: code });
 
-            // let context = await browser.newContext({
-            //     userAgent:
-            //         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-            //     viewport: { width: 1920, height: 1080 },
-            //     locale: "en-GB",
-            //     timezoneId: "Europe/London",
-            // });
+        try {
+            await retry(() => {
+                return rightmoveSpiderV2({ urls, locationCode: code });
+            });
+        } catch (err: any) {
+            $slack.sendMessage({
+                text: `RM v2 CRAWLER - SPIDER ERROR`,
+                context: {
+                    error: err?.message,
+                    locationCode: code,
+                },
+            });
+        }
 
-            try {
-                await retry(() => {
-                    return rightmoveSpiderV2({
-                        // context,
-                        urls,
-                        locationCode: code,
-                    });
-                });
-            } catch (err: any) {
-                $slack.sendMessage({
-                    text: `RM v2 CRAWLER - SPIDER ERROR`,
-                    context: {
-                        error: err?.message,
-                        locationCode: code,
-                    },
-                });
-            } finally {
-                // await context.close();
-            }
-        },
-    });
+        await randomDelay(5000, 10000);
+    }
 
     await $rmApiCrawlResults.add({
         timestamp: new Date().toISOString(),
         result: jsonStringify(Array.from(RmCrawlRunListings)),
     });
+}
 
-    // await browser.close();
+let _buildId: string | null = null;
+
+/**
+ * Fetch a search page's `searchResults` payload as cheaply as possible.
+ *
+ * Rightmove is a Next.js app — `/_next/data/<buildId>/<route>.json` returns
+ * the exact same `pageProps.searchResults` object that v2 used to scrape out
+ * of the `__NEXT_DATA__` script tag, at a fraction of the bytes (the old
+ * `/api/_search` endpoint is dead — 403 through the proxy too). Each cycle's
+ * first request is still HTML, which both yields results and harvests the
+ * current buildId; if the buildId rotates mid-cycle the data route misses and
+ * we silently fall back to HTML once.
+ */
+async function fetchSearchResults(url: URL): Promise<{
+    searchResults: any;
+    status: number;
+    via: "json" | "html";
+}> {
+    if (_buildId) {
+        let dataUrl = new URL(
+            `/_next/data/${_buildId}${url.pathname}.json`,
+            url.origin,
+        );
+        url.searchParams.forEach((v, k) => dataUrl.searchParams.set(k, v));
+
+        let res = await axios.get(dataUrl.toString(), {
+            headers: {
+                ...HTTP_HEADERS,
+                Accept: "application/json",
+                Referer: url.toString(),
+                Cookie: buildCookieHeader(),
+            },
+            timeout: 30000,
+            validateStatus: () => true,
+        });
+
+        parseSetCookies(res.headers["set-cookie"]);
+
+        let sr = res.data?.pageProps?.searchResults;
+        if (res.status === 200 && sr && !res.data?.pageProps?.__N_REDIRECT) {
+            return { searchResults: sr, status: res.status, via: "json" };
+        }
+
+        // buildId likely rotated — drop it and fall through to HTML
+        _buildId = null;
+    }
+
+    let response = await axios.get(url.toString(), {
+        headers: {
+            ...HTTP_HEADERS,
+            Referer: "https://www.rightmove.co.uk/",
+            Cookie: buildCookieHeader(),
+        },
+        timeout: 30000,
+        validateStatus: () => true,
+    });
+
+    parseSetCookies(response.headers["set-cookie"]);
+
+    let pageModel = extractSearchPageModel(response.data);
+    if (pageModel?.buildId) {
+        _buildId = pageModel.buildId;
+    }
+
+    return {
+        searchResults: pageModel?.props?.pageProps?.searchResults,
+        status: response.status,
+        via: "html",
+    };
 }
 
 async function rightmoveSpiderV2({
-    // context,
     urls,
     locationCode,
 }: {
     urls: string[];
     locationCode: string;
-    // context: BrowserContext;
 }) {
     for (let baseUrl of urls) {
         $logger.debug({ url: baseUrl }, `crawling page`);
 
-        // let page = await context.newPage();
+        await randomDelay(2000, 5000);
 
         let url: URL | null = new URL(baseUrl);
 
         while (url) {
             let start = moment();
 
-            // let response = await page.goto(url.toString(), {
-            //     waitUntil: "load",
-            //     timeout: 60000,
-            // });
+            await randomDelay(1500, 3500);
 
-            let { data, status } = await $proxyV2({
-                url: url.toString(),
-            });
+            let { searchResults, status, via } = await fetchSearchResults(url);
 
-            /** @todo refactor events */
             RmCrawlerBus.emit(RmCrawlerBusEvents.SEARCH_CALL);
-
-            // let pageModel = extractSearchPageModel(await response?.text()!);
-
-            let pageModel = extractSearchPageModel(data);
-
-            let searchResults = pageModel?.props?.pageProps?.searchResults;
             if (!searchResults) {
                 if (status !== 200) {
                     await $slack.sendMessage({
@@ -135,6 +216,7 @@ async function rightmoveSpiderV2({
 
             $logger.info(
                 {
+                    via,
                     time: `${Decimal(moment().diff(start, "seconds", true))}s`,
                     url: url.toString(),
                     query: Object.fromEntries(url.searchParams.entries()),
@@ -154,8 +236,6 @@ async function rightmoveSpiderV2({
                 url.searchParams.set("index", pagination.next.toString());
             }
         }
-
-        // await page.close();
     }
 }
 
