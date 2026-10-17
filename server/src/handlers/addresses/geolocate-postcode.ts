@@ -25,6 +25,39 @@ export async function geolocatePostcode(
 
         if (record && !forceUpdate) return record;
 
+        // Outcode input (e.g. "LU1", "SW1A"): find-that-postcode only
+        // resolves full postcodes, so fall back to postcodes.io's outcode
+        // endpoint which returns the outcode centroid.
+        if (/^[A-Z]{1,2}\d[A-Z]?$/.test(postcode)) {
+            let res = await fetch(
+                `https://api.postcodes.io/outcodes/${encodeURIComponent(postcode)}`,
+            );
+            if (!res.ok) return undefined;
+            let body: any = await res.json();
+            let r = body?.result;
+            if (!r?.latitude || !r?.longitude) return undefined;
+            let payload: PostcodeMap = {
+                postcode,
+                slug: normalisePostcode(postcode),
+                lat: r.latitude,
+                lon: r.longitude,
+                h3_9: $h3.latLngToCell(r.latitude, r.longitude, 9),
+                country_name: r.country?.[0] ?? null,
+                region: r.region?.[0] ?? null,
+                region_name: r.region?.[0] ?? null,
+                district: r.admin_district?.[0] ?? null,
+                district_name: r.admin_district?.[0] ?? null,
+                ward: r.admin_ward?.[0] ?? null,
+                ward_name: r.admin_ward?.[0] ?? null,
+            } as PostcodeMap;
+            await $postcodeMap
+                .knex()
+                .insert(payload)
+                .onConflict("postcode")
+                .merge();
+            return payload;
+        }
+
         let meta = await getOrFetchPostcodeMeta(postcode);
 
         let lat = meta.data.attributes.location?.lat;
