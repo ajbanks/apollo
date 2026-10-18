@@ -2,3 +2,5 @@ HardwareAccel 1
 Log notice stdout
 SocksPort 0.0.0.0:9150
 DataDirectory /var/lib/tor
+ControlPort 0.0.0.0:9051
+HashedControlPassword 16:DB4FF51FBDE307FE60F6259380A181E6CD979FD3359290862B9834804B
