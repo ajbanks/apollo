@@ -6,10 +6,26 @@ import { StopWatch } from "../../utils/stop-watch";
 import { parallelize, sleep } from "@bahatron/utils/lib/helpers";
 import { generateCrawlV2Urls } from "./crawler-v2/generate-crawl-url";
 import { fetchSearchResults } from "./crawler-v2/crawl-rm-v2";
+import { retrieveLocationMappingBulk } from "./retrieve-location-mapping";
 
 export const CrawlRmLocationsCmd = CliCommand({
     name: "rm-crawl-locations",
-    handler: crawlRmLocations,
+    options: {
+        outcodes: {
+            type: "string",
+            description:
+                "comma-separated outcodes to refresh via house-prices mapping (mappa-scrapers approach) instead of brute-forcing OUTCODE^1..3200",
+        },
+    },
+    handler: async (args: any) => {
+        const outcodes = String(args?.outcodes ?? "")
+            .split(",")
+            .map((s) => s.trim().toUpperCase())
+            .filter(Boolean);
+        return outcodes.length
+            ? crawlRmLocationsFromOutcodes(outcodes)
+            : crawlRmLocations();
+    },
 });
 
 /**
@@ -80,4 +96,37 @@ export async function crawlRmLocations(): Promise<void> {
     });
 
     $logger.info({ found, total: codes.length }, `rm location crawl complete`);
+}
+
+/**
+ * Targeted refresh — resolve plain outcodes ("LU1") to their
+ * locationIdentifier via the house-prices page (the mappa-scrapers
+ * approach: ~1 request per outcode vs brute-forcing the OUTCODE id space),
+ * then upsert into rm_code_map.
+ */
+export async function crawlRmLocationsFromOutcodes(
+    outcodes: string[],
+): Promise<void> {
+    const timer = StopWatch({ units: "milliseconds" });
+    const start = Date.now();
+
+    const mappings = await retrieveLocationMappingBulk(outcodes);
+
+    timer.lap("Mapped outcodes");
+
+    let upserted = 0;
+    for (const [outcode, identifier] of Object.entries(mappings)) {
+        if (!identifier) {
+            $logger.warn({ outcode }, `no identifier found for ${outcode}`);
+            continue;
+        }
+        await $rmCodes.knex().insert({ code: identifier }).onConflict("code").ignore();
+        upserted++;
+        $logger.info({ outcode, identifier }, `mapped ${outcode} → ${identifier}`);
+    }
+
+    $logger.info(
+        { upserted, total: outcodes.length, time: `${Date.now() - start}ms` },
+        `rm outcode location refresh complete`,
+    );
 }
