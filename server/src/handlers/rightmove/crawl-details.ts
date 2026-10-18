@@ -1,4 +1,3 @@
-import { $proxyV2 } from "../../services/proxy";
 import { $logger } from "../../utils/logger";
 import { foldStream, RIGHTMOVE_KEYS } from "./fold-rm-stream";
 import { getDiff } from "recursive-diff";
@@ -8,6 +7,7 @@ import { RmCrawlerBus, RmCrawlerBusEvents } from "./crawler-bus.util";
 import { getTransactionHistoryByDeliveryPoint } from "./get-transaction-history-by-delivery-point";
 import { sortBy } from "lodash";
 import { ExpectationFailed } from "@bahatron/utils/lib/error";
+import { fetchRmPage } from "./crawler-v2/crawl-rm-v2";
 
 export async function crawlPropertyDetails(
     id: string | number,
@@ -16,10 +16,20 @@ export async function crawlPropertyDetails(
     try {
         $logger.debug({ id }, `crawling rm web details for listing`);
 
-        let response = await $proxyV2({
-            method: "get",
-            url: `https://www.rightmove.co.uk/properties/${id}`,
-        });
+        // Direct fetch — the proxy is refused on detail pages (403) while
+        // the search crawler's plain-axios path still works.
+        let response = await fetchRmPage(
+            `https://www.rightmove.co.uk/properties/${id}`,
+        );
+
+        if (response.status === 410) {
+            $logger.warn({ id }, "listing gone (410)");
+            return;
+        }
+        if (response.status === 404) return;
+        if (response.status !== 200) {
+            throw ExpectationFailed({ status: response.status }, `detail page fetch failed`);
+        }
 
         RmCrawlerBus.emit(RmCrawlerBusEvents.DETAILS_FETCHED);
 
@@ -69,7 +79,50 @@ export async function crawlPropertyDetails(
     }
 }
 
+/**
+ * Rightmove switched the detail page payload (Oct 2026): pages now embed
+ * `window.__PAGE_MODEL = {"data":"<devalue-encoded JSON>"}` — a string of
+ * index-linked values where every object/array slot holds an array index
+ * rather than the value itself. Decode by resolving indices recursively.
+ */
+function undeval(arr: any[]): any {
+    const cache = new Map<number, any>();
+    const decode = (idx: number): any => {
+        if (cache.has(idx)) return cache.get(idx);
+        const v = arr[idx];
+        if (Array.isArray(v)) {
+            const out: any[] = [];
+            cache.set(idx, out);
+            for (const x of v) out.push(decode(x));
+            return out;
+        }
+        if (v && typeof v === "object") {
+            const out: Record<string, any> = {};
+            cache.set(idx, out);
+            for (const [k, i] of Object.entries(v)) out[k] = decode(i as number);
+            return out;
+        }
+        return v;
+    };
+    return decode(0);
+}
+
 export function parsePageModel(html: string) {
+    const next = html.match(
+        /window\.__PAGE_MODEL\s*=\s*(\{.*?\})[;\n]/s,
+    );
+    if (next) {
+        try {
+            const payload = JSON.parse(next[1]);
+            const decoded = undeval(JSON.parse(payload.data));
+            if (decoded?.propertyData) return decoded.propertyData;
+        } catch {
+            /* fall through to the legacy format */
+        }
+    }
+
+    if (!html.includes("window.PAGE_MODEL = ")) return null;
+
     let substring = html
         .split("window.PAGE_MODEL = ")[1]
         .split("</script>")[0]

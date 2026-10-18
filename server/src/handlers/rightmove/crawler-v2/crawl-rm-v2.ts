@@ -52,6 +52,28 @@ function randomDelay(min: number, max: number): Promise<void> {
     );
 }
 
+/**
+ * Direct (unproxied) fetch of a Rightmove page with the search crawler's
+ * headers and shared cookie jar. The proxy is currently refused on property
+ * detail pages (403s) while plain axios gets real responses — the search
+ * crawl already runs this way.
+ */
+export async function fetchRmPage(
+    url: string,
+): Promise<{ status: number; data: string }> {
+    const res = await axios.get(url, {
+        headers: {
+            ...HTTP_HEADERS,
+            Referer: "https://www.rightmove.co.uk/",
+            Cookie: buildCookieHeader(),
+        },
+        timeout: 30000,
+        validateStatus: () => true,
+    });
+    parseSetCookies(res.headers["set-cookie"]);
+    return { status: res.status, data: res.data };
+}
+
 export async function crawlRmV2() {
     RmCrawlRunListings.clear();
 
