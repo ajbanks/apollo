@@ -14,6 +14,7 @@ export const PropertyListingSchema = $schema.Object({
     active: $schema.Optional($schema.Boolean()),
     udprn: $schema.Nullable($schema.String()),
     postcode: $schema.Nullable($schema.String()),
+    street: $schema.Nullable($schema.String()),
     channel: $schema.Nullable($schema.String()),
     price: $schema.Nullable($schema.Number()),
     first_visible_at: $schema.DateExtended(),

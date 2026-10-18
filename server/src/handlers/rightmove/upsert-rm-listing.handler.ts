@@ -77,6 +77,12 @@ export const upsertRmPropertyListing = async (id: string, active?: boolean) => {
         display_size: data.api?.displaySize,
         channel: data.details?.channel,
         postcode: postcode,
+        // Rightmove's headline for the listing ("Kimpton Road, Luton") —
+        // the street-level name shown on lettings comparables.
+        street:
+            data.details?.address?.displayAddress ??
+            data.details?.address?.street ??
+            null,
         price: price,
         display_status: data.api.displayStatus,
         first_crawled_at: fold.root?.timestamp!,
