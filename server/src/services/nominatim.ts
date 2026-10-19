@@ -1,7 +1,14 @@
+import axios from "axios";
 import { $logger } from "../utils/logger";
-import { $proxyV2 } from "./proxy";
 
 const BASE_URL = "https://nominatim.openstreetmap.org";
+
+const direct = axios.create({
+    headers: {
+        "User-Agent": "apollo/1.0 (property data platform)",
+    },
+    timeout: 15_000,
+});
 
 export interface NominatimResult {
     lat: string;
@@ -19,7 +26,7 @@ export const $nominatim = {
         lon: string | number;
     }): Promise<NominatimResult | null> {
         try {
-            let { data } = await $proxyV2({
+            let { data } = await direct({
                 method: "get",
                 url: `${BASE_URL}/reverse`,
                 params: {
@@ -63,7 +70,7 @@ export const $nominatim = {
             payload["postcalcode"] = postalCode;
         }
 
-        let { data } = await $proxyV2({
+        let { data } = await direct({
             method: "get",
             url: `${BASE_URL}/search`,
             params: {

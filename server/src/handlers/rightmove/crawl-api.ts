@@ -207,10 +207,45 @@ export async function processApiResult({
         return RmCrawlerBus.emit(RmCrawlerBusEvents.LISTING_UPDATED);
     } catch (err: any) {
         if (err.code == 417) {
-            return processApiResult({
-                property,
-                locationCode,
-            });
+            /** Topic already exists — read the fold and update with correct seq */
+            try {
+                let fold = await foldStream(id).catch(() => null);
+
+                if (fold) {
+                    property.locationCodes = Array.from(
+                        new Set([
+                            ...(fold.data[RIGHTMOVE_KEYS.API]?.locationCodes ?? []),
+                            locationCode,
+                        ]),
+                    );
+
+                    let delta = getDiff(fold.data[RIGHTMOVE_KEYS.API], property);
+
+                    if (!delta.length) {
+                        return;
+                    }
+
+                    $logger.info(
+                        { id, locationCode, lastSeq: fold.lastSeq },
+                        `updating listing after 417...`,
+                    );
+
+                    await publishRmEvent({
+                        id,
+                        data: delta,
+                        expectedSeq: fold.lastSeq + 1,
+                        key: RIGHTMOVE_KEYS.API,
+                    });
+
+                    return RmCrawlerBus.emit(RmCrawlerBusEvents.LISTING_UPDATED);
+                }
+            } catch (retryErr: any) {
+                $logger.error(
+                    { id, error: retryErr?.message },
+                    `failed to recover from 417 for listing`,
+                );
+            }
+            return;
         }
 
         RmCrawlerBus.emit(RmCrawlerBusEvents.ERROR);
