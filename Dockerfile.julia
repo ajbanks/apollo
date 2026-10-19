@@ -1,6 +1,6 @@
 FROM julia:1.10.5
 
 WORKDIR /app
-COPY ./intelligence/*.toml ./
+COPY ./legacy-intelligence/*.toml ./
 RUN julia --project=. -e 'using Pkg; Pkg.instantiate()'
-COPY ./intelligence .
+COPY ./legacy-intelligence .

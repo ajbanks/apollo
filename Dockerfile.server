@@ -7,7 +7,7 @@ RUN npm i -g pm2 env-cmd ts-node tsx
 WORKDIR /app
 COPY ./server/package*.json ./
 RUN npm ci
-RUN npx -y playwright@1.57.0 install --with-deps chromium
+RUN npx -y playwright@1.57.0 install --with-deps chromium firefox
 COPY ./server/ .
 
 # this is to enable the CLI
